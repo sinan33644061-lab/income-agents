@@ -21,7 +21,7 @@ def call_groq_safe(prompt, max_tokens=600):
             'Content-Type': 'application/json'
         },
         json={
-            'model': 'llama3-8b-8192',
+            'model': 'llama-3.1-8b-instant',
             'max_tokens': max_tokens,
             'messages': [{'role': 'user', 'content': prompt}]
         }
