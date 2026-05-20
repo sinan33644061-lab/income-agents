@@ -75,8 +75,8 @@
       "telegram_teaser": "Unlock the full potential of ChatGPT with our expert-curated prompts for freelance designers",
       "status": "published",
       "created_at": "2026-05-20T18:05:53.166675",
-      "traffic_posted": false,
-      "updated_at": "2026-05-20T19:55:56.813828",
+      "traffic_posted": true,
+      "updated_at": "2026-05-20T20:37:20.151602",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "Feeling stuck on your design project? Get inspired with our premium pack of 50 actionable prompts for freelance graphic designers. Elevate your design skills, stay competitive in the market and produce exceptional work that impresses your clients.",
       "twitter_hook": "Unlock your creative potential! Get instant access to 50 game-changing design prompts for freelance graphic designers - Elevate your design skills & deliver exceptional work!",
@@ -84,8 +84,13 @@
       "pdf_path": "output/product_7008629f.pdf",
       "gumroad_product_id": "OlaHl9He7bRzZ7sqEgMLiw==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/jfzne",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-7008629f/product_7008629f.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-7008629f/product_7008629f.pdf",
+      "traffic_posted_at": "2026-05-20T20:37:20.151306",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/50-essential-prompts-to-elevate-your-design-skills-47ll",
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-05-20T19:55:56.813840"
+  "last_updated": "2026-05-20T20:37:20.151607"
 }
