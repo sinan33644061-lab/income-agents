@@ -9,7 +9,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write   # needed to create releases
 
     steps:
       - uses: actions/checkout@v4
@@ -23,12 +23,14 @@ jobs:
 
       - name: Run Agent 3
         env:
-          GUMROAD_TOKEN: ${{ secrets.GUMROAD_TOKEN }}
-          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          GITHUB_TOKEN:     ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GUMROAD_TOKEN:    ${{ secrets.GUMROAD_TOKEN }}
+          TELEGRAM_TOKEN:   ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scripts/agent3_publisher.py
 
-      - name: Commit database
+      - name: Commit updated database
         run: |
           git config user.name "Income Agent Bot"
           git config user.email "bot@agents.com"
