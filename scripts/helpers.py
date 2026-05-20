@@ -15,7 +15,10 @@ def save_db(data):
         json.dump(data, f, indent=2)
 
 def call_groq(prompt, max_tokens=4000):
-    api_key = os.environ['GROQ_API_KEY']
+    api_key = os.environ.get('GROQ_API_KEY', '')
+    if not api_key:
+        raise Exception("GROQ_API_KEY secret is missing")
+
     response = requests.post(
         'https://api.groq.com/openai/v1/chat/completions',
         headers={
@@ -23,20 +26,38 @@ def call_groq(prompt, max_tokens=4000):
             'Content-Type': 'application/json'
         },
         json={
-            'model': 'llama3-8b-8192',
+            'model': 'llama-3.1-8b-instant',   # updated model
             'max_tokens': max_tokens,
             'messages': [{'role': 'user', 'content': prompt}]
         }
     )
-    return response.json()['choices'][0]['message']['content']
+    data = response.json()
+
+    # Print full response if something goes wrong
+    if 'choices' not in data:
+        print(f"Groq error: {json.dumps(data, indent=2)}")
+        raise Exception(f"Groq API error: {data.get('error', {}).get('message', 'Unknown error')}")
+
+    return data['choices'][0]['message']['content']
 
 def send_telegram(message):
-    token = os.environ['TELEGRAM_TOKEN']
-    chat_id = os.environ['TELEGRAM_CHAT_ID']
-    requests.post(
-        f'https://api.telegram.org/bot{token}/sendMessage',
-        json={'chat_id': chat_id, 'text': message, 'parse_mode': 'HTML'}
-    )
+    token = os.environ.get('TELEGRAM_TOKEN', '')
+    chat_id = os.environ.get('TELEGRAM_CHAT_ID', '')
+    if not token or not chat_id:
+        print("Telegram: skipped (secrets not set)")
+        return
+    try:
+        requests.post(
+            f'https://api.telegram.org/bot{token}/sendMessage',
+            json={
+                'chat_id': chat_id,
+                'text': message,
+                'parse_mode': 'HTML'
+            },
+            timeout=10
+        )
+    except Exception as e:
+        print(f"Telegram error: {e}")
 
 def get_products_by_status(status):
     db = load_db()
