@@ -30,8 +30,8 @@
       "telegram_teaser": "Streamline your UI/UX design workflow with our new AI-powered prompt pack",
       "status": "published",
       "created_at": "2026-05-20T07:22:15.642462",
-      "traffic_posted": false,
-      "updated_at": "2026-05-20T07:35:30.389110",
+      "traffic_posted": true,
+      "updated_at": "2026-05-20T07:37:00.981838",
       "gumroad_title": "Designing with AI: 50 Prompts for UI/UX Designers",
       "gumroad_desc": "Unlock the full potential of AI-powered design with our comprehensive pack of 50 prompts. Perfect for freelance designers looking to up their game, this pack covers UI/UX design principles, web design, mobile app design, game design, and more. Say goodbye to design blocks and hello to a world of creative freedom.",
       "twitter_hook": "\"Transform your UI/UX designs with AI. Get instant access to our premium pack of 50 actionable prompts & boost your creative skills #DesignWithAI #UXDesign #UIDesign\"",
@@ -39,8 +39,16 @@
       "pdf_path": "output/product_3471438d.pdf",
       "gumroad_product_id": "mNtIy0KYkV9nuAoeLENMUw==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/wujry",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-3471438d/product_3471438d.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-3471438d/product_3471438d.pdf",
+      "traffic_posted_at": "2026-05-20T07:37:00.981527",
+      "post_urls": {
+        "twitter": false,
+        "devto": "https://dev.to/sinan_khan_336440/50-ai-driven-uiux-design-prompts-to-save-your-sanity-4869",
+        "hashnode": "",
+        "blogger": "",
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-05-20T07:35:30.389120"
+  "last_updated": "2026-05-20T07:37:00.981843"
 }
