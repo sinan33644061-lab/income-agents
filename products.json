@@ -28,10 +28,16 @@
         "Freelance"
       ],
       "telegram_teaser": "Streamline your UI/UX design workflow with our new AI-powered prompt pack",
-      "status": "researched",
+      "status": "pdf_ready",
       "created_at": "2026-05-20T07:22:15.642462",
-      "traffic_posted": false
+      "traffic_posted": false,
+      "updated_at": "2026-05-20T07:27:32.183503",
+      "gumroad_title": "Designing with AI: 50 Prompts for UI/UX Designers",
+      "gumroad_desc": "Unlock the full potential of AI-powered design with our comprehensive pack of 50 prompts. Perfect for freelance designers looking to up their game, this pack covers UI/UX design principles, web design, mobile app design, game design, and more. Say goodbye to design blocks and hello to a world of creative freedom.",
+      "twitter_hook": "\"Transform your UI/UX designs with AI. Get instant access to our premium pack of 50 actionable prompts & boost your creative skills #DesignWithAI #UXDesign #UIDesign\"",
+      "pinterest_title": "Unlock AI-Powered Design with Our Expert Prompts",
+      "pdf_path": "output/product_3471438d.pdf"
     }
   ],
-  "last_updated": "2026-05-20T07:22:15.642472"
+  "last_updated": "2026-05-20T07:27:32.183514"
 }
