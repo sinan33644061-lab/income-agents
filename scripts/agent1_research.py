@@ -2,40 +2,58 @@ import os
 import sys
 import json
 import uuid
-import feedparser
 import requests
 from datetime import datetime
 
 sys.path.append('scripts')
-from helpers import load_db, save_db, call_groq, send_telegram
+from helpers import load_db, save_db, send_telegram
 
-# ── Source 1: Google Trends RSS ──────────────────────────────────────────────
-def fetch_google_trends():
-    try:
-        feed = feedparser.parse(
-            'https://trends.google.com/trends/trendingsearches/daily/rss?geo=US'
-        )
-        topics = [entry.title for entry in feed.entries[:15]]
-        print(f"Google Trends: {len(topics)} topics")
-        return topics
-    except Exception as e:
-        print(f"Google Trends error: {e}")
-        return []
+# ── Groq call with error handling ────────────────────────────────────────────
+def call_groq_safe(prompt, max_tokens=600):
+    api_key = os.environ.get('GROQ_API_KEY', '')
+    if not api_key:
+        raise Exception("GROQ_API_KEY secret is missing")
 
-# ── Source 2: HackerNews Top Stories (no API key needed) ─────────────────────
+    response = requests.post(
+        'https://api.groq.com/openai/v1/chat/completions',
+        headers={
+            'Authorization': f'Bearer {api_key}',
+            'Content-Type': 'application/json'
+        },
+        json={
+            'model': 'llama3-8b-8192',
+            'max_tokens': max_tokens,
+            'messages': [{'role': 'user', 'content': prompt}]
+        }
+    )
+    data = response.json()
+
+    # Print full response so we can debug if it fails
+    if 'choices' not in data:
+        print(f"Groq error response: {json.dumps(data, indent=2)}")
+        raise Exception(f"Groq API error: {data.get('error', {}).get('message', 'Unknown error')}")
+
+    return data['choices'][0]['message']['content']
+
+# ── Source 1: HackerNews (no API key, very reliable) ─────────────────────────
 def fetch_hackernews():
     try:
         top_ids = requests.get(
-            'https://hacker-news.firebaseio.com/v0/topstories.json'
-        ).json()[:10]
+            'https://hacker-news.firebaseio.com/v0/topstories.json',
+            timeout=10
+        ).json()[:15]
 
         topics = []
         for story_id in top_ids:
-            story = requests.get(
-                f'https://hacker-news.firebaseio.com/v0/item/{story_id}.json'
-            ).json()
-            if story and story.get('title'):
-                topics.append(story['title'])
+            try:
+                story = requests.get(
+                    f'https://hacker-news.firebaseio.com/v0/item/{story_id}.json',
+                    timeout=5
+                ).json()
+                if story and story.get('title'):
+                    topics.append(story['title'])
+            except:
+                continue
 
         print(f"HackerNews: {len(topics)} topics")
         return topics
@@ -43,34 +61,14 @@ def fetch_hackernews():
         print(f"HackerNews error: {e}")
         return []
 
-# ── Source 3: NewsAPI ─────────────────────────────────────────────────────────
-def fetch_news_api():
-    try:
-        api_key = os.environ['NEWS_API_KEY']
-        response = requests.get(
-            'https://newsapi.org/v2/top-headlines',
-            params={
-                'country': 'us',
-                'category': 'technology',
-                'pageSize': 10,
-                'apiKey': api_key
-            }
-        )
-        articles = response.json().get('articles', [])
-        topics = [a['title'] for a in articles if a.get('title')]
-        print(f"NewsAPI: {len(topics)} topics")
-        return topics
-    except Exception as e:
-        print(f"NewsAPI error: {e}")
-        return []
-
-# ── Source 4: Dev.to trending (no key needed to read) ────────────────────────
+# ── Source 2: Dev.to trending (no API key needed to read) ────────────────────
 def fetch_devto_trending():
     try:
         response = requests.get(
             'https://dev.to/api/articles',
-            params={'top': 7, 'per_page': 10},
-            headers={'User-Agent': 'IncomeAgentBot/1.0'}
+            params={'top': 7, 'per_page': 15},
+            headers={'User-Agent': 'IncomeAgentBot/1.0'},
+            timeout=10
         )
         articles = response.json()
         topics = [a['title'] for a in articles if a.get('title')]
@@ -80,25 +78,68 @@ def fetch_devto_trending():
         print(f"Dev.to error: {e}")
         return []
 
-# ── Pick best product idea using Groq ────────────────────────────────────────
+# ── Source 3: NewsAPI (only if key exists) ────────────────────────────────────
+def fetch_news_api():
+    api_key = os.environ.get('NEWS_API_KEY', '')
+    if not api_key:
+        print("NewsAPI: skipped (secret not set)")
+        return []
+    try:
+        response = requests.get(
+            'https://newsapi.org/v2/top-headlines',
+            params={
+                'country': 'us',
+                'category': 'technology',
+                'pageSize': 10,
+                'apiKey': api_key
+            },
+            timeout=10
+        )
+        articles = response.json().get('articles', [])
+        topics = [a['title'] for a in articles if a.get('title')]
+        print(f"NewsAPI: {len(topics)} topics")
+        return topics
+    except Exception as e:
+        print(f"NewsAPI error: {e}")
+        return []
+
+# ── Source 4: GitHub trending topics via search ───────────────────────────────
+def fetch_github_trending():
+    try:
+        # Search trending repos created this week
+        response = requests.get(
+            'https://api.github.com/search/repositories',
+            params={
+                'q': 'created:>2026-05-01',
+                'sort': 'stars',
+                'order': 'desc',
+                'per_page': 10
+            },
+            headers={'User-Agent': 'IncomeAgentBot/1.0'},
+            timeout=10
+        )
+        repos = response.json().get('items', [])
+        topics = [r['description'] or r['name'] for r in repos if r.get('name')]
+        print(f"GitHub trending: {len(topics)} topics")
+        return topics
+    except Exception as e:
+        print(f"GitHub trending error: {e}")
+        return []
+
+# ── Pick best product idea ────────────────────────────────────────────────────
 def pick_product_idea(all_topics):
-    topics_str = '\n'.join(f'- {t}' for t in all_topics[:30])
+    # Keep prompt short to avoid Groq token issues
+    topics_str = '\n'.join(f'- {t}' for t in all_topics[:20])
 
-    prompt = f"""
-You are a digital product expert who sells on Gumroad.
-Based on these trending topics, suggest the single best digital product idea.
+    prompt = f"""You are a digital product expert who sells on Gumroad.
 
-Trending topics:
+Trending topics right now:
 {topics_str}
 
-Rules:
-- Must be creatable with AI (prompt pack, ebook, template, cheat sheet, swipe file)
-- Price between $9 and $27
-- Target a very specific audience
-- High perceived value, easy to make with AI
-- Pick topics with commercial intent (business, productivity, AI, money, career, tech)
+Pick the single best digital product idea (prompt pack, ebook, template, or cheat sheet).
+Target a specific audience. Price $9-$27. Must be creatable with AI.
 
-Respond ONLY with valid JSON, no explanation, no markdown backticks:
+Reply with ONLY this JSON, no extra text:
 {{
   "title": "50 ChatGPT Prompts for Freelance Designers",
   "product_type": "prompt_pack",
@@ -110,17 +151,19 @@ Respond ONLY with valid JSON, no explanation, no markdown backticks:
   "hashnode_tags": ["AI", "Productivity", "Design"],
   "blogger_labels": ["AI Tools", "Freelance", "Design"],
   "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs"
-}}
-"""
-    response = call_groq(prompt, max_tokens=600)
-    cleaned = response.replace('```json', '').replace('```', '').strip()
+}}"""
 
-    # Find JSON object in response
+    response = call_groq_safe(prompt, max_tokens=500)
+    print(f"Groq raw response:\n{response}\n")
+
+    # Extract JSON safely
+    cleaned = response.replace('```json', '').replace('```', '').strip()
     start = cleaned.find('{')
     end = cleaned.rfind('}') + 1
-    json_str = cleaned[start:end]
+    if start == -1 or end == 0:
+        raise Exception(f"No JSON found in Groq response: {cleaned}")
 
-    return json.loads(json_str)
+    return json.loads(cleaned[start:end])
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
@@ -128,23 +171,22 @@ def main():
     print("Agent 1: Market Research Starting")
     print("=" * 50)
 
-    # Gather topics from all sources
-    trends   = fetch_google_trends()
-    hn       = fetch_hackernews()
-    news     = fetch_news_api()
-    devto    = fetch_devto_trending()
+    hn      = fetch_hackernews()
+    devto   = fetch_devto_trending()
+    news    = fetch_news_api()
+    github  = fetch_github_trending()
 
-    all_topics = trends + hn + news + devto
+    all_topics = hn + devto + news + github
     print(f"\nTotal topics gathered: {len(all_topics)}")
 
     if not all_topics:
-        print("No topics gathered — check API keys")
+        print("ERROR: No topics gathered from any source")
+        send_telegram("❌ Agent 1 failed — no topics gathered from any source")
         return
 
-    # Pick the best product idea
     print("\nAsking Groq to pick best product idea...")
     idea = pick_product_idea(all_topics)
-    print(f"Selected: {idea['title']}")
+    print(f"✓ Selected: {idea['title']}")
 
     # Save to database
     db = load_db()
@@ -156,9 +198,9 @@ def main():
         'niche': idea['niche'],
         'price': idea['price'],
         'keywords': idea['keywords'],
-        'devto_tags': idea.get('devto_tags', []),
-        'hashnode_tags': idea.get('hashnode_tags', []),
-        'blogger_labels': idea.get('blogger_labels', []),
+        'devto_tags': idea.get('devto_tags', ['productivity', 'ai']),
+        'hashnode_tags': idea.get('hashnode_tags', ['AI', 'Productivity']),
+        'blogger_labels': idea.get('blogger_labels', ['Digital Products']),
         'telegram_teaser': idea.get('telegram_teaser', idea['title']),
         'status': 'researched',
         'created_at': datetime.now().isoformat(),
@@ -167,17 +209,15 @@ def main():
     db['products'].append(product)
     save_db(db)
 
-    # Notify via Telegram
     send_telegram(
-        f"🔍 <b>Agent 1 — Research Done</b>\n\n"
-        f"📦 Product: {idea['title']}\n"
-        f"🎯 Type: {idea['product_type']}\n"
-        f"👥 Audience: {idea['target_audience']}\n"
-        f"💰 Price: ${idea['price']}\n\n"
-        f"Status: Moving to Agent 2 in 1 hour..."
+        f"🔍 <b>Agent 1 — Done</b>\n\n"
+        f"📦 {idea['title']}\n"
+        f"🎯 {idea['product_type']} for {idea['target_audience']}\n"
+        f"💰 ${idea['price']}\n\n"
+        f"Agent 2 runs in 1 hour..."
     )
 
-    print("\nAgent 1: Done ✓")
+    print("\nAgent 1: Complete ✓")
 
 if __name__ == '__main__':
     main()
