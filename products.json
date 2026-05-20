@@ -1,4 +1,37 @@
 {
-  "products": [],
-  "last_updated": ""
+  "products": [
+    {
+      "id": "3471438d-88e5-4839-a6f4-128e9bea4c37",
+      "title": "Designing with AI: 50 Prompts for UI/UX Designers",
+      "product_type": "prompt_pack",
+      "target_audience": "freelance UI/UX designers",
+      "niche": "design",
+      "price": 19,
+      "keywords": [
+        "ui/ux design",
+        "chatgpt prompts",
+        "ai design tools"
+      ],
+      "devto_tags": [
+        "productivity",
+        "ai",
+        "uxdesign"
+      ],
+      "hashnode_tags": [
+        "AI",
+        "UX",
+        "Productivity"
+      ],
+      "blogger_labels": [
+        "AI Tools",
+        "UX Design",
+        "Freelance"
+      ],
+      "telegram_teaser": "Streamline your UI/UX design workflow with our new AI-powered prompt pack",
+      "status": "researched",
+      "created_at": "2026-05-20T07:22:15.642462",
+      "traffic_posted": false
+    }
+  ],
+  "last_updated": "2026-05-20T07:22:15.642472"
 }
