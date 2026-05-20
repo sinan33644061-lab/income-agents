@@ -5,48 +5,100 @@ import uuid
 import feedparser
 import requests
 from datetime import datetime
+
 sys.path.append('scripts')
 from helpers import load_db, save_db, call_groq, send_telegram
 
+# ── Source 1: Google Trends RSS ──────────────────────────────────────────────
 def fetch_google_trends():
-    feed = feedparser.parse(
-        'https://trends.google.com/trends/trendingsearches/daily/rss?geo=US'
-    )
-    return [entry.title for entry in feed.entries[:15]]
+    try:
+        feed = feedparser.parse(
+            'https://trends.google.com/trends/trendingsearches/daily/rss?geo=US'
+        )
+        topics = [entry.title for entry in feed.entries[:15]]
+        print(f"Google Trends: {len(topics)} topics")
+        return topics
+    except Exception as e:
+        print(f"Google Trends error: {e}")
+        return []
 
-def fetch_reddit_trending():
-    headers = {'User-Agent': 'IncomeAgent/1.0'}
-    subreddits = ['entrepreneur', 'productivity', 'ChatGPT', 'passive_income']
-    topics = []
-    for sub in subreddits:
-        try:
-            r = requests.get(
-                f'https://www.reddit.com/r/{sub}/hot.json?limit=5',
-                headers=headers
-            )
-            posts = r.json()['data']['children']
-            topics.extend([p['data']['title'] for p in posts])
-        except:
-            pass
-    return topics[:10]
+# ── Source 2: HackerNews Top Stories (no API key needed) ─────────────────────
+def fetch_hackernews():
+    try:
+        top_ids = requests.get(
+            'https://hacker-news.firebaseio.com/v0/topstories.json'
+        ).json()[:10]
 
-def pick_product_idea(trends, reddit_topics):
-    all_topics = trends + reddit_topics
-    topics_str = '\n'.join(f'- {t}' for t in all_topics)
+        topics = []
+        for story_id in top_ids:
+            story = requests.get(
+                f'https://hacker-news.firebaseio.com/v0/item/{story_id}.json'
+            ).json()
+            if story and story.get('title'):
+                topics.append(story['title'])
+
+        print(f"HackerNews: {len(topics)} topics")
+        return topics
+    except Exception as e:
+        print(f"HackerNews error: {e}")
+        return []
+
+# ── Source 3: NewsAPI ─────────────────────────────────────────────────────────
+def fetch_news_api():
+    try:
+        api_key = os.environ['NEWS_API_KEY']
+        response = requests.get(
+            'https://newsapi.org/v2/top-headlines',
+            params={
+                'country': 'us',
+                'category': 'technology',
+                'pageSize': 10,
+                'apiKey': api_key
+            }
+        )
+        articles = response.json().get('articles', [])
+        topics = [a['title'] for a in articles if a.get('title')]
+        print(f"NewsAPI: {len(topics)} topics")
+        return topics
+    except Exception as e:
+        print(f"NewsAPI error: {e}")
+        return []
+
+# ── Source 4: Dev.to trending (no key needed to read) ────────────────────────
+def fetch_devto_trending():
+    try:
+        response = requests.get(
+            'https://dev.to/api/articles',
+            params={'top': 7, 'per_page': 10},
+            headers={'User-Agent': 'IncomeAgentBot/1.0'}
+        )
+        articles = response.json()
+        topics = [a['title'] for a in articles if a.get('title')]
+        print(f"Dev.to: {len(topics)} topics")
+        return topics
+    except Exception as e:
+        print(f"Dev.to error: {e}")
+        return []
+
+# ── Pick best product idea using Groq ────────────────────────────────────────
+def pick_product_idea(all_topics):
+    topics_str = '\n'.join(f'- {t}' for t in all_topics[:30])
 
     prompt = f"""
-You are a digital product expert. Based on these trending topics, suggest the single best digital product to sell on Gumroad right now.
+You are a digital product expert who sells on Gumroad.
+Based on these trending topics, suggest the single best digital product idea.
 
 Trending topics:
 {topics_str}
 
 Rules:
 - Must be creatable with AI (prompt pack, ebook, template, cheat sheet, swipe file)
-- Price between $9-$27
-- Target a specific audience
-- High perceived value, easy to make
+- Price between $9 and $27
+- Target a very specific audience
+- High perceived value, easy to make with AI
+- Pick topics with commercial intent (business, productivity, AI, money, career, tech)
 
-Respond ONLY with valid JSON, no explanation, no markdown:
+Respond ONLY with valid JSON, no explanation, no markdown backticks:
 {{
   "title": "50 ChatGPT Prompts for Freelance Designers",
   "product_type": "prompt_pack",
@@ -54,26 +106,47 @@ Respond ONLY with valid JSON, no explanation, no markdown:
   "niche": "design",
   "price": 12,
   "keywords": ["chatgpt prompts", "graphic design", "freelance"],
-  "best_subreddit": "graphic_design",
-  "pinterest_board_topic": "graphic design tips"
+  "devto_tags": ["productivity", "ai", "design"],
+  "hashnode_tags": ["AI", "Productivity", "Design"],
+  "blogger_labels": ["AI Tools", "Freelance", "Design"],
+  "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs"
 }}
 """
-    response = call_groq(prompt, max_tokens=500)
+    response = call_groq(prompt, max_tokens=600)
     cleaned = response.replace('```json', '').replace('```', '').strip()
-    return json.loads(cleaned)
 
+    # Find JSON object in response
+    start = cleaned.find('{')
+    end = cleaned.rfind('}') + 1
+    json_str = cleaned[start:end]
+
+    return json.loads(json_str)
+
+# ── Main ──────────────────────────────────────────────────────────────────────
 def main():
-    print("Agent 1: Starting market research...")
+    print("=" * 50)
+    print("Agent 1: Market Research Starting")
+    print("=" * 50)
 
-    trends = fetch_google_trends()
-    print(f"Fetched {len(trends)} Google trends")
+    # Gather topics from all sources
+    trends   = fetch_google_trends()
+    hn       = fetch_hackernews()
+    news     = fetch_news_api()
+    devto    = fetch_devto_trending()
 
-    reddit = fetch_reddit_trending()
-    print(f"Fetched {len(reddit)} Reddit topics")
+    all_topics = trends + hn + news + devto
+    print(f"\nTotal topics gathered: {len(all_topics)}")
 
-    idea = pick_product_idea(trends, reddit)
-    print(f"Selected idea: {idea['title']}")
+    if not all_topics:
+        print("No topics gathered — check API keys")
+        return
 
+    # Pick the best product idea
+    print("\nAsking Groq to pick best product idea...")
+    idea = pick_product_idea(all_topics)
+    print(f"Selected: {idea['title']}")
+
+    # Save to database
     db = load_db()
     product = {
         'id': str(uuid.uuid4()),
@@ -83,21 +156,28 @@ def main():
         'niche': idea['niche'],
         'price': idea['price'],
         'keywords': idea['keywords'],
-        'best_subreddit': idea['best_subreddit'],
-        'pinterest_board_topic': idea['pinterest_board_topic'],
+        'devto_tags': idea.get('devto_tags', []),
+        'hashnode_tags': idea.get('hashnode_tags', []),
+        'blogger_labels': idea.get('blogger_labels', []),
+        'telegram_teaser': idea.get('telegram_teaser', idea['title']),
         'status': 'researched',
-        'created_at': datetime.now().isoformat()
+        'created_at': datetime.now().isoformat(),
+        'traffic_posted': False
     }
     db['products'].append(product)
     save_db(db)
 
+    # Notify via Telegram
     send_telegram(
-        f"🔍 <b>Agent 1 done</b>\n"
-        f"Product idea: {idea['title']}\n"
-        f"Type: {idea['product_type']}\n"
-        f"Price: ${idea['price']}"
+        f"🔍 <b>Agent 1 — Research Done</b>\n\n"
+        f"📦 Product: {idea['title']}\n"
+        f"🎯 Type: {idea['product_type']}\n"
+        f"👥 Audience: {idea['target_audience']}\n"
+        f"💰 Price: ${idea['price']}\n\n"
+        f"Status: Moving to Agent 2 in 1 hour..."
     )
-    print("Agent 1: Done.")
+
+    print("\nAgent 1: Done ✓")
 
 if __name__ == '__main__':
     main()
