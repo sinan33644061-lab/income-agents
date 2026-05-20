@@ -1,41 +1,58 @@
 import os
 import sys
+import json
 import requests
 import tweepy
-import praw
+from datetime import datetime
+
 sys.path.append('scripts')
 from helpers import get_products_by_status, update_product_status, send_telegram, call_groq
 
+# ── Generate all social copy in one Groq call ─────────────────────────────────
 def generate_social_copy(product):
     prompt = f"""
-Write social media posts for this digital product:
+Write social media and blog content for this digital product:
 
 Title: {product['gumroad_title']}
 Description: {product['gumroad_desc']}
 Price: ${product['price']}
 Link: {product['gumroad_url']}
 Audience: {product['target_audience']}
+Niche: {product['niche']}
 
-Write each post below. Use exact labels:
+Write ALL of the following. Use exact labels so I can parse them:
 
 TWITTER:
-[Max 260 chars. Strong hook. 2-3 relevant hashtags. Include the link.]
+[Max 260 chars. Strong hook line. Mention the product value. Include the Gumroad link. 2-3 hashtags.]
 
-PINTEREST_DESC:
-[200 chars. Keyword rich. Helpful tone. Include link at end.]
+DEVTO_TITLE:
+[Helpful article title, sounds like genuine advice not an ad, max 80 chars]
 
-REDDIT_TITLE:
-[Helpful title. No selling. Sounds like genuine advice.]
+DEVTO_BODY:
+[A 300-word helpful article. Paragraph 1: teach something genuinely useful about {product['niche']}. Paragraph 2: explain the problem your product solves. Paragraph 3: introduce the product naturally with the link {product['gumroad_url']}. Sound like a real helpful developer, not a marketer.]
 
-REDDIT_BODY:
-[3 paragraphs. Para 1: give real useful advice on the topic. Para 2: mention you made a resource. Para 3: share the link naturally. Sound human.]
+HASHNODE_TITLE:
+[Same as DEVTO_TITLE or a slight variation]
+
+HASHNODE_BODY:
+[A 300-word article similar to DEVTO_BODY but slightly reworded so it's not duplicate content. Same structure, different phrasing.]
+
+BLOGGER_TITLE:
+[SEO-optimized title for Google search, include main keyword, max 65 chars]
+
+BLOGGER_BODY:
+[A 400-word SEO blog post. Include keyword naturally. Structure: intro, 3 short sections with subheadings, conclusion with link to {product['gumroad_url']}. Written for Google ranking.]
+
+TELEGRAM:
+[Short punchy message for a Telegram channel. 2-3 lines max. Emoji. Link at end. Creates urgency or curiosity.]
 """
-    response = call_groq(prompt, max_tokens=1000)
 
-    def extract(label, next_label):
+    response = call_groq(prompt, max_tokens=3000)
+
+    def extract(label, next_label=None):
         try:
             start = response.index(label + ':') + len(label) + 1
-            if next_label and next_label + ':' in response:
+            if next_label and (next_label + ':') in response:
                 end = response.index(next_label + ':')
             else:
                 end = len(response)
@@ -44,104 +61,227 @@ REDDIT_BODY:
             return ''
 
     return {
-        'twitter': extract('TWITTER', 'PINTEREST_DESC'),
-        'pinterest_desc': extract('PINTEREST_DESC', 'REDDIT_TITLE'),
-        'reddit_title': extract('REDDIT_TITLE', 'REDDIT_BODY'),
-        'reddit_body': extract('REDDIT_BODY', None)
+        'twitter':        extract('TWITTER',        'DEVTO_TITLE'),
+        'devto_title':    extract('DEVTO_TITLE',    'DEVTO_BODY'),
+        'devto_body':     extract('DEVTO_BODY',     'HASHNODE_TITLE'),
+        'hashnode_title': extract('HASHNODE_TITLE', 'HASHNODE_BODY'),
+        'hashnode_body':  extract('HASHNODE_BODY',  'BLOGGER_TITLE'),
+        'blogger_title':  extract('BLOGGER_TITLE',  'BLOGGER_BODY'),
+        'blogger_body':   extract('BLOGGER_BODY',   'TELEGRAM'),
+        'telegram':       extract('TELEGRAM',        None),
     }
 
+# ── Platform 1: Twitter / X ───────────────────────────────────────────────────
 def post_to_twitter(text):
-    client = tweepy.Client(
-        consumer_key=os.environ['TWITTER_API_KEY'],
-        consumer_secret=os.environ['TWITTER_API_SECRET'],
-        access_token=os.environ['TWITTER_ACCESS_TOKEN'],
-        access_token_secret=os.environ['TWITTER_ACCESS_SECRET']
-    )
-    client.create_tweet(text=text[:280])
-    print("Posted to Twitter")
+    try:
+        client = tweepy.Client(
+            consumer_key=os.environ['TWITTER_API_KEY'],
+            consumer_secret=os.environ['TWITTER_API_SECRET'],
+            access_token=os.environ['TWITTER_ACCESS_TOKEN'],
+            access_token_secret=os.environ['TWITTER_ACCESS_SECRET']
+        )
+        client.create_tweet(text=text[:280])
+        print("✓ Posted to Twitter")
+        return True
+    except Exception as e:
+        print(f"✗ Twitter error: {e}")
+        return False
 
-def post_to_pinterest(title, description, link, image_url):
-    token = os.environ['PINTEREST_TOKEN']
-    board_id = os.environ['PINTEREST_BOARD_ID']
-    requests.post(
-        'https://api.pinterest.com/v5/pins',
-        headers={'Authorization': f'Bearer {token}'},
-        json={
-            'board_id': board_id,
-            'title': title[:100],
-            'description': description[:500],
-            'link': link,
-            'media_source': {
-                'source_type': 'image_url',
-                'url': image_url
+# ── Platform 2: Dev.to ────────────────────────────────────────────────────────
+def post_to_devto(title, body, tags):
+    try:
+        api_key = os.environ['DEVTO_API_KEY']
+        response = requests.post(
+            'https://dev.to/api/articles',
+            headers={
+                'api-key': api_key,
+                'Content-Type': 'application/json'
+            },
+            json={
+                'article': {
+                    'title': title,
+                    'body_markdown': body,
+                    'published': True,
+                    'tags': tags[:4]  # Dev.to allows max 4 tags
+                }
+            }
+        )
+        result = response.json()
+        url = result.get('url', '')
+        print(f"✓ Posted to Dev.to: {url}")
+        return url
+    except Exception as e:
+        print(f"✗ Dev.to error: {e}")
+        return ''
+
+# ── Platform 3: Hashnode ──────────────────────────────────────────────────────
+def post_to_hashnode(title, body, tags, publication_id):
+    try:
+        api_key = os.environ['HASHNODE_API_KEY']
+
+        # Hashnode uses GraphQL API
+        query = """
+        mutation PublishPost($input: PublishPostInput!) {
+          publishPost(input: $input) {
+            post {
+              url
+              title
+            }
+          }
+        }
+        """
+        tag_objects = [{'name': t, 'slug': t.lower().replace(' ', '-')} for t in tags[:5]]
+
+        variables = {
+            'input': {
+                'title': title,
+                'contentMarkdown': body,
+                'publicationId': publication_id,
+                'tags': tag_objects
             }
         }
-    )
-    print("Posted to Pinterest")
 
-def post_to_reddit(subreddit, title, body):
-    reddit = praw.Reddit(
-        client_id=os.environ['REDDIT_CLIENT_ID'],
-        client_secret=os.environ['REDDIT_CLIENT_SECRET'],
-        username=os.environ['REDDIT_USERNAME'],
-        password=os.environ['REDDIT_PASSWORD'],
-        user_agent='IncomeAgentBot/1.0'
-    )
-    sub = reddit.subreddit(subreddit)
-    sub.submit(title=title, selftext=body)
-    print(f"Posted to r/{subreddit}")
+        response = requests.post(
+            'https://gql.hashnode.com',
+            headers={
+                'Authorization': api_key,
+                'Content-Type': 'application/json'
+            },
+            json={'query': query, 'variables': variables}
+        )
+        result = response.json()
+        post_data = result.get('data', {}).get('publishPost', {}).get('post', {})
+        url = post_data.get('url', '')
+        print(f"✓ Posted to Hashnode: {url}")
+        return url
+    except Exception as e:
+        print(f"✗ Hashnode error: {e}")
+        return ''
 
+# ── Platform 4: Blogger ───────────────────────────────────────────────────────
+def post_to_blogger(title, body, labels):
+    try:
+        api_key = os.environ['BLOGGER_API_KEY']
+        blog_id = os.environ['BLOGGER_BLOG_ID']
+
+        # Convert markdown-style body to basic HTML
+        html_body = body.replace('\n\n', '</p><p>').replace('\n', '<br>')
+        html_body = f'<p>{html_body}</p>'
+
+        response = requests.post(
+            f'https://www.googleapis.com/blogger/v3/blogs/{blog_id}/posts',
+            params={'key': api_key},
+            headers={'Content-Type': 'application/json'},
+            json={
+                'title': title,
+                'content': html_body,
+                'labels': labels
+            }
+        )
+        result = response.json()
+        url = result.get('url', '')
+        print(f"✓ Posted to Blogger: {url}")
+        return url
+    except Exception as e:
+        print(f"✗ Blogger error: {e}")
+        return ''
+
+# ── Platform 5: Telegram channel ─────────────────────────────────────────────
+def post_to_telegram_channel(text):
+    try:
+        token = os.environ['TELEGRAM_TOKEN']
+        channel_id = os.environ['TELEGRAM_CHANNEL_ID']
+
+        requests.post(
+            f'https://api.telegram.org/bot{token}/sendMessage',
+            json={
+                'chat_id': channel_id,
+                'text': text,
+                'parse_mode': 'HTML',
+                'disable_web_page_preview': False
+            }
+        )
+        print("✓ Posted to Telegram channel")
+        return True
+    except Exception as e:
+        print(f"✗ Telegram channel error: {e}")
+        return False
+
+# ── Main ──────────────────────────────────────────────────────────────────────
 def main():
-    print("Agent 4: Starting traffic posting...")
+    print("=" * 50)
+    print("Agent 4: Traffic Posting Starting")
+    print("=" * 50)
 
+    # Get published products that haven't been traffic-posted yet
     published = get_products_by_status('published')
-    # Filter ones not yet traffic-posted
     pending = [p for p in published if not p.get('traffic_posted')]
+
     if not pending:
         print("No products need traffic posting. Exiting.")
         return
 
     product = pending[0]
+    print(f"\nPosting traffic for: {product['gumroad_title']}")
+
+    # Generate all content in one Groq call
+    print("\nGenerating social copy via Groq...")
     copy = generate_social_copy(product)
 
-    # Placeholder cover image using product title
-    cover_url = f"https://via.placeholder.com/1000x1500/6c63ff/ffffff?text={requests.utils.quote(product['gumroad_title'][:30])}"
+    results = {}
 
-    try:
-        post_to_twitter(copy['twitter'])
-    except Exception as e:
-        print(f"Twitter error: {e}")
+    # Post to all platforms
+    print("\nPosting to all platforms...")
 
-    try:
-        post_to_pinterest(
-            product.get('pinterest_title', product['gumroad_title']),
-            copy['pinterest_desc'],
-            product['gumroad_url'],
-            cover_url
-        )
-    except Exception as e:
-        print(f"Pinterest error: {e}")
+    results['twitter'] = post_to_twitter(copy['twitter'])
 
-    try:
-        post_to_reddit(
-            product.get('best_subreddit', 'entrepreneur'),
-            copy['reddit_title'],
-            copy['reddit_body']
-        )
-    except Exception as e:
-        print(f"Reddit error: {e}")
+    results['devto'] = post_to_devto(
+        copy['devto_title'],
+        copy['devto_body'],
+        product.get('devto_tags', ['productivity', 'ai'])
+    )
 
+    results['hashnode'] = post_to_hashnode(
+        copy['hashnode_title'],
+        copy['hashnode_body'],
+        product.get('hashnode_tags', ['AI', 'Productivity']),
+        os.environ['HASHNODE_PUBLICATION_ID']
+    )
+
+    results['blogger'] = post_to_blogger(
+        copy['blogger_title'],
+        copy['blogger_body'],
+        product.get('blogger_labels', ['Digital Products', 'AI'])
+    )
+
+    results['telegram'] = post_to_telegram_channel(copy['telegram'])
+
+    # Update product status
     update_product_status(product['id'], 'published', {
         'traffic_posted': True,
-        'social_copy': copy
+        'traffic_posted_at': datetime.now().isoformat(),
+        'post_urls': results
     })
 
+    # Count successes
+    successes = sum(1 for v in results.values() if v)
+    total = len(results)
+
+    # Send summary alert
     send_telegram(
-        f"📣 <b>Agent 4 done</b>\n"
-        f"Posted to Twitter, Pinterest + Reddit\n"
-        f"Product: {product['gumroad_title']}"
+        f"📣 <b>Agent 4 — Traffic Done</b>\n\n"
+        f"📦 Product: {product['gumroad_title']}\n"
+        f"🔗 Gumroad: {product['gumroad_url']}\n\n"
+        f"Posted to {successes}/{total} platforms:\n"
+        f"{'✅' if results['twitter']  else '❌'} Twitter\n"
+        f"{'✅' if results['devto']    else '❌'} Dev.to\n"
+        f"{'✅' if results['hashnode'] else '❌'} Hashnode\n"
+        f"{'✅' if results['blogger']  else '❌'} Blogger\n"
+        f"{'✅' if results['telegram'] else '❌'} Telegram channel\n\n"
+        f"Traffic is live — waiting for sales! 🤞"
     )
-    print("Agent 4: Done.")
+
+    print(f"\nAgent 4: Done ✓  ({successes}/{total} platforms posted)")
 
 if __name__ == '__main__':
     main()
