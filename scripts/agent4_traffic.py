@@ -7,62 +7,80 @@ from datetime import datetime
 sys.path.append('scripts')
 from helpers import get_products_by_status, update_product_status, send_telegram, call_groq
 
-# ── Generate all social copy ──────────────────────────────────────────────────
-def generate_social_copy(product):
-    prompt = f"""Write social media and blog content for this digital product:
+# ── Generate social copy — one section at a time to avoid parsing issues ──────
+def generate_devto(product):
+    prompt = f"""Write a helpful 300-word article for developers about {product['niche']}.
 
-Title: {product['gumroad_title']}
-Description: {product['gumroad_desc']}
-Price: ${product['price']}
-Link: {product['gumroad_url']}
+Product to mention: {product['gumroad_title']} — {product['gumroad_url']}
 Audience: {product['target_audience']}
-Niche: {product['niche']}
 
-Write ALL sections. Use exact labels:
+Structure:
+- Line 1: Article title (max 80 chars, helpful not salesy)
+- Line 2: blank
+- Rest: 3 paragraphs. Para 1 teaches something useful. Para 2 explains a common problem. Para 3 mentions the product naturally with the link.
 
-DEVTO_TITLE:
-[Helpful article title, sounds like advice not an ad, max 80 chars]
+Start your response with the title on the very first line. No labels, no preamble."""
 
-DEVTO_BODY:
-[300-word helpful article in markdown. Para 1: teach something useful about {product['niche']}. Para 2: explain the problem solved. Para 3: introduce product naturally with link {product['gumroad_url']}.]
+    response = call_groq(prompt, max_tokens=600)
+    lines = response.strip().split('\n')
+    title = lines[0].strip().lstrip('#').strip()
+    body = '\n'.join(lines[1:]).strip()
+    return title, body
 
-TELEGRAPH_TITLE:
-[Catchy title for a Telegraph article, max 70 chars]
+def generate_telegraph(product):
+    prompt = f"""Write a short 200-word article about {product['niche']} for general readers.
 
-TELEGRAPH_BODY:
-[250-word article. Engaging, helpful, ends with a clear call to action and link {product['gumroad_url']}. Plain text, no markdown.]
+Mention this product naturally at the end: {product['gumroad_title']}
+Link: {product['gumroad_url']}
 
-MASTODON:
-[Max 480 chars. Helpful tip related to {product['niche']}. Mention the product naturally. Include link {product['gumroad_url']}. 2-3 relevant hashtags.]
+Structure:
+- Line 1: Article title (max 70 chars, catchy)
+- Line 2: blank  
+- Rest: 3 short paragraphs in plain text. End with the product link.
 
-TELEGRAM:
-[2-3 lines. Emoji. Punchy. Link at end. Creates curiosity.]"""
+Start with the title on the very first line. No labels, no preamble."""
 
-    response = call_groq(prompt, max_tokens=2500)
+    response = call_groq(prompt, max_tokens=400)
+    lines = response.strip().split('\n')
+    title = lines[0].strip().lstrip('#').strip()
+    body = '\n\n'.join([p.strip() for p in '\n'.join(lines[1:]).split('\n\n') if p.strip()])
+    return title, body
 
-    def extract(label, next_label=None):
-        try:
-            start = response.index(label + ':') + len(label) + 1
-            if next_label and (next_label + ':') in response:
-                end = response.index(next_label + ':')
-            else:
-                end = len(response)
-            return response[start:end].strip()
-        except:
-            return ''
+def generate_mastodon(product):
+    prompt = f"""Write a single Mastodon post (max 450 chars) about {product['niche']}.
 
-    return {
-        'devto_title':      extract('DEVTO_TITLE',      'DEVTO_BODY'),
-        'devto_body':       extract('DEVTO_BODY',        'TELEGRAPH_TITLE'),
-        'telegraph_title':  extract('TELEGRAPH_TITLE',   'TELEGRAPH_BODY'),
-        'telegraph_body':   extract('TELEGRAPH_BODY',    'MASTODON'),
-        'mastodon':         extract('MASTODON',           'TELEGRAM'),
-        'telegram':         extract('TELEGRAM',           None),
-    }
+Include:
+- A helpful tip or insight
+- Natural mention of: {product['gumroad_title']}
+- This link: {product['gumroad_url']}
+- 2-3 hashtags at the end
+
+Write ONLY the post text. No labels, no quotes, no preamble."""
+
+    response = call_groq(prompt, max_tokens=200)
+    return response.strip()[:480]
+
+def generate_telegram(product):
+    prompt = f"""Write a short Telegram channel post (2-3 lines max) promoting:
+
+Product: {product['gumroad_title']}
+Link: {product['gumroad_url']}
+Price: ${product['price']}
+
+Use 1-2 emojis. Be punchy and curiosity-driven. End with the link.
+Write ONLY the post. No labels, no preamble."""
+
+    response = call_groq(prompt, max_tokens=150)
+    return response.strip()
 
 # ── Platform 1: Dev.to ────────────────────────────────────────────────────────
 def post_to_devto(title, body, tags):
     try:
+        if not title or not body:
+            print("✗ Dev.to: empty title or body")
+            return ''
+
+        print(f"  Dev.to title: {title[:60]}")
         response = requests.post(
             'https://dev.to/api/articles',
             headers={
@@ -95,12 +113,17 @@ def post_to_telegraph(title, body):
     try:
         access_token = os.environ.get('TELEGRAPH_ACCESS_TOKEN', '')
         if not access_token:
-            print("✗ Telegraph: skipped (TELEGRAPH_ACCESS_TOKEN not set)")
+            print("✗ Telegraph: skipped (secret not set)")
+            return ''
+        if not title or not body:
+            print("✗ Telegraph: empty title or body")
             return ''
 
-        # Telegraph content must be in their node format
-        # Simplest approach: split into paragraphs
+        print(f"  Telegraph title: {title[:60]}")
+
         paragraphs = [p.strip() for p in body.split('\n\n') if p.strip()]
+        if not paragraphs:
+            paragraphs = [body.strip()]
         content = [{'tag': 'p', 'children': [p]} for p in paragraphs]
 
         response = requests.post(
@@ -130,34 +153,37 @@ def post_to_mastodon(text):
     try:
         access_token = os.environ.get('MASTODON_ACCESS_TOKEN', '')
         if not access_token:
-            print("✗ Mastodon: skipped (MASTODON_ACCESS_TOKEN not set)")
+            print("✗ Mastodon: skipped (secret not set)")
+            return False
+        if not text:
+            print("✗ Mastodon: empty text")
             return False
 
-        # Default to mastodon.social — change if you signed up on a different instance
         instance = os.environ.get('MASTODON_INSTANCE', 'https://mastodon.social')
+        print(f"  Mastodon text length: {len(text)} chars")
 
         response = requests.post(
             f'{instance}/api/v1/statuses',
-            headers={
-                'Authorization': f'Bearer {access_token}',
-                'Content-Type': 'application/json'
-            },
-            json={
-                'status': text[:500],
-                'visibility': 'public'
-            },
+            headers={'Authorization': f'Bearer {access_token}'},
+            data={'status': text, 'visibility': 'public'},
             timeout=15
         )
+
+        print(f"  Mastodon status code: {response.status_code}")
+
+        if not response.text.strip():
+            print("✗ Mastodon: empty response")
+            return False
+
         result = response.json()
         if 'id' in result:
-            url = result.get('url', '')
-            print(f"✓ Posted to Mastodon: {url}")
+            print(f"✓ Posted to Mastodon: {result.get('url', '')}")
             return True
         else:
             print(f"✗ Mastodon error: {result}")
             return False
     except Exception as e:
-        print(f"✗ Mastodon error: {e}")
+        print(f"✗ Mastodon error: {type(e).__name__}: {e}")
         return False
 
 # ── Platform 4: Telegram channel ─────────────────────────────────────────────
@@ -193,27 +219,24 @@ def main():
 
     product = pending[0]
     print(f"\nPosting traffic for: {product['gumroad_title']}")
+    print("\nGenerating content via Groq (one call per platform)...")
 
-    print("\nGenerating social copy via Groq...")
-    copy = generate_social_copy(product)
+    # Generate each platform separately — avoids parsing failures
+    devto_title, devto_body     = generate_devto(product)
+    telegraph_title, telegraph_body = generate_telegraph(product)
+    mastodon_text               = generate_mastodon(product)
+    telegram_text               = generate_telegram(product)
 
+    print(f"\nContent ready. Posting to platforms...")
     results = {}
-    print("\nPosting to all platforms...")
 
     results['devto'] = post_to_devto(
-        copy['devto_title'],
-        copy['devto_body'],
+        devto_title, devto_body,
         product.get('devto_tags', ['productivity', 'ai'])
     )
-
-    results['telegraph'] = post_to_telegraph(
-        copy['telegraph_title'],
-        copy['telegraph_body']
-    )
-
-    results['mastodon'] = post_to_mastodon(copy['mastodon'])
-
-    results['telegram'] = post_to_telegram_channel(copy['telegram'])
+    results['telegraph'] = post_to_telegraph(telegraph_title, telegraph_body)
+    results['mastodon']  = post_to_mastodon(mastodon_text)
+    results['telegram']  = post_to_telegram_channel(telegram_text)
 
     update_product_status(product['id'], 'published', {
         'traffic_posted': True,
