@@ -79,28 +79,28 @@ def fetch_devto_trending():
         return []
 
 # ── Source 3: NewsAPI (only if key exists) ────────────────────────────────────
-def fetch_news_api():
-    api_key = os.environ.get('NEWS_API_KEY', '')
+# ── Source 3: Newsdata.io (works from servers, free tier) ────────────────────
+def fetch_newsdata():
+    api_key = os.environ.get('NEWSDATA_API_KEY', '')
     if not api_key:
-        print("NewsAPI: skipped (secret not set)")
+        print("Newsdata: skipped (secret not set)")
         return []
     try:
         response = requests.get(
-            'https://newsapi.org/v2/top-headlines',
+            'https://newsdata.io/api/1/news',
             params={
-                'country': 'us',
-                'category': 'technology',
-                'pageSize': 10,
-                'apiKey': api_key
+                'apikey': api_key,
+                'language': 'en',
+                'category': 'technology,business'
             },
             timeout=10
         )
-        articles = response.json().get('articles', [])
+        articles = response.json().get('results', [])
         topics = [a['title'] for a in articles if a.get('title')]
-        print(f"NewsAPI: {len(topics)} topics")
+        print(f"Newsdata.io: {len(topics)} topics")
         return topics
     except Exception as e:
-        print(f"NewsAPI error: {e}")
+        print(f"Newsdata error: {e}")
         return []
 
 # ── Source 4: GitHub trending topics via search ───────────────────────────────
