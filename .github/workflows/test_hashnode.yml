@@ -1,0 +1,51 @@
+name: Test Hashnode
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install requests
+        run: pip install requests
+      - name: Test Hashnode API
+        env:
+          HASHNODE_API_KEY: ${{ secrets.HASHNODE_API_KEY }}
+          HASHNODE_PUBLICATION_ID: ${{ secrets.HASHNODE_PUBLICATION_ID }}
+        run: |
+          python3 << 'EOF'
+          import os, requests, json
+
+          api_key = os.environ['HASHNODE_API_KEY']
+          pub_id = os.environ['HASHNODE_PUBLICATION_ID']
+
+          print(f"API key (first 10 chars): {api_key[:10]}...")
+          print(f"Publication ID: {pub_id}")
+
+          # Test 1: basic connectivity
+          query = '{ __typename }'
+          r = requests.post(
+              'https://gql.hashnode.com/',
+              headers={'Authorization': api_key, 'Content-Type': 'application/json'},
+              json={'query': query},
+              timeout=15
+          )
+          print(f"\nTest 1 - Status: {r.status_code}")
+          print(f"Test 1 - Response: {r.text[:200]}")
+
+          # Test 2: get me
+          query2 = '{ me { id username } }'
+          r2 = requests.post(
+              'https://gql.hashnode.com/',
+              headers={'Authorization': api_key, 'Content-Type': 'application/json'},
+              json={'query': query2},
+              timeout=15
+          )
+          print(f"\nTest 2 - Status: {r2.status_code}")
+          print(f"Test 2 - Response: {r2.text[:300]}")
+          EOF
