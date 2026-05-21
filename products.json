@@ -93,7 +93,39 @@
         "devto": "https://dev.to/sinan_khan_336440/50-essential-prompts-to-elevate-your-design-skills-47ll",
         "telegram": true
       }
+    },
+    {
+      "id": "07a096f5-13f6-4466-9ff4-e1daf2fae39a",
+      "title": "50 ChatGPT Prompts for Freelance Designers",
+      "product_type": "prompt_pack",
+      "target_audience": "freelance graphic designers",
+      "niche": "design",
+      "price": 17,
+      "keywords": [
+        "chatgpt prompts",
+        "graphic design",
+        "freelance"
+      ],
+      "devto_tags": [
+        "productivity",
+        "ai",
+        "design"
+      ],
+      "hashnode_tags": [
+        "AI",
+        "Productivity",
+        "Design"
+      ],
+      "blogger_labels": [
+        "AI Tools",
+        "Freelance",
+        "Design"
+      ],
+      "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
+      "status": "researched",
+      "created_at": "2026-05-21T09:26:42.141456",
+      "traffic_posted": false
     }
   ],
-  "last_updated": "2026-05-21T09:02:41.880827"
+  "last_updated": "2026-05-21T09:26:42.141467"
 }
