@@ -2,7 +2,6 @@ import os
 import sys
 import json
 import requests
-import tweepy
 from datetime import datetime
 
 sys.path.append('scripts')
@@ -21,20 +20,20 @@ Niche: {product['niche']}
 
 Write ALL sections. Use exact labels:
 
-TWITTER:
-[Max 260 chars. Strong hook. Include Gumroad link. 2-3 hashtags.]
-
 DEVTO_TITLE:
 [Helpful article title, sounds like advice not an ad, max 80 chars]
 
 DEVTO_BODY:
 [300-word helpful article in markdown. Para 1: teach something useful about {product['niche']}. Para 2: explain the problem solved. Para 3: introduce product naturally with link {product['gumroad_url']}.]
 
-HASHNODE_TITLE:
-[Slightly different title variation from DEVTO_TITLE]
+TELEGRAPH_TITLE:
+[Catchy title for a Telegraph article, max 70 chars]
 
-HASHNODE_BODY:
-[300-word article, same structure as DEVTO_BODY but reworded. Include link {product['gumroad_url']}.]
+TELEGRAPH_BODY:
+[250-word article. Engaging, helpful, ends with a clear call to action and link {product['gumroad_url']}. Plain text, no markdown.]
+
+MASTODON:
+[Max 480 chars. Helpful tip related to {product['niche']}. Mention the product naturally. Include link {product['gumroad_url']}. 2-3 relevant hashtags.]
 
 TELEGRAM:
 [2-3 lines. Emoji. Punchy. Link at end. Creates curiosity.]"""
@@ -53,34 +52,15 @@ TELEGRAM:
             return ''
 
     return {
-        'twitter':        extract('TWITTER',        'DEVTO_TITLE'),
-        'devto_title':    extract('DEVTO_TITLE',    'DEVTO_BODY'),
-        'devto_body':     extract('DEVTO_BODY',     'HASHNODE_TITLE'),
-        'hashnode_title': extract('HASHNODE_TITLE', 'HASHNODE_BODY'),
-        'hashnode_body':  extract('HASHNODE_BODY',  'TELEGRAM'),
-        'telegram':       extract('TELEGRAM',        None),
+        'devto_title':      extract('DEVTO_TITLE',      'DEVTO_BODY'),
+        'devto_body':       extract('DEVTO_BODY',        'TELEGRAPH_TITLE'),
+        'telegraph_title':  extract('TELEGRAPH_TITLE',   'TELEGRAPH_BODY'),
+        'telegraph_body':   extract('TELEGRAPH_BODY',    'MASTODON'),
+        'mastodon':         extract('MASTODON',           'TELEGRAM'),
+        'telegram':         extract('TELEGRAM',           None),
     }
 
-# ── Platform 1: Twitter ───────────────────────────────────────────────────────
-def post_to_twitter(text):
-    try:
-        client = tweepy.Client(
-            consumer_key=os.environ['TWITTER_API_KEY'],
-            consumer_secret=os.environ['TWITTER_API_SECRET'],
-            access_token=os.environ['TWITTER_ACCESS_TOKEN'],
-            access_token_secret=os.environ['TWITTER_ACCESS_SECRET']
-        )
-        client.create_tweet(text=text[:280])
-        print("✓ Posted to Twitter")
-        return True
-    except tweepy.errors.Unauthorized as e:
-        print(f"✗ Twitter 401: {e.response.text if hasattr(e, 'response') else e}")
-        return False
-    except Exception as e:
-        print(f"✗ Twitter error: {type(e).__name__}: {e}")
-        return False
-
-# ── Platform 2: Dev.to ────────────────────────────────────────────────────────
+# ── Platform 1: Dev.to ────────────────────────────────────────────────────────
 def post_to_devto(title, body, tags):
     try:
         response = requests.post(
@@ -101,113 +81,84 @@ def post_to_devto(title, body, tags):
         )
         result = response.json()
         url = result.get('url', '')
-        print(f"✓ Posted to Dev.to: {url}")
+        if url:
+            print(f"✓ Posted to Dev.to: {url}")
+        else:
+            print(f"✗ Dev.to error: {result}")
         return url
     except Exception as e:
         print(f"✗ Dev.to error: {e}")
         return ''
 
-# ── Platform 3: Hashnode (draft → publish flow) ───────────────────────────────
-def post_to_hashnode(title, body, tags, publication_id):
+# ── Platform 2: Telegraph ─────────────────────────────────────────────────────
+def post_to_telegraph(title, body):
     try:
-        api_key = os.environ.get('HASHNODE_API_KEY', '')
-        if not api_key or not publication_id:
-            print("✗ Hashnode: skipped (secrets missing)")
+        access_token = os.environ.get('TELEGRAPH_ACCESS_TOKEN', '')
+        if not access_token:
+            print("✗ Telegraph: skipped (TELEGRAPH_ACCESS_TOKEN not set)")
             return ''
 
-        headers = {
-            'Authorization': api_key,   # NO "Bearer" prefix
-            'Content-Type': 'application/json'
-        }
+        # Telegraph content must be in their node format
+        # Simplest approach: split into paragraphs
+        paragraphs = [p.strip() for p in body.split('\n\n') if p.strip()]
+        content = [{'tag': 'p', 'children': [p]} for p in paragraphs]
 
-        # Tags must be objects with name + slug
-        tag_objects = [
-            {'name': t, 'slug': t.lower().replace(' ', '-')}
-            for t in tags[:5]
-        ]
-
-        # Step 1: Create draft
-        create_mutation = """
-        mutation CreateDraft($input: CreateDraftInput!) {
-          createDraft(input: $input) {
-            draft { id title }
-          }
-        }
-        """
-        r1 = requests.post(
-            'https://gql.hashnode.com/',
-            headers=headers,
+        response = requests.post(
+            'https://api.telegra.ph/createPage',
             json={
-                'query': create_mutation,
-                'variables': {
-                    'input': {
-                        'title': title,
-                        'contentMarkdown': body,
-                        'publicationId': publication_id,
-                        'tags': tag_objects
-                    }
-                }
+                'access_token': access_token,
+                'title': title[:256],
+                'content': content,
+                'return_content': False
             },
-            timeout=20
+            timeout=15
         )
-
-        print(f"Hashnode createDraft status: {r1.status_code}")
-
-        if not r1.text.strip() or r1.text.strip().startswith('<!'):
-            print(f"✗ Hashnode: got HTML instead of JSON — {r1.text[:80]}")
-            return ''
-
-        data1 = r1.json()
-        if 'errors' in data1:
-            print(f"✗ Hashnode createDraft errors: {data1['errors']}")
-            return ''
-
-        draft_id = data1.get('data', {}).get('createDraft', {}).get('draft', {}).get('id')
-        if not draft_id:
-            print(f"✗ Hashnode: no draft ID returned: {json.dumps(data1)[:200]}")
-            return ''
-
-        print(f"  Draft created: {draft_id}")
-
-        # Step 2: Publish the draft
-        publish_mutation = """
-        mutation PublishDraft($input: PublishDraftInput!) {
-          publishDraft(input: $input) {
-            post { url title }
-          }
-        }
-        """
-        r2 = requests.post(
-            'https://gql.hashnode.com/',
-            headers=headers,
-            json={
-                'query': publish_mutation,
-                'variables': {'input': {'id': draft_id}}
-            },
-            timeout=20
-        )
-
-        print(f"Hashnode publishDraft status: {r2.status_code}")
-
-        if not r2.text.strip() or r2.text.strip().startswith('<!'):
-            print("✗ Hashnode: bad response on publishDraft")
-            return ''
-
-        data2 = r2.json()
-        if 'errors' in data2:
-            print(f"✗ Hashnode publishDraft errors: {data2['errors']}")
-            return ''
-
-        url = data2.get('data', {}).get('publishDraft', {}).get('post', {}).get('url', '')
-        if url:
-            print(f"✓ Posted to Hashnode: {url}")
+        result = response.json()
+        if result.get('ok'):
+            url = result['result']['url']
+            print(f"✓ Posted to Telegraph: {url}")
+            return url
         else:
-            print(f"✗ Hashnode: no URL returned: {json.dumps(data2)[:200]}")
-        return url
-
+            print(f"✗ Telegraph error: {result}")
+            return ''
     except Exception as e:
-        print(f"✗ Hashnode error: {type(e).__name__}: {e}")
+        print(f"✗ Telegraph error: {e}")
         return ''
+
+# ── Platform 3: Mastodon ──────────────────────────────────────────────────────
+def post_to_mastodon(text):
+    try:
+        access_token = os.environ.get('MASTODON_ACCESS_TOKEN', '')
+        if not access_token:
+            print("✗ Mastodon: skipped (MASTODON_ACCESS_TOKEN not set)")
+            return False
+
+        # Default to mastodon.social — change if you signed up on a different instance
+        instance = os.environ.get('MASTODON_INSTANCE', 'https://mastodon.social')
+
+        response = requests.post(
+            f'{instance}/api/v1/statuses',
+            headers={
+                'Authorization': f'Bearer {access_token}',
+                'Content-Type': 'application/json'
+            },
+            json={
+                'status': text[:500],
+                'visibility': 'public'
+            },
+            timeout=15
+        )
+        result = response.json()
+        if 'id' in result:
+            url = result.get('url', '')
+            print(f"✓ Posted to Mastodon: {url}")
+            return True
+        else:
+            print(f"✗ Mastodon error: {result}")
+            return False
+    except Exception as e:
+        print(f"✗ Mastodon error: {e}")
+        return False
 
 # ── Platform 4: Telegram channel ─────────────────────────────────────────────
 def post_to_telegram_channel(text):
@@ -249,20 +200,18 @@ def main():
     results = {}
     print("\nPosting to all platforms...")
 
-    results['twitter'] = post_to_twitter(copy['twitter'])
-
     results['devto'] = post_to_devto(
         copy['devto_title'],
         copy['devto_body'],
         product.get('devto_tags', ['productivity', 'ai'])
     )
 
-    results['hashnode'] = post_to_hashnode(
-        copy['hashnode_title'],
-        copy['hashnode_body'],
-        product.get('hashnode_tags', ['AI', 'Productivity']),
-        os.environ.get('HASHNODE_PUBLICATION_ID', '')
+    results['telegraph'] = post_to_telegraph(
+        copy['telegraph_title'],
+        copy['telegraph_body']
     )
+
+    results['mastodon'] = post_to_mastodon(copy['mastodon'])
 
     results['telegram'] = post_to_telegram_channel(copy['telegram'])
 
@@ -279,10 +228,10 @@ def main():
         f"📣 <b>Agent 4 — Traffic Done</b>\n\n"
         f"📦 {product['gumroad_title']}\n"
         f"🔗 {product['gumroad_url']}\n\n"
-        f"{'✅' if results.get('twitter')  else '❌'} Twitter\n"
-        f"{'✅' if results.get('devto')    else '❌'} Dev.to\n"
-        f"{'✅' if results.get('hashnode') else '❌'} Hashnode\n"
-        f"{'✅' if results.get('telegram') else '❌'} Telegram\n\n"
+        f"{'✅' if results.get('devto')      else '❌'} Dev.to\n"
+        f"{'✅' if results.get('telegraph')  else '❌'} Telegraph\n"
+        f"{'✅' if results.get('mastodon')   else '❌'} Mastodon\n"
+        f"{'✅' if results.get('telegram')   else '❌'} Telegram\n\n"
         f"Posted {successes}/{total} platforms 🚀"
     )
 
