@@ -173,7 +173,7 @@ def main():
 
     hn      = fetch_hackernews()
     devto   = fetch_devto_trending()
-    news    = fetch_news_api()
+    news    = fetch_newsdata()
     github  = fetch_github_trending()
 
     all_topics = hn + devto + news + github
