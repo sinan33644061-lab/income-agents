@@ -19,7 +19,7 @@ Link: {product['gumroad_url']}
 Audience: {product['target_audience']}
 Niche: {product['niche']}
 
-Write ALL sections below. Use exact labels:
+Write ALL sections. Use exact labels:
 
 TWITTER:
 [Max 260 chars. Strong hook. Include Gumroad link. 2-3 hashtags.]
@@ -28,7 +28,7 @@ DEVTO_TITLE:
 [Helpful article title, sounds like advice not an ad, max 80 chars]
 
 DEVTO_BODY:
-[300-word helpful article in markdown. Para 1: teach something useful about {product['niche']}. Para 2: explain the problem your product solves. Para 3: introduce product naturally with link {product['gumroad_url']}.]
+[300-word helpful article in markdown. Para 1: teach something useful about {product['niche']}. Para 2: explain the problem solved. Para 3: introduce product naturally with link {product['gumroad_url']}.]
 
 HASHNODE_TITLE:
 [Slightly different title variation from DEVTO_TITLE]
@@ -73,8 +73,11 @@ def post_to_twitter(text):
         client.create_tweet(text=text[:280])
         print("✓ Posted to Twitter")
         return True
+    except tweepy.errors.Unauthorized as e:
+        print(f"✗ Twitter 401: {e.response.text if hasattr(e, 'response') else e}")
+        return False
     except Exception as e:
-        print(f"✗ Twitter error: {e}")
+        print(f"✗ Twitter error: {type(e).__name__}: {e}")
         return False
 
 # ── Platform 2: Dev.to ────────────────────────────────────────────────────────
@@ -93,7 +96,8 @@ def post_to_devto(title, body, tags):
                     'published': True,
                     'tags': tags[:4]
                 }
-            }
+            },
+            timeout=15
         )
         result = response.json()
         url = result.get('url', '')
@@ -103,87 +107,124 @@ def post_to_devto(title, body, tags):
         print(f"✗ Dev.to error: {e}")
         return ''
 
-# ── Platform 3: Hashnode (fixed API) ─────────────────────────────────────────
+# ── Platform 3: Hashnode (draft → publish flow) ───────────────────────────────
 def post_to_hashnode(title, body, tags, publication_id):
     try:
         api_key = os.environ.get('HASHNODE_API_KEY', '')
-        if not api_key:
-            print("✗ Hashnode: skipped (secret not set)")
+        if not api_key or not publication_id:
+            print("✗ Hashnode: skipped (secrets missing)")
             return ''
 
-        # Convert tag names to Hashnode format
-        tag_objects = [{'slug': t.lower().replace(' ', '-'), 'name': t} for t in tags[:5]]
+        headers = {
+            'Authorization': api_key,   # NO "Bearer" prefix
+            'Content-Type': 'application/json'
+        }
 
-        query = """
-        mutation PublishPost($input: PublishPostInput!) {
-          publishPost(input: $input) {
-            post {
-              url
-            }
+        # Tags must be objects with name + slug
+        tag_objects = [
+            {'name': t, 'slug': t.lower().replace(' ', '-')}
+            for t in tags[:5]
+        ]
+
+        # Step 1: Create draft
+        create_mutation = """
+        mutation CreateDraft($input: CreateDraftInput!) {
+          createDraft(input: $input) {
+            draft { id title }
           }
         }
         """
-        variables = {
-            'input': {
-                'title': title,
-                'contentMarkdown': body,
-                'publicationId': publication_id,
-                'tags': tag_objects
-            }
-        }
-
-        response = requests.post(
+        r1 = requests.post(
             'https://gql.hashnode.com/',
-            headers={
-                'Authorization': api_key,
-                'Content-Type': 'application/json'
+            headers=headers,
+            json={
+                'query': create_mutation,
+                'variables': {
+                    'input': {
+                        'title': title,
+                        'contentMarkdown': body,
+                        'publicationId': publication_id,
+                        'tags': tag_objects
+                    }
+                }
             },
-            json={'query': query, 'variables': variables},
-            timeout=15
+            timeout=20
         )
 
-        # Debug: print raw response if something goes wrong
-        if not response.text.strip():
-            print("✗ Hashnode: empty response from server")
+        print(f"Hashnode createDraft status: {r1.status_code}")
+
+        if not r1.text.strip() or r1.text.strip().startswith('<!'):
+            print(f"✗ Hashnode: got HTML instead of JSON — {r1.text[:80]}")
             return ''
 
-        result = response.json()
-
-        # Check for GraphQL errors
-        if 'errors' in result:
-            print(f"✗ Hashnode GraphQL error: {result['errors']}")
+        data1 = r1.json()
+        if 'errors' in data1:
+            print(f"✗ Hashnode createDraft errors: {data1['errors']}")
             return ''
 
-        url = result.get('data', {}).get('publishPost', {}).get('post', {}).get('url', '')
+        draft_id = data1.get('data', {}).get('createDraft', {}).get('draft', {}).get('id')
+        if not draft_id:
+            print(f"✗ Hashnode: no draft ID returned: {json.dumps(data1)[:200]}")
+            return ''
+
+        print(f"  Draft created: {draft_id}")
+
+        # Step 2: Publish the draft
+        publish_mutation = """
+        mutation PublishDraft($input: PublishDraftInput!) {
+          publishDraft(input: $input) {
+            post { url title }
+          }
+        }
+        """
+        r2 = requests.post(
+            'https://gql.hashnode.com/',
+            headers=headers,
+            json={
+                'query': publish_mutation,
+                'variables': {'input': {'id': draft_id}}
+            },
+            timeout=20
+        )
+
+        print(f"Hashnode publishDraft status: {r2.status_code}")
+
+        if not r2.text.strip() or r2.text.strip().startswith('<!'):
+            print("✗ Hashnode: bad response on publishDraft")
+            return ''
+
+        data2 = r2.json()
+        if 'errors' in data2:
+            print(f"✗ Hashnode publishDraft errors: {data2['errors']}")
+            return ''
+
+        url = data2.get('data', {}).get('publishDraft', {}).get('post', {}).get('url', '')
         if url:
             print(f"✓ Posted to Hashnode: {url}")
         else:
-            print(f"✗ Hashnode: unexpected response: {result}")
+            print(f"✗ Hashnode: no URL returned: {json.dumps(data2)[:200]}")
         return url
 
     except Exception as e:
-        print(f"✗ Hashnode error: {e}")
+        print(f"✗ Hashnode error: {type(e).__name__}: {e}")
         return ''
 
 # ── Platform 4: Telegram channel ─────────────────────────────────────────────
 def post_to_telegram_channel(text):
     try:
-        token = os.environ['TELEGRAM_TOKEN']
-        channel_id = os.environ['TELEGRAM_CHANNEL_ID']
         requests.post(
-            f'https://api.telegram.org/bot{token}/sendMessage',
+            f'https://api.telegram.org/bot{os.environ["TELEGRAM_TOKEN"]}/sendMessage',
             json={
-                'chat_id': channel_id,
+                'chat_id': os.environ['TELEGRAM_CHANNEL_ID'],
                 'text': text,
-                'parse_mode': 'HTML',
-                'disable_web_page_preview': False
+                'parse_mode': 'HTML'
             },
             timeout=10
         )
         print("✓ Posted to Telegram channel")
         return True
     except Exception as e:
-        print(f"✗ Telegram channel error: {e}")
+        print(f"✗ Telegram error: {e}")
         return False
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -238,12 +279,11 @@ def main():
         f"📣 <b>Agent 4 — Traffic Done</b>\n\n"
         f"📦 {product['gumroad_title']}\n"
         f"🔗 {product['gumroad_url']}\n\n"
-        f"Posted {successes}/{total} platforms:\n"
         f"{'✅' if results.get('twitter')  else '❌'} Twitter\n"
         f"{'✅' if results.get('devto')    else '❌'} Dev.to\n"
         f"{'✅' if results.get('hashnode') else '❌'} Hashnode\n"
         f"{'✅' if results.get('telegram') else '❌'} Telegram\n\n"
-        f"Traffic is live! 🚀"
+        f"Posted {successes}/{total} platforms 🚀"
     )
 
     print(f"\nAgent 4: Done ✓  ({successes}/{total} platforms posted)")
