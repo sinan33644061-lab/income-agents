@@ -220,8 +220,8 @@
       "telegram_teaser": "Elevate your design workflow: Get 50 expert-designed ChatGPT prompts",
       "status": "published",
       "created_at": "2026-05-22T16:59:53.667129",
-      "traffic_posted": false,
-      "updated_at": "2026-05-23T15:47:11.860813",
+      "traffic_posted": true,
+      "updated_at": "2026-05-23T16:17:07.832074",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "As a freelance graphic designer, tackling creative blocks and staying ahead of the competition is tough. But what if you had a secret to unlocking fresh ideas and streamlining your workflow? With our exclusive '50 ChatGPT Prompts for Freelance Designers', you get 50 actionable, expert-led tasks to turbocharge your design process. Say goodbye to creative burnout and hello to a seamless workflow, increased efficiency, and top-tier results. Unlock the full potential of your creative skills with this premium prompt pack, perfect for branding, UI/UX, and more.",
       "twitter_hook": "Unleash your creative genius with these 50 expert-led prompts, designed for freelance graphic designers. Turbocharge your workflow, boost productivity & create stunning designs. Get yours today!",
@@ -229,7 +229,14 @@
       "pdf_path": "output/product_6a2227cd.pdf",
       "gumroad_product_id": "gwGZRLcCz4vDKUGl7inXmw==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/xnjrhx",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-6a2227cd/product_6a2227cd.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-6a2227cd/product_6a2227cd.pdf",
+      "traffic_posted_at": "2026-05-23T16:17:07.831874",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/designing-for-consistency-a-freelancers-guide-1pom",
+        "telegraph": "https://telegra.ph/Crafting-the-Perfect-Design-05-23",
+        "mastodon": true,
+        "telegram": true
+      }
     },
     {
       "id": "09bd7d17-ff8b-4558-8745-5ade9069d3be",
@@ -264,5 +271,5 @@
       "traffic_posted": false
     }
   ],
-  "last_updated": "2026-05-23T15:47:11.860824"
+  "last_updated": "2026-05-23T16:17:07.832078"
 }
