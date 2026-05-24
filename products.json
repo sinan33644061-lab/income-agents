@@ -266,9 +266,15 @@
         "Development"
       ],
       "telegram_teaser": "Unlock expert-level ChatGPT prompts for freelancers in web dev",
-      "status": "researched",
+      "status": "pdf_ready",
       "created_at": "2026-05-23T12:10:28.342167",
-      "traffic_posted": false
+      "traffic_posted": false,
+      "updated_at": "2026-05-24T14:49:23.398139",
+      "gumroad_title": "50 ChatGPT Prompts for Freelance Web Developers",
+      "gumroad_desc": "As a freelance web developer, you need to stay ahead of the curve. From onboarding clients to managing technical debt, every step of the process requires precision and expertise. That's why you need the right tools, skills, and knowledge to succeed. In this exclusive pack of 50 prompts, you'll get actionable guidance on how to level up your web development game, from client onboarding and website security to UI design and project management. Get instant access to the ultimate resource for freelance web developers and take your business to new heights!",
+      "twitter_hook": "Get the ultimate edge in freelance web development with our 50 ChatGPT prompts! From client onboarding to UI design, elevate your skills and grow your business!",
+      "pinterest_title": "50 ChatGPT Prompts for Freelance Web Developers: Ultimate Resource",
+      "pdf_path": "output/product_09bd7d17.pdf"
     },
     {
       "id": "6751097f-aefa-4a70-a6c2-f0799638c11c",
@@ -303,5 +309,5 @@
       "traffic_posted": false
     }
   ],
-  "last_updated": "2026-05-24T12:13:35.402284"
+  "last_updated": "2026-05-24T14:49:23.398149"
 }
