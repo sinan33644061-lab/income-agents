@@ -316,8 +316,8 @@
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
       "status": "published",
       "created_at": "2026-05-24T12:13:35.402275",
-      "traffic_posted": false,
-      "updated_at": "2026-05-25T18:11:03.086334",
+      "traffic_posted": true,
+      "updated_at": "2026-05-25T18:22:16.965926",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "As a freelance designer, do you struggle with meeting client requests, coming up with unique design solutions, or delivering high-quality work efficiently? The 50 ChatGPT Prompts for Freelance Designers pack is specifically crafted to help you overcome these challenges and boost your productivity. With this comprehensive pack, you'll receive 50 actionable prompts tailored to the needs of freelance designers. Whether you're working on logos, websites, social media campaigns, or any other design project, these prompts will provide valuable insights and guidance to ensure you deliver amazing results and stand out in your competitive market.",
       "twitter_hook": "Boost your freelance design workflow with our 50 actionable prompts! Get creative solutions for logos, websites, social media & more. Buy now & unlock your design potential! #freelancedesign #graphicdesign",
@@ -325,7 +325,14 @@
       "pdf_path": "output/product_6751097f.pdf",
       "gumroad_product_id": "WniSVLBfVyzs_51DZB4cig==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/rysit",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-6751097f/product_6751097f.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-6751097f/product_6751097f.pdf",
+      "traffic_posted_at": "2026-05-25T18:22:16.965745",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/crafting-compelling-designs-for-freelance-graphic-designers-9j3",
+        "telegraph": "https://telegra.ph/Design-Essentials-05-25",
+        "mastodon": true,
+        "telegram": true
+      }
     },
     {
       "id": "7811e43d-c259-4d31-ba96-60d1044c8fef",
@@ -360,5 +367,5 @@
       "traffic_posted": false
     }
   ],
-  "last_updated": "2026-05-25T18:11:03.086346"
+  "last_updated": "2026-05-25T18:22:16.965930"
 }
