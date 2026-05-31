@@ -604,8 +604,8 @@
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
       "status": "published",
       "created_at": "2026-05-30T12:50:19.806398",
-      "traffic_posted": false,
-      "updated_at": "2026-05-31T15:56:47.797249",
+      "traffic_posted": true,
+      "updated_at": "2026-05-31T16:46:35.146854",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "Struggling to come up with fresh ideas for your design projects? As a freelance graphic designer, staying inspired and productive is crucial to delivering high-quality work. This premium prompt pack contains 50 actionable prompts, each designed to spark creativity, streamline your workflow, and help you tackle various design challenges. From logo design to branding, and from marketing materials to product packaging, these prompts cover a wide range of design projects. With these prompts, you'll be able to explore your creative potential, develop your skills, and take your design business to the next level. Get instant access to this valuable resource and start producing top-notch designs today!",
       "twitter_hook": "Boost your design skills with 50 actionable prompts! Get instant access to this premium pack and discover fresh ideas, streamline your workflow, and deliver high-quality projects as a freelance graphic designer. #GraphicDesign #FreelanceDesign #DesignPrompts",
@@ -613,7 +613,14 @@
       "pdf_path": "output/product_3f404cd2.pdf",
       "gumroad_product_id": "w8izd2cM4oPGOvUA6DRmoQ==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/mgyly",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-3f404cd2/product_3f404cd2.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-3f404cd2/product_3f404cd2.pdf",
+      "traffic_posted_at": "2026-05-31T16:46:35.146594",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/improving-your-creative-process-through-mindful-design-452n",
+        "telegraph": "https://telegra.ph/Designing-a-Better-You-05-31",
+        "mastodon": true,
+        "telegram": true
+      }
     },
     {
       "id": "b6aef9e4-c0a3-4431-9b5f-8337d8976672",
@@ -649,5 +656,5 @@
       "traffic_posted": false
     }
   ],
-  "last_updated": "2026-05-31T15:56:47.797261"
+  "last_updated": "2026-05-31T16:46:35.146859"
 }
