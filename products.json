@@ -651,15 +651,18 @@
         "Cybersecurity"
       ],
       "telegram_teaser": "Master AI-powered web security audits with our expert prompts",
-      "status": "pdf_ready",
+      "status": "published",
       "created_at": "2026-05-31T14:58:21.864659",
       "traffic_posted": false,
-      "updated_at": "2026-06-01T21:54:27.222230",
+      "updated_at": "2026-06-01T22:25:08.240929",
       "gumroad_title": "50 LLM-AI Prompts for AI-Powered Web Security Audits",
       "gumroad_desc": "As a cybersecurity professional, staying ahead of emerging threats is crucial. This comprehensive pack of 50 LLM-AI prompts empowers you to automate web security audits with precision, streamline testing, and enhance your overall web security posture. Each prompt is carefully crafted to elicit detailed, actionable information, enabling you to prioritize vulnerabilities, strengthen security, and protect sensitive data.",
       "twitter_hook": "Automate web security audits with precision. Unlock our 50 LLM-AI prompts pack for AI-powered threat discovery, efficient vulnerability management, and enhanced security posture. Get started today! [link to gumroad]",
       "pinterest_title": "50 LLM-AI Prompts for AI-Powered Web Security Audits",
-      "pdf_path": "output/product_b6aef9e4.pdf"
+      "pdf_path": "output/product_b6aef9e4.pdf",
+      "gumroad_product_id": "91nm-l4BsoSEuO-R3PUseg==",
+      "gumroad_url": "https://sinanista8.gumroad.com/l/vfohvw",
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-b6aef9e4/product_b6aef9e4.pdf"
     },
     {
       "id": "d041ad64-da28-4637-b0a8-5ca86843dcb7",
@@ -694,5 +697,5 @@
       "traffic_posted": false
     }
   ],
-  "last_updated": "2026-06-01T21:54:27.222243"
+  "last_updated": "2026-06-01T22:25:08.240942"
 }
