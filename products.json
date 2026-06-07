@@ -941,8 +941,8 @@
       "telegram_teaser": "Boost your design efficiency with these 50+ ChatGPT prompts!",
       "status": "published",
       "created_at": "2026-06-06T14:54:45.086000",
-      "traffic_posted": false,
-      "updated_at": "2026-06-07T16:54:01.151674",
+      "traffic_posted": true,
+      "updated_at": "2026-06-07T17:49:01.011887",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "Are you a freelance graphic designer struggling to come up with new ideas or feeling stuck in your work? Break through the creative barriers with this comprehensive pack of 50 design prompts tailored specifically for freelance graphic designers. From visual identity design to digital marketing strategy, this pack covers a wide range of topics that will help you level up your design skills and generate new revenue streams. Download now and start unleashing your creativity!",
       "twitter_hook": "Boost your #freelancedesign skills with 50 actionable prompts! From visual identity design to digital marketing strategy, this comprehensive pack has got you covered. Download now and turn your creativity into revenue-generating ideas!",
@@ -950,7 +950,14 @@
       "pdf_path": "output/product_2f9c0808.pdf",
       "gumroad_product_id": "E78ftscbQpzsPZBPExzMdw==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/bxktzb",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-2f9c0808/product_2f9c0808.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-2f9c0808/product_2f9c0808.pdf",
+      "traffic_posted_at": "2026-06-07T17:49:01.011580",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/mastering-the-balance-designing-for-user-experience-4g8c",
+        "telegraph": "https://telegra.ph/Design-in-the-Digital-Age-Where-Form-Meets-Function-06-07",
+        "mastodon": true,
+        "telegram": true
+      }
     },
     {
       "id": "c7fba23d-6cd5-4f83-9b37-eb65ac5624c6",
@@ -985,5 +992,5 @@
       "traffic_posted": false
     }
   ],
-  "last_updated": "2026-06-07T16:54:01.151685"
+  "last_updated": "2026-06-07T17:49:01.011892"
 }
