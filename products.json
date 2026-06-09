@@ -1035,15 +1035,18 @@
         "Design"
       ],
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
-      "status": "pdf_ready",
+      "status": "published",
       "created_at": "2026-06-08T18:15:07.011906",
       "traffic_posted": false,
-      "updated_at": "2026-06-09T17:35:05.540527",
+      "updated_at": "2026-06-09T19:35:15.220596",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "Unlock your creative potential with these 50 actionable ChatGPT prompts specifically designed for freelance graphic designers. From crafting a compelling pitch to refining your design style, these prompts will help you elevate your skills and deliver results-driven design solutions. Say goodbye to design woes and hello to a more profitable and fulfilling freelance career. Get instant access to these expert-curated prompts now!",
       "twitter_hook": "Boost your #freelancedesign skills with our exclusive 50 ChatGPT prompts! Unlock design inspiration, strategy, and success with our comprehensive guide. Get instant access now! #freelancedesigns #graphics #design",
       "pinterest_title": "Freelance Design Prompts for ChatGPT",
-      "pdf_path": "output/product_374fbffa.pdf"
+      "pdf_path": "output/product_374fbffa.pdf",
+      "gumroad_product_id": "_xmKrUl0T5KQ3yupAtO7MQ==",
+      "gumroad_url": "https://sinanista8.gumroad.com/l/vjgdzt",
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-374fbffa/product_374fbffa.pdf"
     },
     {
       "id": "544a2a03-18ea-4e2b-8422-5897fb21c492",
@@ -1078,5 +1081,5 @@
       "traffic_posted": false
     }
   ],
-  "last_updated": "2026-06-09T17:35:05.540540"
+  "last_updated": "2026-06-09T19:35:15.220606"
 }
