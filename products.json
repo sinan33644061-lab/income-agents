@@ -1085,8 +1085,8 @@
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
       "status": "published",
       "created_at": "2026-06-09T17:30:20.960250",
-      "traffic_posted": false,
-      "updated_at": "2026-06-10T14:54:46.099051",
+      "traffic_posted": true,
+      "updated_at": "2026-06-10T16:37:29.575089",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "As a freelance graphic designer, you're constantly seeking new ideas and ways to improve your workflow. This premium prompt pack is designed to help you overcome common design challenges, save time, and boost client satisfaction. With 50 actionable prompts, you'll learn how to create stunning visual identities, develop user-centered UI designs, and much more. Say goodbye to creative blocks and hello to a more efficient design process.",
       "twitter_hook": "Boost your design skills & workflow with our premium prompt pack! 50 actionable prompts for freelance graphic designers #freelancedesign #designcommunity",
@@ -1094,8 +1094,15 @@
       "pdf_path": "output/product_544a2a03.pdf",
       "gumroad_product_id": "dOPoYVlwN1JC6e_4lZO-9w==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/fkyvg",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-544a2a03/product_544a2a03.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-544a2a03/product_544a2a03.pdf",
+      "traffic_posted_at": "2026-06-10T16:37:29.574573",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/optimizing-design-flows-for-faster-results-84e",
+        "telegraph": "https://telegra.ph/Crafting-Aesthetic-Experiences-The-Art-of-Design-06-10",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-06-10T14:54:46.099061"
+  "last_updated": "2026-06-10T16:37:29.575094"
 }
