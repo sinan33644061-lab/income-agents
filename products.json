@@ -1181,8 +1181,8 @@
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
       "status": "published",
       "created_at": "2026-06-12T12:19:16.051619",
-      "traffic_posted": false,
-      "updated_at": "2026-06-12T14:36:23.086206",
+      "traffic_posted": true,
+      "updated_at": "2026-06-12T16:22:27.692927",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "\"Are you a freelance designer struggling to stay inspired or find new design challenges? This premium pack of 50 ChatGPT prompts is designed to spark creativity, provide expert guidance, and help you improve your design skills. From accessible web design to packaging trends and visual identity creation, these prompts cover everything you need to stay ahead in the competitive design industry. Download now and take your design business to the next level!\"",
       "twitter_hook": "\"Boost your design skills with 50 premium ChatGPT prompts! From web design to packaging trends, stay ahead of the curve and grow your design business with this essential pack. Download now! #ChatGPT #DesignPrompts #FreelanceLife\"",
@@ -1190,8 +1190,15 @@
       "pdf_path": "output/product_fe10f599.pdf",
       "gumroad_product_id": "EzIGFwIHUI73P-KSfRwFog==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/avnbli",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-fe10f599/product_fe10f599.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-fe10f599/product_fe10f599.pdf",
+      "traffic_posted_at": "2026-06-12T16:22:27.692372",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/designing-for-engagement-a-freelancers-guide-3ba9",
+        "telegraph": "https://telegra.ph/Design-in-the-Modern-World-06-12",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-06-12T14:36:23.086217"
+  "last_updated": "2026-06-12T16:22:27.692933"
 }
