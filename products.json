@@ -1198,7 +1198,39 @@
         "mastodon": true,
         "telegram": true
       }
+    },
+    {
+      "id": "e94d3e12-6411-40cd-a7f7-72b4baa9ecdb",
+      "title": "AIventure: Retro Dungeon Maps for Developers",
+      "product_type": "template",
+      "target_audience": "game developers and designers",
+      "niche": "game development",
+      "price": 20,
+      "keywords": [
+        "game development",
+        "retro games",
+        "dungeon mapping"
+      ],
+      "devto_tags": [
+        "gamedev",
+        "ai",
+        "game design"
+      ],
+      "hashnode_tags": [
+        "Game Development",
+        "AI",
+        "Game Design"
+      ],
+      "blogger_labels": [
+        "Game Development Tools",
+        "AI in Games",
+        "Game Design"
+      ],
+      "telegram_teaser": "Get ready for epic adventures: Download AI-generated retro dungeon maps for developers now",
+      "status": "researched",
+      "created_at": "2026-06-13T11:13:52.597743",
+      "traffic_posted": false
     }
   ],
-  "last_updated": "2026-06-12T16:22:27.692933"
+  "last_updated": "2026-06-13T11:13:52.597751"
 }
