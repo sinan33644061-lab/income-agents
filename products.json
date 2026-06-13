@@ -1229,8 +1229,8 @@
       "telegram_teaser": "Get ready for epic adventures: Download AI-generated retro dungeon maps for developers now",
       "status": "published",
       "created_at": "2026-06-13T11:13:52.597743",
-      "traffic_posted": false,
-      "updated_at": "2026-06-13T13:27:05.509863",
+      "traffic_posted": true,
+      "updated_at": "2026-06-13T15:03:14.068471",
       "gumroad_title": "AIventure: Retro Dungeon Maps for Developers",
       "gumroad_desc": "Master the art of creating immersive and engaging retro-style dungeons for your games. AIventure provides a comprehensive guide to map design, including step-by-step checklists, key formulas and frameworks, and common mistakes to avoid. Learn how to create balanced maps, design unique encounters, and make the most of visual and audio cues. With AIventure, you'll be well on your way to creating unforgettable gaming experiences.",
       "twitter_hook": "\"Level up your game design skills with AIventure: Retro Dungeon Maps for Developers! Master map design, encounter creation, and more with our comprehensive guide to creating immersive retro-style dungeons. Get started now! #gamedev #mapdesign #retrogaming\"",
@@ -1238,8 +1238,14 @@
       "pdf_path": "output/product_e94d3e12.pdf",
       "gumroad_product_id": "ThoKyyYjMv7nITR3SLkrsQ==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/mhnocw",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-e94d3e12/product_e94d3e12.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-e94d3e12/product_e94d3e12.pdf",
+      "traffic_posted_at": "2026-06-13T15:03:14.067884",
+      "post_urls": {
+        "telegraph": "https://telegra.ph/Creating-a-World-of-Wonder-Game-Development-Insights-06-13",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-06-13T13:27:05.509874"
+  "last_updated": "2026-06-13T15:03:14.068477"
 }
