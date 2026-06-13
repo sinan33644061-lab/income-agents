@@ -1227,10 +1227,16 @@
         "Game Design"
       ],
       "telegram_teaser": "Get ready for epic adventures: Download AI-generated retro dungeon maps for developers now",
-      "status": "researched",
+      "status": "pdf_ready",
       "created_at": "2026-06-13T11:13:52.597743",
-      "traffic_posted": false
+      "traffic_posted": false,
+      "updated_at": "2026-06-13T11:44:33.712862",
+      "gumroad_title": "AIventure: Retro Dungeon Maps for Developers",
+      "gumroad_desc": "Master the art of creating immersive and engaging retro-style dungeons for your games. AIventure provides a comprehensive guide to map design, including step-by-step checklists, key formulas and frameworks, and common mistakes to avoid. Learn how to create balanced maps, design unique encounters, and make the most of visual and audio cues. With AIventure, you'll be well on your way to creating unforgettable gaming experiences.",
+      "twitter_hook": "\"Level up your game design skills with AIventure: Retro Dungeon Maps for Developers! Master map design, encounter creation, and more with our comprehensive guide to creating immersive retro-style dungeons. Get started now! #gamedev #mapdesign #retrogaming\"",
+      "pinterest_title": "Retro Dungeon Map Design Templates for Game Developers",
+      "pdf_path": "output/product_e94d3e12.pdf"
     }
   ],
-  "last_updated": "2026-06-13T11:13:52.597751"
+  "last_updated": "2026-06-13T11:44:33.712869"
 }
