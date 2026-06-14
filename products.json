@@ -1276,8 +1276,8 @@
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
       "status": "published",
       "created_at": "2026-06-14T11:30:11.547271",
-      "traffic_posted": false,
-      "updated_at": "2026-06-14T13:29:45.490570",
+      "traffic_posted": true,
+      "updated_at": "2026-06-14T15:08:02.220517",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "Are you tired of feeling stuck with your graphic design work? This pack of 50 premium prompts is specifically designed for freelance graphic designers who need help with brand identity, user experience, and visual design projects. Each prompt is carefully crafted to get you started on a specific design project, covering topics such as brochures, landing pages, e-commerce, and more. Take the guesswork out of your design process and start delivering exceptional results to your clients today.",
       "twitter_hook": "Get unstuck and deliver exceptional results with our pack of 50 premium design prompts for freelance graphic designers",
@@ -1285,8 +1285,15 @@
       "pdf_path": "output/product_814f9f2a.pdf",
       "gumroad_product_id": "NbWISugYtwf3-EEwCfmOzA==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/ckstmn",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-814f9f2a/product_814f9f2a.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-814f9f2a/product_814f9f2a.pdf",
+      "traffic_posted_at": "2026-06-14T15:08:02.219926",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/designing-conversational-interfaces-for-improved-user-experience-31p8",
+        "telegraph": "https://telegra.ph/Designing-a-Better-World-06-14",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-06-14T13:29:45.490582"
+  "last_updated": "2026-06-14T15:08:02.220522"
 }
