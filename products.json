@@ -1293,7 +1293,39 @@
         "mastodon": true,
         "telegram": true
       }
+    },
+    {
+      "id": "768876ef-30ad-4bd7-90ce-6d75ad76c63d",
+      "title": "50 Apple Foundation Model Prompts for ChatGPT",
+      "product_type": "prompt_pack",
+      "target_audience": "AI development and machine learning engineers",
+      "niche": "ai",
+      "price": 19,
+      "keywords": [
+        "apple foundation model prompts",
+        "chatgpt",
+        "ai development"
+      ],
+      "devto_tags": [
+        "productivity",
+        "ai",
+        "ml"
+      ],
+      "hashnode_tags": [
+        "AI",
+        "Machine Learning",
+        "Productivity"
+      ],
+      "blogger_labels": [
+        "AI Tools",
+        "Machine Learning",
+        "Productivity"
+      ],
+      "telegram_teaser": "Unlock the power of Apple Foundation Models with 50 expert ChatGPT prompts",
+      "status": "researched",
+      "created_at": "2026-06-15T15:14:34.430359",
+      "traffic_posted": false
     }
   ],
-  "last_updated": "2026-06-14T15:08:02.220522"
+  "last_updated": "2026-06-15T15:14:34.430370"
 }
