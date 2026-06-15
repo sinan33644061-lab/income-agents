@@ -1324,8 +1324,8 @@
       "telegram_teaser": "Unlock the power of Apple Foundation Models with 50 expert ChatGPT prompts",
       "status": "published",
       "created_at": "2026-06-15T15:14:34.430359",
-      "traffic_posted": false,
-      "updated_at": "2026-06-15T16:59:49.885816",
+      "traffic_posted": true,
+      "updated_at": "2026-06-15T17:58:47.899226",
       "gumroad_title": "50 Apple Foundation Model Prompts for ChatGPT",
       "gumroad_desc": "Unlock the full potential of Apple technologies with these 50 premium prompts designed to challenge and inspire your AI development and machine learning engineering. Dive into Apple's cutting-edge innovations and revolutionize the way you think about user experience, machine learning, and data management. Say goodbye to mediocre solutions and hello to Apple-level greatness.",
       "twitter_hook": "Unlock Apple-level greatness with 50 premium prompts for ChatGPT! Explore AI, machine learning, and more with these game-changing tools. Invest now and supercharge your Apple development and engineering skills.",
@@ -1333,8 +1333,15 @@
       "pdf_path": "output/product_768876ef.pdf",
       "gumroad_product_id": "wlpLEQci3TMv1m6LGSrdFQ==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/zctsd",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-768876ef/product_768876ef.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-768876ef/product_768876ef.pdf",
+      "traffic_posted_at": "2026-06-15T17:58:47.898641",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/unlocking-the-power-of-large-language-models-144f",
+        "telegraph": "https://telegra.ph/Rise-of-the-Intelligent-Machines-06-15",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-06-15T16:59:49.885828"
+  "last_updated": "2026-06-15T17:58:47.899231"
 }
