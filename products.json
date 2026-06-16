@@ -1370,16 +1370,19 @@
         "Design"
       ],
       "telegram_teaser": "Got more creative time with our 50 ChatGPT prompts. For freelance graphic designers",
-      "status": "pdf_ready",
+      "status": "published",
       "created_at": "2026-06-16T13:28:10.499023",
       "traffic_posted": false,
-      "updated_at": "2026-06-16T14:49:33.674433",
+      "updated_at": "2026-06-16T16:25:05.979566",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "",
       "twitter_hook": "",
       "pinterest_title": "50 ChatGPT Prompts for Freelance Graphic Designers",
-      "pdf_path": "output/product_2fb6db71.pdf"
+      "pdf_path": "output/product_2fb6db71.pdf",
+      "gumroad_product_id": "MicQZplxqDdjl-GYmdRPbA==",
+      "gumroad_url": "https://sinanista8.gumroad.com/l/ppifp",
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-2fb6db71/product_2fb6db71.pdf"
     }
   ],
-  "last_updated": "2026-06-16T14:49:33.674446"
+  "last_updated": "2026-06-16T16:25:05.979575"
 }
