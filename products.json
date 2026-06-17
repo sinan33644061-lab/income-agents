@@ -1420,8 +1420,8 @@
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
       "status": "published",
       "created_at": "2026-06-17T12:51:25.646798",
-      "traffic_posted": false,
-      "updated_at": "2026-06-17T14:52:37.780415",
+      "traffic_posted": true,
+      "updated_at": "2026-06-17T16:40:08.002519",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "\"Are you tired of struggling with design briefs and coming up with innovative ideas? Our 50 ChatGPT prompts will save you time and boost your creativity as a freelance designer. From brand identities to UI kits, these prompts cover a wide range of design topics, providing a solid foundation for your next design project. Say goodbye to blank white pages and hello to fresh, inspired designs with our comprehensive guide.\"",
       "twitter_hook": "\"Boost your design skills with our 50 ChatGPT prompts! From branding to UI, get inspiration and solutions for your next design project #freelancedesign #chatgpt #designprompts\"",
@@ -1429,8 +1429,15 @@
       "pdf_path": "output/product_9d4f8de6.pdf",
       "gumroad_product_id": "9yD1GegLo94ZD1yd3vp68w==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/nwgbp",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-9d4f8de6/product_9d4f8de6.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-9d4f8de6/product_9d4f8de6.pdf",
+      "traffic_posted_at": "2026-06-17T16:40:08.001987",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/designing-for-relevance-key-principles-for-freelance-designers-gaf",
+        "telegraph": "https://telegra.ph/Designing-for-Success-The-Power-of-Good-Taste-06-17",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-06-17T14:52:37.780429"
+  "last_updated": "2026-06-17T16:40:08.002523"
 }
