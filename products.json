@@ -1466,16 +1466,19 @@
         "Design"
       ],
       "telegram_teaser": "Unlock your creativity with ChatGPT: just $19 for 50 prompts tailored to freelance graphic designers",
-      "status": "pdf_ready",
+      "status": "published",
       "created_at": "2026-06-18T12:26:16.500905",
       "traffic_posted": false,
-      "updated_at": "2026-06-18T12:43:46.777270",
+      "updated_at": "2026-06-18T14:48:16.803736",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "Are you a freelance graphic designer struggling to get started on new projects or feeling stuck in your creative process? This pack of 50 premium prompts is designed to help you generate unique and high-quality designs that impress your clients. From brand identity briefs to social media graphics kits, these prompts cover a wide range of design tasks and formats. Whether you're looking to improve your skills, get inspiration, or speed up your workflow, this pack is a valuable resource for any freelance designer.",
       "twitter_hook": "Boost your design skills & workflow with our 50+ premium prompts for freelance designers! Get instant inspiration for brand identity, UI/UX, social media & more! #DesignPrompts #FreelanceDesign #GraphicDesign",
       "pinterest_title": "50 ChatGPT Prompts for Freelance Graphic Designers | Instant Inspiration & Skill-Building",
-      "pdf_path": "output/product_ba4e88a8.pdf"
+      "pdf_path": "output/product_ba4e88a8.pdf",
+      "gumroad_product_id": "hwzDt1uGiy1vYI7X1BceIA==",
+      "gumroad_url": "https://sinanista8.gumroad.com/l/rizon",
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-ba4e88a8/product_ba4e88a8.pdf"
     }
   ],
-  "last_updated": "2026-06-18T12:43:46.777281"
+  "last_updated": "2026-06-18T14:48:16.803744"
 }
