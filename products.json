@@ -1564,8 +1564,8 @@
       "telegram_teaser": "Unlock creativity with ChatGPT: 50 essential prompts for freelance graphic designers",
       "status": "published",
       "created_at": "2026-06-20T11:18:59.276701",
-      "traffic_posted": false,
-      "updated_at": "2026-06-20T13:28:48.360121",
+      "traffic_posted": true,
+      "updated_at": "2026-06-20T15:04:34.171318",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "As a freelance designer, you're constantly looking for inspiration and guidance to create exceptional work. These 50 ChatGPT prompts offer you a comprehensive solution, helping you to develop branding strategies, UI kits, social media graphics, and much more. Say goodbye to design block and hello to limitless creativity with these valuable prompts.",
       "twitter_hook": "Boost your design skills with these 50 ChatGPT prompts for freelance designers! Develop UI kits, branding strategies, social media graphics & more. Get instant inspiration and guidance for your design projects. Buy now: [link]",
@@ -1573,8 +1573,15 @@
       "pdf_path": "output/product_13ddc7db.pdf",
       "gumroad_product_id": "QvW0Txggi8D9fpKPuq4r2g==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/xhwpoz",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-13ddc7db/product_13ddc7db.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-13ddc7db/product_13ddc7db.pdf",
+      "traffic_posted_at": "2026-06-20T15:04:34.170708",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/effective-design-prompting-elevate-your-freelance-graphic-design-3jla",
+        "telegraph": "https://telegra.ph/Crafting-a-Visual-Language-06-20",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-06-20T13:28:48.360133"
+  "last_updated": "2026-06-20T15:04:34.171324"
 }
