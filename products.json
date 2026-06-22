@@ -1660,8 +1660,8 @@
       "telegram_teaser": "Get the edge you need with 50 ChatGPT prompts for freelance designers",
       "status": "published",
       "created_at": "2026-06-22T14:39:15.744020",
-      "traffic_posted": false,
-      "updated_at": "2026-06-22T16:29:24.392670",
+      "traffic_posted": true,
+      "updated_at": "2026-06-22T17:41:05.369618",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "\"Get more clients, boost your skills, and increase your earning potential. This comprehensive prompt pack is designed for freelance graphic designers. Learn how to craft compelling designs, develop strong brands, and impress your clients. With 50 actionable prompts, you'll be well on your way to unlocking your full potential. Take the first step towards becoming a top-tier freelancer today!\"",
       "twitter_hook": "\"Unlock your potential as a freelance graphic designer! Get instant access to 50 actionable prompts that will boost your skills, impress your clients, and increase your earning potential! #freelancedesigner #graphicdesign #careerdevelopment\"",
@@ -1669,8 +1669,15 @@
       "pdf_path": "output/product_64042c86.pdf",
       "gumroad_product_id": "y_AD0bzOUFrtfc0L7vxcMQ==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/puazw",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-64042c86/product_64042c86.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-64042c86/product_64042c86.pdf",
+      "traffic_posted_at": "2026-06-22T17:41:05.368976",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/understanding-design-patterns-and-their-benefits-3a40",
+        "telegraph": "https://telegra.ph/Designing-a-Better-World-06-22",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-06-22T16:29:24.392681"
+  "last_updated": "2026-06-22T17:41:05.369623"
 }
