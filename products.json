@@ -1708,8 +1708,8 @@
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
       "status": "published",
       "created_at": "2026-06-23T12:07:43.264564",
-      "traffic_posted": false,
-      "updated_at": "2026-06-23T14:28:48.192064",
+      "traffic_posted": true,
+      "updated_at": "2026-06-23T15:52:30.122427",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "As a freelance graphic designer, you often find yourself staring at a blank screen, searching for the perfect design prompt to get your creative juices flowing. But what if you had a treasure trove of high-quality prompts to help you tackle even the most challenging design projects? Discover the 50 ChatGPT Prompts for Freelance Designers, carefully curated to help you overcome creative blocks, improve your workflow, and produce stunning designs that impress your clients. With this pack, you'll get instant access to expert-level design prompts that cover branding, UI/UX, print materials, and more. Whether you're a seasoned pro or just starting out, these prompts will help you deliver top-notch results and take your freelance design business to the next level.",
       "twitter_hook": "Unlock your design potential with 50 expert-level prompts! Get instant access to our premium pack and revolutionize your freelance design workflow! #freelancedesign #graphicdesign",
@@ -1717,8 +1717,15 @@
       "pdf_path": "output/product_1137033a.pdf",
       "gumroad_product_id": "XXpb2kQJlL87-HhVOozViQ==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/tifcn",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-1137033a/product_1137033a.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-1137033a/product_1137033a.pdf",
+      "traffic_posted_at": "2026-06-23T15:52:30.121740",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/elevating-your-design-process-with-contextual-understanding-3dk6",
+        "telegraph": "https://telegra.ph/Designing-the-Future-Elevating-User-Experience-06-23",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-06-23T14:28:48.192076"
+  "last_updated": "2026-06-23T15:52:30.122433"
 }
