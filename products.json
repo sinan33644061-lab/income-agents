@@ -1756,8 +1756,8 @@
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
       "status": "published",
       "created_at": "2026-06-24T11:44:01.533999",
-      "traffic_posted": false,
-      "updated_at": "2026-06-24T14:07:41.976069",
+      "traffic_posted": true,
+      "updated_at": "2026-06-24T15:34:59.174902",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "",
       "twitter_hook": "",
@@ -1765,8 +1765,15 @@
       "pdf_path": "output/product_136a1c03.pdf",
       "gumroad_product_id": "B3K17uElWKdREgNGAGBrWA==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/lvjtc",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-136a1c03/product_136a1c03.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-136a1c03/product_136a1c03.pdf",
+      "traffic_posted_at": "2026-06-24T15:34:59.174211",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/designing-on-a-budget-creating-compelling-concepts-without-breaking-the-bank-3nd8",
+        "telegraph": "https://telegra.ph/Elegant-Simplicity-in-Design-06-24",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-06-24T14:07:41.976083"
+  "last_updated": "2026-06-24T15:34:59.174907"
 }
