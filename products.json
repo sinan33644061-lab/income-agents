@@ -1754,16 +1754,19 @@
         "Design"
       ],
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
-      "status": "pdf_ready",
+      "status": "published",
       "created_at": "2026-06-24T11:44:01.533999",
       "traffic_posted": false,
-      "updated_at": "2026-06-24T12:12:00.693853",
+      "updated_at": "2026-06-24T14:07:41.976069",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "",
       "twitter_hook": "",
       "pinterest_title": "50 ChatGPT Prompts for Freelance Designers",
-      "pdf_path": "output/product_136a1c03.pdf"
+      "pdf_path": "output/product_136a1c03.pdf",
+      "gumroad_product_id": "B3K17uElWKdREgNGAGBrWA==",
+      "gumroad_url": "https://sinanista8.gumroad.com/l/lvjtc",
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-136a1c03/product_136a1c03.pdf"
     }
   ],
-  "last_updated": "2026-06-24T12:12:00.693863"
+  "last_updated": "2026-06-24T14:07:41.976083"
 }
