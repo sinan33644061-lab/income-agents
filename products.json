@@ -1754,10 +1754,16 @@
         "Design"
       ],
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
-      "status": "researched",
+      "status": "pdf_ready",
       "created_at": "2026-06-24T11:44:01.533999",
-      "traffic_posted": false
+      "traffic_posted": false,
+      "updated_at": "2026-06-24T12:12:00.693853",
+      "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
+      "gumroad_desc": "",
+      "twitter_hook": "",
+      "pinterest_title": "50 ChatGPT Prompts for Freelance Designers",
+      "pdf_path": "output/product_136a1c03.pdf"
     }
   ],
-  "last_updated": "2026-06-24T11:44:01.534009"
+  "last_updated": "2026-06-24T12:12:00.693863"
 }
