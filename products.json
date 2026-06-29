@@ -1996,8 +1996,8 @@
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
       "status": "published",
       "created_at": "2026-06-29T13:06:34.205756",
-      "traffic_posted": false,
-      "updated_at": "2026-06-29T15:31:47.554229",
+      "traffic_posted": true,
+      "updated_at": "2026-06-29T16:39:06.741375",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "\"Break through the creative block and boost your productivity with our premium prompts pack. Designed specifically for freelance graphic designers, these 50 actionable prompts will guide you through the design process, from concept development to finished product. Whether you're working with a new client or need help with a tight deadline, this prompts pack has got you covered. Join the thousands of designers who have already experienced a significant increase in their design output and efficiency. Get instant access now and transform your design workflow!\"",
       "twitter_hook": "\"Kickstart your design workflow! Download our premium prompts pack for freelance designers and boost your productivity by 50%! Get instant access now! [link]\"",
@@ -2005,8 +2005,15 @@
       "pdf_path": "output/product_2d623f52.pdf",
       "gumroad_product_id": "7kehXV44gSLJqOsNoRyJYQ==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/gxudmd",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-2d623f52/product_2d623f52.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-2d623f52/product_2d623f52.pdf",
+      "traffic_posted_at": "2026-06-29T16:39:06.740265",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/crafting-compelling-user-interfaces-4hgg",
+        "telegraph": "https://telegra.ph/Designing-a-Better-World-06-29",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-06-29T15:31:47.554242"
+  "last_updated": "2026-06-29T16:39:06.741383"
 }
