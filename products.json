@@ -2140,8 +2140,8 @@
       "telegram_teaser": "Unlock the full potential of your freelance design business with 50 game-changing ChatGPT prompts",
       "status": "published",
       "created_at": "2026-07-02T11:33:23.806880",
-      "traffic_posted": false,
-      "updated_at": "2026-07-02T13:30:25.119858",
+      "traffic_posted": true,
+      "updated_at": "2026-07-02T15:18:53.042215",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "",
       "twitter_hook": "",
@@ -2149,8 +2149,15 @@
       "pdf_path": "output/product_0c934fe9.pdf",
       "gumroad_product_id": "p_GJ003DKwU2gFW8nly3qg==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/bikds",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-0c934fe9/product_0c934fe9.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-0c934fe9/product_0c934fe9.pdf",
+      "traffic_posted_at": "2026-07-02T15:18:53.041484",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/effective-design-prompts-for-freelancers-5p4",
+        "telegraph": "https://telegra.ph/The-Art-of-Visual-Storytelling-07-02",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-07-02T13:30:25.119870"
+  "last_updated": "2026-07-02T15:18:53.042221"
 }
