@@ -2186,10 +2186,16 @@
         "Writing"
       ],
       "telegram_teaser": "Unleash your creativity with 50 AI-powered hacks for writers",
-      "status": "researched",
+      "status": "pdf_ready",
       "created_at": "2026-07-03T11:31:53.200449",
-      "traffic_posted": false
+      "traffic_posted": false,
+      "updated_at": "2026-07-03T11:57:48.252446",
+      "gumroad_title": "50 AI Content Generation Hacks for Creative Writers",
+      "gumroad_desc": "As a freelance writer, you're constantly searching for new ways to generate high-quality content on tight deadlines. But the struggle is real - from crafting compelling headlines to creating engaging product descriptions, the workload can be overwhelming. With this premium prompt pack, \"50 AI Content Generation Hacks for Creative Writers,\" you'll gain instant access to over 50 AI-powered prompts designed to supercharge your writing productivity. From science fiction worldbuilding to luxury brand voice development, these prompts will fuel your creativity and help you produce exceptional content for clients. Say goodbye to writer's block and hello to a more efficient, profitable writing career.",
+      "twitter_hook": "Unlock 50 AI-powered prompts to supercharge your writing productivity! Get instant access to this premium pack and transform your freelance writing career #writingproductivity #contentmarketing",
+      "pinterest_title": "50 AI Content Generation Hacks for Freelance Writers",
+      "pdf_path": "output/product_8e182cd4.pdf"
     }
   ],
-  "last_updated": "2026-07-03T11:31:53.200459"
+  "last_updated": "2026-07-03T11:57:48.252455"
 }
