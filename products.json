@@ -2236,8 +2236,8 @@
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
       "status": "published",
       "created_at": "2026-07-04T10:53:51.128382",
-      "traffic_posted": false,
-      "updated_at": "2026-07-04T13:01:12.899280",
+      "traffic_posted": true,
+      "updated_at": "2026-07-04T14:40:15.756080",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "",
       "twitter_hook": "",
@@ -2245,8 +2245,15 @@
       "pdf_path": "output/product_98c86ed6.pdf",
       "gumroad_product_id": "Of-pfxU7WwFdY9MsNfAZgA==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/rpaab",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-98c86ed6/product_98c86ed6.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-98c86ed6/product_98c86ed6.pdf",
+      "traffic_posted_at": "2026-07-04T14:40:15.755371",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/enhancing-design-creativity-through-constraints-31gj",
+        "telegraph": "https://telegra.ph/Designing-the-Future-One-Idea-at-a-Time-07-04",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-07-04T13:01:12.899290"
+  "last_updated": "2026-07-04T14:40:15.756086"
 }
