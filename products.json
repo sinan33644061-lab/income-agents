@@ -2253,7 +2253,39 @@
         "mastodon": true,
         "telegram": true
       }
+    },
+    {
+      "id": "02cadd9a-c4ae-4702-9f59-7ee3da75bb2e",
+      "title": "Moby Dick Workout 2.0 (2023 Update)",
+      "product_type": "ebook",
+      "target_audience": "fitness enthusiasts and athletes (ages 18-45)",
+      "niche": "health and fitness",
+      "price": 17,
+      "keywords": [
+        "mobydick",
+        "workout",
+        "fitness"
+      ],
+      "devto_tags": [
+        "fitness",
+        "productivity",
+        "health"
+      ],
+      "hashnode_tags": [
+        "Health",
+        "Fitness",
+        "Productivity"
+      ],
+      "blogger_labels": [
+        "Fitness",
+        "Wellness",
+        "Workout"
+      ],
+      "telegram_teaser": "Level up your fitness with Moby Dick Workout 2.0 - 2023 updates inside",
+      "status": "researched",
+      "created_at": "2026-07-05T11:03:48.673961",
+      "traffic_posted": false
     }
   ],
-  "last_updated": "2026-07-04T14:40:15.756086"
+  "last_updated": "2026-07-05T11:03:48.673970"
 }
