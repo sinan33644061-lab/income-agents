@@ -2282,10 +2282,16 @@
         "Workout"
       ],
       "telegram_teaser": "Level up your fitness with Moby Dick Workout 2.0 - 2023 updates inside",
-      "status": "researched",
+      "status": "pdf_ready",
       "created_at": "2026-07-05T11:03:48.673961",
-      "traffic_posted": false
+      "traffic_posted": false,
+      "updated_at": "2026-07-05T11:20:55.267435",
+      "gumroad_title": "Moby Dick Workout 2.0 (2023 Update)",
+      "gumroad_desc": "",
+      "twitter_hook": "",
+      "pinterest_title": "Moby Dick Workout 2.0 (2023 Update)",
+      "pdf_path": "output/product_02cadd9a.pdf"
     }
   ],
-  "last_updated": "2026-07-05T11:03:48.673970"
+  "last_updated": "2026-07-05T11:20:55.267446"
 }
