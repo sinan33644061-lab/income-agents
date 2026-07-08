@@ -2397,7 +2397,39 @@
         "mastodon": true,
         "telegram": true
       }
+    },
+    {
+      "id": "c1e8a453-2545-4073-be62-ed878c3af0bd",
+      "title": "30papers.com \u2013 Essential AI/Machine Learning Papers for Data Scientists Explained",
+      "product_type": "ebook",
+      "target_audience": "data scientists, machine learning engineers",
+      "niche": "machine learning",
+      "price": 17,
+      "keywords": [
+        "machine learning papers",
+        "ai",
+        "data science"
+      ],
+      "devto_tags": [
+        "artificial intelligence",
+        "machine learning",
+        "data science"
+      ],
+      "hashnode_tags": [
+        "AI",
+        "Machine Learning",
+        "Data Science"
+      ],
+      "blogger_labels": [
+        "AI",
+        "Machine Learning",
+        "Data Science"
+      ],
+      "telegram_teaser": "Unlock the top AI/ML papers with expert explanations",
+      "status": "researched",
+      "created_at": "2026-07-08T11:03:18.035121",
+      "traffic_posted": false
     }
   ],
-  "last_updated": "2026-07-07T15:44:17.922965"
+  "last_updated": "2026-07-08T11:03:18.035131"
 }
