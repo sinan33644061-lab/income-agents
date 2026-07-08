@@ -2426,10 +2426,16 @@
         "Data Science"
       ],
       "telegram_teaser": "Unlock the top AI/ML papers with expert explanations",
-      "status": "researched",
+      "status": "pdf_ready",
       "created_at": "2026-07-08T11:03:18.035121",
-      "traffic_posted": false
+      "traffic_posted": false,
+      "updated_at": "2026-07-08T11:39:29.072702",
+      "gumroad_title": "30papers.com \u2013 Essential AI/Machine Learning Papers for Data Scientists Explained",
+      "gumroad_desc": "",
+      "twitter_hook": "",
+      "pinterest_title": "30papers.com \u2013 Essential AI/Machine Learning Papers for Data Scientists Explained",
+      "pdf_path": "output/product_c1e8a453.pdf"
     }
   ],
-  "last_updated": "2026-07-08T11:03:18.035131"
+  "last_updated": "2026-07-08T11:39:29.072712"
 }
