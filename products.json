@@ -2619,8 +2619,8 @@
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
       "status": "published",
       "created_at": "2026-07-12T10:27:11.699282",
-      "traffic_posted": false,
-      "updated_at": "2026-07-12T12:57:35.214864",
+      "traffic_posted": true,
+      "updated_at": "2026-07-12T14:27:00.913014",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "Are you tired of brainstorming ideas and struggling to complete design projects on time? As a freelance designer, accessing the right design resources can be a game-changer. Imagine having 50+ ready-to-use ChatGPT prompts tailored to solve your most pressing design challenges, from brand identity to packaging, social media campaigns, and UI prototyping. These expert-level prompts help you get into the zone of peak creativity and tackle complex projects with confidence. Say goodbye to creative blockages and get instant access to 50 ChatGPT prompts that save you time, effort, and stress!",
       "twitter_hook": "Unleash your design creativity with our 50 ChatGPT prompts for freelance designers! Boost your productivity and tackle complex projects with confidence! [Download now!](link)",
@@ -2628,8 +2628,15 @@
       "pdf_path": "output/product_82603039.pdf",
       "gumroad_product_id": "r6KAbdj2EY0xDmpsUnBfKA==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/dcnfu",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-82603039/product_82603039.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-82603039/product_82603039.pdf",
+      "traffic_posted_at": "2026-07-12T14:27:00.912434",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/designing-effective-user-interactions-through-empathy-mapping-4m12",
+        "telegraph": "https://telegra.ph/Design-with-Purpose-Bringing-Ideas-to-Life-07-12",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-07-12T12:57:35.214875"
+  "last_updated": "2026-07-12T14:27:00.913019"
 }
