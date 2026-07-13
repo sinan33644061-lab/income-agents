@@ -2636,7 +2636,39 @@
         "mastodon": true,
         "telegram": true
       }
+    },
+    {
+      "id": "58a1e4e3-0aec-4f9b-b215-a370e45a2b22",
+      "title": "Back to Basics: AI-Assisted Graphic Design Fundamentals",
+      "product_type": "cheat_sheet",
+      "target_audience": "aspiring graphic designers",
+      "niche": "design",
+      "price": 17,
+      "keywords": [
+        "graphic design basics",
+        "ai-assisted design",
+        "design fundamentals"
+      ],
+      "devto_tags": [
+        "design",
+        "ai",
+        "productivity"
+      ],
+      "hashnode_tags": [
+        "Design",
+        "Productivity",
+        "AI"
+      ],
+      "blogger_labels": [
+        "Graphic Design",
+        "AI Tools",
+        "Creative Skills"
+      ],
+      "telegram_teaser": "Unlock design fundamentals with our new AI-assisted guide",
+      "status": "researched",
+      "created_at": "2026-07-13T12:04:56.855290",
+      "traffic_posted": false
     }
   ],
-  "last_updated": "2026-07-12T14:27:00.913019"
+  "last_updated": "2026-07-13T12:04:56.855300"
 }
