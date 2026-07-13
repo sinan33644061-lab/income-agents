@@ -2667,8 +2667,8 @@
       "telegram_teaser": "Unlock design fundamentals with our new AI-assisted guide",
       "status": "published",
       "created_at": "2026-07-13T12:04:56.855290",
-      "traffic_posted": false,
-      "updated_at": "2026-07-13T14:07:08.690035",
+      "traffic_posted": true,
+      "updated_at": "2026-07-13T15:43:59.489992",
       "gumroad_title": "Back to Basics: AI-Assisted Graphic Design Fundamentals",
       "gumroad_desc": "Master the fundamentals of graphic design in the age of AI. This comprehensive cheat sheet and guide covers color theory, typography, layout, and composition. Learn how to apply the 60-30-10 rule, the Golden Ratio, and the 7-10-12-15 rule to create stunning and effective designs. With insights on avoiding common mistakes and pro tips on staying ahead of the curve, this guide is perfect for aspiring graphic designers looking to level up their skills and create remarkable designs.",
       "twitter_hook": "Revolutionize your graphic design skills with our ultimate cheat sheet! Learn AI-assisted design fundamentals, avoid common mistakes, and stay ahead of the curve. #GraphicDesign #AIAssistant #DesignFundamentals",
@@ -2676,8 +2676,15 @@
       "pdf_path": "output/product_58a1e4e3.pdf",
       "gumroad_product_id": "Sp2FF5OWYl9jqACxvGyfQg==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/aelrc",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-58a1e4e3/product_58a1e4e3.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-58a1e4e3/product_58a1e4e3.pdf",
+      "traffic_posted_at": "2026-07-13T15:43:59.489145",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/designing-for-clarity-essential-principles-for-aspiring-graphic-designers-466i",
+        "telegraph": "https://telegra.ph/Design-with-Purpose-07-13",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-07-13T14:07:08.690046"
+  "last_updated": "2026-07-13T15:43:59.489997"
 }
