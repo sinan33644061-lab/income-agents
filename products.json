@@ -2665,10 +2665,16 @@
         "Creative Skills"
       ],
       "telegram_teaser": "Unlock design fundamentals with our new AI-assisted guide",
-      "status": "researched",
+      "status": "pdf_ready",
       "created_at": "2026-07-13T12:04:56.855290",
-      "traffic_posted": false
+      "traffic_posted": false,
+      "updated_at": "2026-07-13T12:23:36.801972",
+      "gumroad_title": "Back to Basics: AI-Assisted Graphic Design Fundamentals",
+      "gumroad_desc": "Master the fundamentals of graphic design in the age of AI. This comprehensive cheat sheet and guide covers color theory, typography, layout, and composition. Learn how to apply the 60-30-10 rule, the Golden Ratio, and the 7-10-12-15 rule to create stunning and effective designs. With insights on avoiding common mistakes and pro tips on staying ahead of the curve, this guide is perfect for aspiring graphic designers looking to level up their skills and create remarkable designs.",
+      "twitter_hook": "Revolutionize your graphic design skills with our ultimate cheat sheet! Learn AI-assisted design fundamentals, avoid common mistakes, and stay ahead of the curve. #GraphicDesign #AIAssistant #DesignFundamentals",
+      "pinterest_title": "Graphic Design Fundamentals: Master AI-Assisted Design with Our Ultimate Cheat Sheet | Learn color theory, typography, layout, and composition | Avoid common mistakes and stay ahead of the curve with pro tips | Perfect for aspiring designers |",
+      "pdf_path": "output/product_58a1e4e3.pdf"
     }
   ],
-  "last_updated": "2026-07-13T12:04:56.855300"
+  "last_updated": "2026-07-13T12:23:36.801984"
 }
