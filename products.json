@@ -2713,10 +2713,16 @@
         "Design"
       ],
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
-      "status": "researched",
+      "status": "pdf_ready",
       "created_at": "2026-07-14T10:45:05.805214",
-      "traffic_posted": false
+      "traffic_posted": false,
+      "updated_at": "2026-07-14T11:14:16.905399",
+      "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
+      "gumroad_desc": "\"Overwhelmed by creative challenges? Unlock a library of 50 premium prompts tailored for freelance graphic designers. Dive into design exercises, real-world client projects, and expand your expertise in visual identity, UI/UX, branding, and more. Perfect for those looking to boost productivity, improve skills, and stand out in the industry.\"",
+      "twitter_hook": "\"Rev up your graphic design skills in minutes! 50 expert prompts for freelancers, covering visual identity, UI/UX, branding, and more. Get ready to boost productivity and level-up your creative game! #GraphicDesign #FreelanceLife #ProductivityHacks\"",
+      "pinterest_title": "\"Unlock 50 Exclusive ChatGPT Prompts for Freelance Graphic Designers\"",
+      "pdf_path": "output/product_dd40fc90.pdf"
     }
   ],
-  "last_updated": "2026-07-14T10:45:05.805223"
+  "last_updated": "2026-07-14T11:14:16.905408"
 }
