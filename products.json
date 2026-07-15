@@ -2763,8 +2763,8 @@
       "telegram_teaser": "Boost your freelance design skills with 50 AI-ready prompts",
       "status": "published",
       "created_at": "2026-07-15T10:48:56.551578",
-      "traffic_posted": false,
-      "updated_at": "2026-07-15T13:13:45.712611",
+      "traffic_posted": true,
+      "updated_at": "2026-07-15T14:54:30.773637",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "",
       "twitter_hook": "",
@@ -2772,8 +2772,15 @@
       "pdf_path": "output/product_3687b794.pdf",
       "gumroad_product_id": "vkYas-wigO9DRCpicdIHGg==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/eakfs",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-3687b794/product_3687b794.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-3687b794/product_3687b794.pdf",
+      "traffic_posted_at": "2026-07-15T14:54:30.772718",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/designing-for-user-understanding-a-guide-for-freelance-graphic-designers-4d10",
+        "telegraph": "https://telegra.ph/Design-with-a-Purpose-07-15",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-07-15T13:13:45.712621"
+  "last_updated": "2026-07-15T14:54:30.773642"
 }
