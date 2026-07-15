@@ -2761,10 +2761,16 @@
         "Design"
       ],
       "telegram_teaser": "Boost your freelance design skills with 50 AI-ready prompts",
-      "status": "researched",
+      "status": "pdf_ready",
       "created_at": "2026-07-15T10:48:56.551578",
-      "traffic_posted": false
+      "traffic_posted": false,
+      "updated_at": "2026-07-15T11:17:24.344569",
+      "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
+      "gumroad_desc": "",
+      "twitter_hook": "",
+      "pinterest_title": "50 ChatGPT Prompts for Freelance Designers",
+      "pdf_path": "output/product_3687b794.pdf"
     }
   ],
-  "last_updated": "2026-07-15T10:48:56.551589"
+  "last_updated": "2026-07-15T11:17:24.344578"
 }
