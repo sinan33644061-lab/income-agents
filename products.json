@@ -2955,8 +2955,8 @@
       "telegram_teaser": "Unlock more design wins with these 50+ ChatGPT prompts",
       "status": "published",
       "created_at": "2026-07-19T10:27:00.902306",
-      "traffic_posted": false,
-      "updated_at": "2026-07-19T12:55:40.463795",
+      "traffic_posted": true,
+      "updated_at": "2026-07-19T14:24:35.541380",
       "gumroad_title": "50 ChatGPT Prompts for Freelance UX Designers",
       "gumroad_desc": "As a freelance UX designer, staying up-to-date with industry trends and best practices can be challenging. These 50 prompts will help you enhance your skills, increase client satisfaction, and stand out in the market. From designing for accessibility to developing a design system, these prompts cover a wide range of topics to help you deliver high-quality UX designs.",
       "twitter_hook": "Upgrade your UX skills with our 50 ChatGPT prompts. Learn to design for accessibility, develop a design system, and more. Enhance your freelance career and deliver high-quality UX designs.",
@@ -2964,8 +2964,15 @@
       "pdf_path": "output/product_7c882a95.pdf",
       "gumroad_product_id": "IUfkL_Z02nX-6_3MPgPvnQ==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/vmpjd",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-7c882a95/product_7c882a95.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-7c882a95/product_7c882a95.pdf",
+      "traffic_posted_at": "2026-07-19T14:24:35.540531",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/effective-design-decision-making-for-freelance-ux-designers-3n83",
+        "telegraph": "https://telegra.ph/Designing-for-the-User-07-19",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-07-19T12:55:40.463806"
+  "last_updated": "2026-07-19T14:24:35.541387"
 }
