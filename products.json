@@ -2924,7 +2924,39 @@
         "mastodon": true,
         "telegram": true
       }
+    },
+    {
+      "id": "7c882a95-ac41-4bf4-b04b-afda392c2d01",
+      "title": "50 ChatGPT Prompts for Freelance UX Designers",
+      "product_type": "prompt_pack",
+      "target_audience": "freelance UX designers",
+      "niche": "design",
+      "price": 14,
+      "keywords": [
+        "chatgpt prompts",
+        "ux design",
+        "freelance"
+      ],
+      "devto_tags": [
+        "productivity",
+        "ai",
+        "design"
+      ],
+      "hashnode_tags": [
+        "AI",
+        "Productivity",
+        "Design"
+      ],
+      "blogger_labels": [
+        "AI Tools",
+        "Freelance",
+        "Design"
+      ],
+      "telegram_teaser": "Unlock more design wins with these 50+ ChatGPT prompts",
+      "status": "researched",
+      "created_at": "2026-07-19T10:27:00.902306",
+      "traffic_posted": false
     }
   ],
-  "last_updated": "2026-07-18T14:21:08.811251"
+  "last_updated": "2026-07-19T10:27:00.902316"
 }
