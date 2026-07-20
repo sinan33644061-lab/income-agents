@@ -3003,8 +3003,8 @@
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
       "status": "published",
       "created_at": "2026-07-20T11:44:30.271778",
-      "traffic_posted": false,
-      "updated_at": "2026-07-20T13:48:54.070017",
+      "traffic_posted": true,
+      "updated_at": "2026-07-20T15:13:07.596289",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "\"Break through creative blocks with these 50 actionable prompts for freelance graphic designers. Develop skills, boost productivity, and land clients with our expert-designed prompts tailored for UI/UX, branding, web, and visual design professionals. Get instant access to exclusive prompts and ignite your creativity today!\"",
       "twitter_hook": "\"Unleash your creativity with our 50 ChatGPT prompts for freelance designers! Develop skills, boost productivity & land clients w/ our expert-designed prompts. Get instant access now & start crushing it!\"",
@@ -3012,8 +3012,15 @@
       "pdf_path": "output/product_dae8cf44.pdf",
       "gumroad_product_id": "-OQQBbC5PxuzLlZoO9x77A==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/qdcug",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-dae8cf44/product_dae8cf44.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-dae8cf44/product_dae8cf44.pdf",
+      "traffic_posted_at": "2026-07-20T15:13:07.595456",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/creating-consistent-brand-assets-with-iterative-design-3a9",
+        "telegraph": "https://telegra.ph/Elegance-in-Design-The-Art-of-Creating-Beautiful-Experiences-07-20",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-07-20T13:48:54.070031"
+  "last_updated": "2026-07-20T15:13:07.596296"
 }
