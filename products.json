@@ -3100,8 +3100,8 @@
       "telegram_teaser": "Level up your design workflow with 50 AI-assisted prompts",
       "status": "published",
       "created_at": "2026-07-22T11:09:04.238738",
-      "traffic_posted": false,
-      "updated_at": "2026-07-22T13:22:25.916131",
+      "traffic_posted": true,
+      "updated_at": "2026-07-22T15:07:18.450743",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "Boost your freelance design business with actionable prompts and expert-level design solutions. Say goodbye to design block and hello to a more efficient workflow.",
       "twitter_hook": "",
@@ -3109,8 +3109,15 @@
       "pdf_path": "output/product_caccdcb2.pdf",
       "gumroad_product_id": "o82wf9aMmMI64UWNDHo_8Q==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/lhlpyq",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-caccdcb2/product_caccdcb2.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-caccdcb2/product_caccdcb2.pdf",
+      "traffic_posted_at": "2026-07-22T15:07:18.449970",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/improving-your-design-process-with-prompts-41m",
+        "telegraph": "https://telegra.ph/Design-Elements-That-Make-a-Difference-07-22",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-07-22T13:22:25.916142"
+  "last_updated": "2026-07-22T15:07:18.450749"
 }
