@@ -4,15 +4,18 @@ OVERPASS_URL = "https://overpass.kumi.systems/api/interpreter"
 
 # --- Config: change these for your batch ---
 CATEGORY = "restaurant"     # OSM tag value, e.g. restaurant, cafe, dentist
-AREA_NAME = "Lahore"        # city/area name exactly as it appears in OSM
+AREA_NAME = "Lahore"        # display only for now
 COUNTRY = "Pakistan"        # display only for now
 
+# Bounding box around Lahore: (south, west, north, east)
+# A direct bbox skips Overpass's slow "area by name" lookup step.
+BBOX = (31.35, 74.15, 31.65, 74.50)
+
 query = f"""
-[out:json][timeout:25];
-area["name"="{AREA_NAME}"]["boundary"="administrative"]->.searchArea;
+[out:json][timeout:60];
 (
-  node["amenity"="{CATEGORY}"](area.searchArea);
-  way["amenity"="{CATEGORY}"](area.searchArea);
+  node["amenity"="{CATEGORY}"]({BBOX[0]},{BBOX[1]},{BBOX[2]},{BBOX[3]});
+  way["amenity"="{CATEGORY}"]({BBOX[0]},{BBOX[1]},{BBOX[2]},{BBOX[3]});
 );
 out center tags;
 """
@@ -23,7 +26,7 @@ headers = {
     "Accept-Encoding": "gzip, deflate",
 }
 
-response = requests.post(OVERPASS_URL, data={"data": query}, headers=headers)
+response = requests.post(OVERPASS_URL, data={"data": query}, headers=headers, timeout=90)
 response.raise_for_status()
 data = response.json()
 
