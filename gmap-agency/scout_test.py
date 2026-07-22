@@ -17,9 +17,13 @@ area["name"="{AREA_NAME}"]["boundary"="administrative"]->.searchArea;
 out center tags;
 """
 
-response = requests.post(OVERPASS_URL, data={"data": query})
-response.raise_for_status()
-data = response.json()
+headers = {
+    "User-Agent": "gmap-agency-scout/1.0 (contact: your-email@example.com)",
+    "Accept": "application/json",
+    "Accept-Encoding": "gzip, deflate",
+}
+
+response = requests.post(OVERPASS_URL, data={"data": query}, headers=headers)
 
 elements = data.get("elements", [])
 print(f"Found {len(elements)} {CATEGORY} listings in {AREA_NAME}, {COUNTRY}\n")
