@@ -24,6 +24,8 @@ headers = {
 }
 
 response = requests.post(OVERPASS_URL, data={"data": query}, headers=headers)
+response.raise_for_status()
+data = response.json()
 
 elements = data.get("elements", [])
 print(f"Found {len(elements)} {CATEGORY} listings in {AREA_NAME}, {COUNTRY}\n")
