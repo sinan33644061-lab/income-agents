@@ -1,6 +1,6 @@
 import requests
 
-OVERPASS_URL = "https://overpass-api.de/api/interpreter"
+OVERPASS_URL = "https://overpass.kumi.systems/api/interpreter"
 
 # --- Config: change these for your batch ---
 CATEGORY = "restaurant"     # OSM tag value, e.g. restaurant, cafe, dentist
