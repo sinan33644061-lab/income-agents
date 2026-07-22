@@ -3098,10 +3098,16 @@
         "Design"
       ],
       "telegram_teaser": "Level up your design workflow with 50 AI-assisted prompts",
-      "status": "researched",
+      "status": "pdf_ready",
       "created_at": "2026-07-22T11:09:04.238738",
-      "traffic_posted": false
+      "traffic_posted": false,
+      "updated_at": "2026-07-22T11:39:38.054926",
+      "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
+      "gumroad_desc": "Boost your freelance design business with actionable prompts and expert-level design solutions. Say goodbye to design block and hello to a more efficient workflow.",
+      "twitter_hook": "",
+      "pinterest_title": "50 Freelance Design Prompts for Pro Designers",
+      "pdf_path": "output/product_caccdcb2.pdf"
     }
   ],
-  "last_updated": "2026-07-22T11:09:04.238748"
+  "last_updated": "2026-07-22T11:39:38.054936"
 }
