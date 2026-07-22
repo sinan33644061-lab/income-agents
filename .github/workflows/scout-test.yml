@@ -1,0 +1,22 @@
+name: Scout Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-scout-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run scout test script
+        run: python gmap-agency/scout_test.py
