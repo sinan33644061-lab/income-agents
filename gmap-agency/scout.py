@@ -8,7 +8,7 @@ OVERPASS_URL = "https://overpass.kumi.systems/api/interpreter"
 CATEGORY = "restaurant"
 
 # --- Batch control: runs this many cities per execution ---
-BATCH_START = 0
+BATCH_START = int(os.environ.get("BATCH_START", "0"))
 BATCH_SIZE = 15
 
 # name, country, lat, lon
