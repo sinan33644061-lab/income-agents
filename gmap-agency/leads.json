@@ -16388,5 +16388,715 @@
     "phone": "+44 20 7482 2700",
     "channel": "whatsapp",
     "status": "scouted"
+  },
+  {
+    "name": "Shikara Restaurant",
+    "category": "restaurant",
+    "area": "Riyadh",
+    "country": "Saudi Arabia",
+    "email": null,
+    "phone": "+966112305333",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "La Piazza",
+    "category": "restaurant",
+    "area": "Riyadh",
+    "country": "Saudi Arabia",
+    "email": null,
+    "phone": "+966114543300",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Entrecôte Café de Paris",
+    "category": "restaurant",
+    "area": "Riyadh",
+    "country": "Saudi Arabia",
+    "email": null,
+    "phone": "+966920018998",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Tasty Corner Kuwait",
+    "category": "restaurant",
+    "area": "Kuwait City",
+    "country": "Kuwait",
+    "email": null,
+    "phone": "+965 5586 8824",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "غدير البدور",
+    "category": "restaurant",
+    "area": "Kuwait City",
+    "country": "Kuwait",
+    "email": null,
+    "phone": "+965 22523020",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Universal Tasty",
+    "category": "restaurant",
+    "area": "Kuwait City",
+    "country": "Kuwait",
+    "email": null,
+    "phone": "+965 50830863",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "سفير جديد",
+    "category": "restaurant",
+    "area": "Kuwait City",
+    "country": "Kuwait",
+    "email": null,
+    "phone": "+965 65652629",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Giulia by Vigonovo",
+    "category": "restaurant",
+    "area": "Kuwait City",
+    "country": "Kuwait",
+    "email": null,
+    "phone": "+965 22398080",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Nirvana",
+    "category": "restaurant",
+    "area": "Manama",
+    "country": "Bahrain",
+    "email": null,
+    "phone": "+973 17 580 000",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Maki",
+    "category": "restaurant",
+    "area": "Manama",
+    "country": "Bahrain",
+    "email": null,
+    "phone": "+973 17522733",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Pizza King",
+    "category": "restaurant",
+    "area": "Manama",
+    "country": "Bahrain",
+    "email": null,
+    "phone": "1700555",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Wang Thai",
+    "category": "restaurant",
+    "area": "Manama",
+    "country": "Bahrain",
+    "email": null,
+    "phone": "17710771",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lanterns",
+    "category": "restaurant",
+    "area": "Manama",
+    "country": "Bahrain",
+    "email": null,
+    "phone": "0097317246777",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Century International Restaurant",
+    "category": "restaurant",
+    "area": "Manama",
+    "country": "Bahrain",
+    "email": null,
+    "phone": "17 540100",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "فريج بن رشدان",
+    "category": "restaurant",
+    "area": "Manama",
+    "country": "Bahrain",
+    "email": null,
+    "phone": "77300300",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "مطعم مشويات الجودي",
+    "category": "restaurant",
+    "area": "Manama",
+    "country": "Bahrain",
+    "email": null,
+    "phone": "009731774024",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Chili's",
+    "category": "restaurant",
+    "area": "Manama",
+    "country": "Bahrain",
+    "email": null,
+    "phone": "33557769",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "طوش طوشين",
+    "category": "restaurant",
+    "area": "Manama",
+    "country": "Bahrain",
+    "email": "tosh.toshin@gmail.com",
+    "phone": "0097377474444",
+    "channel": "email",
+    "status": "scouted"
+  },
+  {
+    "name": "Qazween Broasted",
+    "category": "restaurant",
+    "area": "Manama",
+    "country": "Bahrain",
+    "email": null,
+    "phone": "17246464",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ras Rumman Restaurant",
+    "category": "restaurant",
+    "area": "Manama",
+    "country": "Bahrain",
+    "email": null,
+    "phone": "17200190",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "The Lebanese Bakery BH",
+    "category": "restaurant",
+    "area": "Manama",
+    "country": "Bahrain",
+    "email": null,
+    "phone": "+97317595559",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Meat Moot Smoking",
+    "category": "restaurant",
+    "area": "Manama",
+    "country": "Bahrain",
+    "email": null,
+    "phone": "+97317777700",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Origin Kitchen & Culture",
+    "category": "restaurant",
+    "area": "Manama",
+    "country": "Bahrain",
+    "email": "bahhh.dining@hilton.com",
+    "phone": "+973 3369 2013",
+    "channel": "email",
+    "status": "scouted"
+  },
+  {
+    "name": "Bait AlMashrabiya",
+    "category": "restaurant",
+    "area": "Manama",
+    "country": "Bahrain",
+    "email": null,
+    "phone": "+973 17777166",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Kalinga Restaurant",
+    "category": "restaurant",
+    "area": "Manama",
+    "country": "Bahrain",
+    "email": "kalingabh@gmail.com",
+    "phone": "+973 3356 4000",
+    "channel": "email",
+    "status": "scouted"
+  },
+  {
+    "name": "360",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "24590398",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "مطعم الجود اللبناني",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+96895172505",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Turkish Diwan",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "24486957",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Meerath Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "22478369",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Irani House Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 94333419",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Annalakshmi Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 9664 2575",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Doganza",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+96894445262",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "مطعم ممباسا",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "96250577",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "حزة",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+96893897002",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "قصر الكباب الافغاني",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 97660501",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "مطعم رفيل",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968-98156091",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Meerath Famous Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 24503633",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "مطعم لهب للماكولات العمانيه",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 7212 1218",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Melenzane Shati Al Qurum",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+96891263340",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Farzi Café",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+96897940104",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Turkish Days",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+96891111301",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "ارض المحاسي - محشي كشري",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+9689019994",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "عيال العريج",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 9908 6665",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Maharaja Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 79525899",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "El Baghl",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+96872657677",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Soha Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+96824479012",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Pad Thai Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+96824480448",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Swaad Pure Vegetarian Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+96898101376",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Al Salam Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 9358 6189",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Krua Thai Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 9895 4666",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Queens Palace Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 7102 2440;+968 9265 8714",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Royal Afghan Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 7831 3515",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Bukhari House Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 94613002",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Afghan Kebab Palace Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 9766 0499",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Al Yemen Al Saeed Land Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 94200564",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "بيتزا بيلوتشي",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 9166 6120",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lebanese Village",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 2448 6000",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Udupi Home Vegetarian Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 9562 1664",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Me So Hungry Sushi",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 7740 0744",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Mint & Coco",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 22007770",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Indonesian Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 99432798",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Mmari Smoke House",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 7742 9787",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Anatolia Turkish Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+96894624747",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Eggxit",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 98034418",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sushian",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+96871762509",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "King Fish Seafood",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 9525 1188",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Vietnam Milk Tea and Coffee",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 9496 6884",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Hyderabad Palace Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 71121112",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Fish House Restaurant",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 96640653",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Momo Mania",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 78889797",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Dosa Corner South Indian Food Cafe",
+    "category": "restaurant",
+    "area": "Muscat",
+    "country": "Oman",
+    "email": null,
+    "phone": "+968 78925501",
+    "channel": "whatsapp",
+    "status": "scouted"
   }
 ]
