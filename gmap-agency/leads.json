@@ -1,0 +1,5132 @@
+[
+  {
+    "name": "Mi",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-917-388-2679",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "El Loco Burrito",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 718-388-8215",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Tony's Pizza",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-384-8669",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "East Met West",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 718-218-7777",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "The Breslin",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-679-1939",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Quechua Nostra",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-410-0707",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Zafis Luncheonette",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-533-2415",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Banc",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-252-0146",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Polash",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-410-0276",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Briciola Pizza Bar",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-630-8317",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Rudraks",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-222-4800",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Raj's Indian Kitchen",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-559-2322",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Shanghai Lee",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-349-6716",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Cafe Joul",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-759-3131",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Chelsea Square Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-691-5400",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Da Andrea",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-354-5971",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Chelsea Cottage's Viet Grill",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-366-4881;+1-212-366-4882",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Dil e Punjab Deli",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-647-9428",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Hollywood Diner",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-691-8465",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sushi-tei",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212 753-3535",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ballato",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-274-8881",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Tabetomo",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-850-6414",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ming Kee Kitchen",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-219-2282",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Rockmeisha",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-360-2598",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lucia Pizza",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 917 965-2900",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Tofu Tofu",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-917-442-5001",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Il Cortile",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-226-6060",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "M & J",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-533-6888",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Beauty & Essex",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-614-0146",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Yuki Sushi",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-917-409-0429",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sobak",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 917-265-8188",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Koo Thai",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-666-0448",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Veeray Da Dhaba",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-777-1420",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Latin American Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-689-2570",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lahori Kabab",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-620-3183",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Rubby Pizzeria Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-757-3707",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sam's Place",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-599-6360",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sachi",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-297-1883",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Loco Coco",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": "hello@coco-loco.com",
+    "phone": "+1 212-888-9900",
+    "channel": "email",
+    "status": "scouted"
+  },
+  {
+    "name": "Shinbashi 72",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-510-7799",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "New Cottage Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-595-7450",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "New Kam Lai",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-769-8990",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Maison Pickle",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-496-9100",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "La Nueva Victoria Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-865-1810",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Cajun Halal Platters",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-707-3147",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Traviata Pizza II",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-449-0366",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Benny’s Chao King",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-364-3790;+1-212-364-3793",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "East Harlem Bottling Co",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 646-922-7705",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lalibela",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-917-409-1609",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Bombay Grill & Curry",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-389-2211",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Shui Mei Cafe",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-791-2819",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Hane",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-598-9889",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Townhouse Diner",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-599-6254",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Musashi",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-388-5081",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Los Tacos Mcondo",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-347-763-1548",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Taqueria Bar N2",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-388-3045",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Rosarito Fish Shack",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-388-8833",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Hummus Market",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-599-5600",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lite Bites",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-917-793-5776",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Coffee Shop",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 718-784-7045",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Otani",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-732-9250",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Daily Chinese Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-201-865-2273",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Grand Morelos",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-218-9441",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "One Two Thai",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-918-6144",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Manny’s Bistro",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+16468820110",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sushi Yasaka",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-496-8460",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Seoul Garden",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-736-9002",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Fanelli Cafe",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-226-9412",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Galaxy Diner",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-586-4885",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Patrizia's",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-218-9272",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "T & J Jamaican Flava",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-860-8603",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lim’s Kitchen",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-410-0448",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Stage Door Deli",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-791-5252",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Yaki Sushi",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-929-468-7888",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Beijing",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-262-6162",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Pomp & Circumstance",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-387-4861",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Meskerem",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212 777 8111",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Yoonkao Thai",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-669-8424",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Maysville",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 646-490-8240",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Muna",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 646-398-7960",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Curry and Tandoor",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-490-1277",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Agra Taj Mahal",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-389-2200",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Hong Kong Noodle Sariku Sushi",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-689-1025",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Streecha Ukrainian Kitchen",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-914-413-9774",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Piccola Strada",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-674-1557",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lucy’s",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+13479161127",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Walker's",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212 9410142",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Gran Torino",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+13479874333",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sagaponack Bar & Grill",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-229-2226",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ningbo Cafe",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-786-1888",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Piora",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-960-3801",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Berimbau do Brasil",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-242-2606",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Bia",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 718 388-0908",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Cafe el Puente",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 718 388-2416",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Joe Junior",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212 473 5150",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "bb.q Chicken",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-618-2149",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Arturo's Coal Oven Pizza",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-677-3820",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "New Hua Xia Seafood Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-941-6888",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Great NY Noodletown",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-349-0923",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "David Burke Kitchen",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-201-9119",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sahara East",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-353-9000",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Slice",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 718-937-5423",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Hou Yi Hot Pot",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-966-3420",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Chinese Musician",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-383-2413",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Fabio's Pizzeria & Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 718-389-7500",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Deep Indian Kitchen",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+16469187778",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Famous Calabria Pizza",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+12122330009",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "T.J. Byrnes",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+12124064551",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Joypot",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 585-851-3333",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Bricola",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+16466785763",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Becco",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-397-7597",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lattanzi",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-315-0980",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sapporo Ichiban",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+17183899697",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lolita's Kitchen",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-722-5055",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "New Moon",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-779-2828",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Yung Sun Seafood Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-346-9888",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sichuan Hot Pot Cuisine",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-267-8886",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Vegetarian Dim Sum House",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-577-7176",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Landmark Coffee Shop & Pancake House",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-334-0040",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Supreme Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-966-3988",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Menya Sandaime",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-551-482-8744",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ajisen Ramen",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-638-0888",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Raku It’s Japanese II",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-873-1220",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Suma Sushi",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-280-5858",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Zurutto",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-498-0022",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Amaze",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-688-8808",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Chochin",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-426-1216",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Aki Sushi",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-628-8885",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ootoya",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-704-0833",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Washington Square Dinner",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-533-9306",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Pita Pi",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-347-457-5406",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Molcajete Taqueria",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-777-8226",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Grandma’s One Pizza",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-917-472-7323",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Karakatta",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-917-261-6297",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Healthy Joe’s",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-962-1813",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Los Primos",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-486-8449",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sunset Diner",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-349-2777",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Wonton Noodle Garden",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-966-4033",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Delicious Chinese Food Inc",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-996-6931",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Le Viêt Thai",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 917-388-3897",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Bangrak Thai Cuisine",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-289-8889",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "El Paso Taqueria",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-996-1739",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Panda House II",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 201-866-7605",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Tenzan 89",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-369-3600",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Empire Corner 2",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-410-5756",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "El Tepeyac Taqueria",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-722-2020",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "New Chinatown Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-987-3500",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Effy's Kitchen",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 646-930-3021",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sandwich House",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-566-6886",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "El Sabroso",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-284-1118",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Desi Indo-Chinese",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 917-388-2382",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Supreme Eats Pizza & Pasta Corp",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-455-0303",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "3 Decker Restaurant & Cafe",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-289-9936; +1 212-289-6571",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "East Season Restaurant House",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-917-261-6266",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Noi Due Carne",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-712-2223",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Cerveceria Havemeyer",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-599-5799",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sashimi Express II",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 929-323-5099",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Italian Village Pizzeria & Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-861-2286",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Himalayan Curry House",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-749-7800",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Bamonte's",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 718-384-8831",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Orion Diner & Grill",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-510-8733",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "El Chevere Cuchifritos",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-427-3952",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Pho Thanh Hoai",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-233-8988",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Burger One",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-737-0095",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Tequila Chito's",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-463-0535",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Korean Express",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-755-0123",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Thai Son",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-732-2822",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Appethaize",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-669-9353",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Victor’s Café",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-586-7714",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Food King",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-233-2433",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "LianJiangDongDai INC",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-347-703-5202",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ming's Cafe",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-978-1888",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Theatre Row Diner",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-426-6000",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sushi King",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-410-0024",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Happy Garden Palace",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-925-9888",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "El San Juan Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-373-3690",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Norikoh",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-685-5600",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Chimu",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-383-0045",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Three Times",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-609-3040",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Nam Son",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-966-6507",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Buffalo Wild Wings",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-265-9453",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "B&H Dairy",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-505-8065",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Downtown Yummy Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-791-6818",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "At Thai Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-245-4601",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Barn Joo",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-398-9663",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Jerk Off the Grill",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-249-0305",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Five Boys Fresh Pizza",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-398-8605",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Great Wall",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-426-4888",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Hello Saigon",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-254-2088",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ming Wong",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-370-5005",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Cascade",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 646-329-5143",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "La Vita Pizza",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-722-7600",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Olympia Pita",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-221-7600",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Akami Sushi",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-828-8668",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Fresh Wok",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-828-7688",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "New Arc Chicken",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-477-0091",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lao Jie Hot Pot & BBQ",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-478-8166",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Rose's Italian Deli",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-201-869-2984",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Famous Famiglia Pizzeria",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-737-7777",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ankara #3",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-473-1212",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "5ive Spice",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-918-8128",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Awash",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-961-1416",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Raenu Thai",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-998-5414",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Indian Tanpura",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-721-8700",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Le Botaniste",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-870-7770",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "The New Amity Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-861-3255",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "New Apolo Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-387-1773",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sai Gon Dep",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-986-4420",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lenz's Delicatessen",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-979-2859",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ms. Ohho",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 718-576-3253",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Chef Tan",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-201-987-7070",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Le Soleil",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-581-6059",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "El Castillo De Manhattan",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-227-2892",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Perfect Picnic",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-228-1884",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Dish Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-352-9800",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Taq",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-301-7824",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Cacio e Pepe",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-505-5931",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Dinastia Ecuadorian Food #2",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-347-294-0119",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Hamachi Sushi",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-559-8800",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Go! Go! Curry!",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-730-5555",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Blue Maiz Kitchen",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-704-2108",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Zest Ramen",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-226-2801",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sushi Dairo",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-529-4193",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Avenue D Pizza",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-850-3674",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "New Chinatown",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-420-8799",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "H K Wonton Garden",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-349-1495",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Hop Kee",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212 964 8365",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Yunshang Rice Noodle",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 646-998-5223",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "New Kim Tuong",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-966-2878",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "New York Canton Lounge",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-219-8066",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "La Superior",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-388-5988",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lan Larb Chiang Mai",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 646-895-9264",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Scalinatella Ristorante",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-207-8280",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Nobi Sushi",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-481-8338",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Chong Qing Noodle",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212 582 8866",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Plado",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-850-5151",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "New Ivoire",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-410-5982",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Little Italy Pizzeria & Deli",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+12123665566",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Rosa's Pizza",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+16469983044",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Zara Pizza",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 646-476-4450",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "New Hong Wong Seafood",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-226-8778",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Fukuyama Sushi & Ramen",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-782-1496",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Peasant Stock",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-254-7687",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Freda's Caribbean and Soul Cuisine",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-917-409-3689",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Doaba Deli",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-222-2636",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Boka",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-228-2887",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Mama’s TOO!",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-510-7256",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Cantinflas Mexican Deli",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 917-388-3881",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Yi Ji Shi Mo",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+16462336311",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Oasis",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-389-4680",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Le Baobab Gouygui",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-864-4700",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Keur Coumba",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-866-1551",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Harlem Food CT",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-722-7300",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Beron Beron",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-477-1005",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sabor A Mexico",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-533-4002",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "E-MO",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-594-1466",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Hong Chun Cheon Dak Galbi",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-695-7272",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Spice Lamb",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-984-8768",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Kamisama",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-341-314-4341",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Inase",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-628-1238",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "BRUJOS Brooklyn Taco Company",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 718-388-8445",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "El Cabron Taqueria & Marisqueria",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-964-5000",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Taqueria Guadalupe",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-828-6520",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Pho Maiden Lane",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 646-449-0247",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Mott Pho Bang",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-966-3797",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "jajaja",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-860-479-2872",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "ZAZA",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 646-864-0040",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "$1.50 Pizza",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 917-388-3999",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sea Salt",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 917-261-4443",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Little Italy Pizza",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-249-2244",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "La Vera Pizza",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-826-8777",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Bangkok2",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-473-4480",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Grill 21",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-473-5950",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "N B Wing Wong",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-490-7468",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Yuan Zai Bing",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-929-480-8108",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Antonio's Restaurant & Pizzeria",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 201 868 3500",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lau's Wine Bar & Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 201 869 4441",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Cavalino's",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 201 662 7118;+1 201 662 7119",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Loco's Burger",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 201 868 8709",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Cabo",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 201 861 1365",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "China Express",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 201 869 3122;+1 201 869 3108",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lotus Thai Cuisine",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 201 868 8980",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lady Chow Kitchen",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-343-9496",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Nyonya",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-334-3669",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Charlie's Place",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-410-0277",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Dun Huang",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-347-396-5873",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Cooper Town Diner",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-677-9287",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Meet Fresh",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-914-829-8850",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ja Moy Kitchen & Bar",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 6465900122",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Big Wong",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-929-489-3539",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Hyodonggak",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-695-6674",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sabor Latino",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-302-3935",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lily Thai",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-718-7534",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "La Chacra",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-929-295-8884",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Texas Rotisserie Grill & BBQ",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-396-0700",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Momokawa",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-256-0403",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sasabune",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-249-8583",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "El Nuevo Caridad",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-860-8187",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ollin",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 914-485-7511",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "The Lunch Box",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-410-0056",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Conway Diner",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-228-6868",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Bareburger",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-679-2273",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Casa Maya",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 646",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Baby John's Pizzeria",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-219-2223",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Mala Town",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-531-1130",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "CM Chicken",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 646-429-9028",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Dim Sum Bloom",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-222-1216",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Coma Bueno",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-665-4552",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Okinii",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-516-504-3615",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sushi Lin",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-882-0152",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Hui Restaurant & Bar",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-869-0396",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Mala Project",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-917-261-7520",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "King Food Chen",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-787-1888",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Bamboo Sushi",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-396-1111",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Mister Chicken II",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 347-330-6381",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Delizia",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-517-8888",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "My Food House",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-929-320-0555",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Rong Hang",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-625-8999;+1-212-625-8555",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Carol's Bun",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-566-0203",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Berlin Döner",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-476-4444",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Niforo's Coffee Shop",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 718-786-7759",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "La Rancherita Bakery and Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-201-442-0041",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Enerugi Ramen",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 347-927-2636",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Bombay Bistros",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-850-3719",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Burgerology",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 646-386-0090",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Kyoto Sushi",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-383-8882",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Cantina Taqueria",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-928-0133",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Chi Chicken",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 718-988-7878",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "York Ave Pizza",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-744-4000",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Nino's Ristorante",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-988-0002",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Diamond Thai",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-917-265-8214",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Nishida Sho-ten",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-308-0791",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Kings Kitchen",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-966-7288",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Yi Zhang Fishball",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-961-6151",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Mas Tacos",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-370-1941",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Apna Pind",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-917-388-2249",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Mei Lai Wah Wonton Noodle",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-966-4033",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Hop Won Express",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-867-4996",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "La Villetta",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-829-0003",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Aji Sushi",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-227-2108",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Land of Plenty",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-308-8788",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Pho Avenue",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-933-0078",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sud NYC",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-388-1999",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Guarapo",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-576-3953",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Kiku",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+12125828357",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Mumbai Place",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-576-3352",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Link Thai",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-917-909-0324",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Simply Noodles & Dim Sum",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-884-5818",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Prime Catch NYC",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-649-2288",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Miso",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-952-0098",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Me Chicken Rice",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-455-0877",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Milon Indian Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-228-4896",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Vallata",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-461-4300",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Blaze BBQ & Hibachi",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-837-8686",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Chiko’s",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-917-909-0580",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Gandhi Cafe",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-645-1456",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "La Bonbonniere",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-741-9266",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Zia Maria",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": "ziamarianyc@gmail.com",
+    "phone": "+16465907873",
+    "channel": "email",
+    "status": "scouted"
+  },
+  {
+    "name": "Pee Dee Steak House",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-996-3300",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ananda",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-533-7290",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "El Rinconcito",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-254-1381",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "The Chofi Spot",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-201-867-7768",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Inti Peruvian Cuisine",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-596-9216",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Mamasita Bar and Grill/Mexican Fast Food",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-315-9444",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sakura 6",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-718-349-7888",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Akura Sushi",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-679-0888",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Don Antonio",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+16467191043",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Chi Restaurant",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": "info@chirestaurantnyc.com",
+    "phone": "+1-212-918-1470",
+    "channel": "email",
+    "status": "scouted"
+  },
+  {
+    "name": "Kyuubi Omakase",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-917-848-5830",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Thai Ya",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-917-472-7750",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Café Fleuri",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-406-1202",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "EastSide Story",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-646-386-7897",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lucky's Famous Burger",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-247-6717",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lechonera Tropical & Grill",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212-722-1344",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ping's Seafood",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 212 602-9988",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Good Good Taste",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-212-964-4888",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Vegan QuickBites by Next Stop Vegan",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+19179091584",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Rize Works",
+    "category": "restaurant",
+    "area": "New York",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 201-598-1938",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Chilosos Taco House",
+    "category": "restaurant",
+    "area": "Houston",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-713-868-2273",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Simply Phở",
+    "category": "restaurant",
+    "area": "Houston",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-713-677-0501",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "La Tapatia",
+    "category": "restaurant",
+    "area": "Houston",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-713-521-3144",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Pad Thai",
+    "category": "restaurant",
+    "area": "Houston",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-713-225-4900",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sam's Cafe",
+    "category": "restaurant",
+    "area": "Houston",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-713-861-1109",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Maderas - Kitchen & Cantina",
+    "category": "restaurant",
+    "area": "Houston",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-713-485-4441",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Blodgett Fish Market",
+    "category": "restaurant",
+    "area": "Houston",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-713-526-1222",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Chapultepec Lupita",
+    "category": "restaurant",
+    "area": "Houston",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-713-522-2365",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Bowl",
+    "category": "restaurant",
+    "area": "Houston",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-832-582-7218",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Bambolino's Italian Kitchen",
+    "category": "restaurant",
+    "area": "Houston",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-713-524-3305",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "La Villa",
+    "category": "restaurant",
+    "area": "Houston",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-713-524-0070",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "IHOP",
+    "category": "restaurant",
+    "area": "Houston",
+    "country": "USA",
+    "email": null,
+    "phone": "+17135209908",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Hugo's",
+    "category": "restaurant",
+    "area": "Houston",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 713 524 7744",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Middle Eastern Bakery",
+    "category": "restaurant",
+    "area": "Phoenix",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-602-277-4927",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Steve's Greenhouse Grill",
+    "category": "restaurant",
+    "area": "Phoenix",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-602-252-2742",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Harumi Sushi & Sake",
+    "category": "restaurant",
+    "area": "Phoenix",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-602-258-0131",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Taco Guild",
+    "category": "restaurant",
+    "area": "Phoenix",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-602-264-4143",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Thai E-San",
+    "category": "restaurant",
+    "area": "Phoenix",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-602-297-8888",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ziggys Magic Pizza Shop",
+    "category": "restaurant",
+    "area": "Phoenix",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-602-354-3004",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Gus's World Famous Fried Chicken",
+    "category": "restaurant",
+    "area": "Phoenix",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-602-601-4901",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Downtown Pizza Lounge",
+    "category": "restaurant",
+    "area": "Phoenix",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-602-252-2742",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Mel's Diner",
+    "category": "restaurant",
+    "area": "Phoenix",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-602-252-8283",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sonora Taco Shop",
+    "category": "restaurant",
+    "area": "Phoenix",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-602-252-2795",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "America's Taco Shop",
+    "category": "restaurant",
+    "area": "Phoenix",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-602-682-5627",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Señor Veggie",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-228-0073",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Koi Kawa Japanese Restaurant",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-805-8111",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Osaka Steak & Sushi Bar",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-822-0300",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "09 Midtown Bistro",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-857-4518",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Taco Broadway",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-758-5231",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Cappy's Restaurant",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-828-9669",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "The Broadway 50 50",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-832-0050",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Volare Pizza",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-828-3354",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Mon Thai Bistro and Sushi Bar",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-822-3253",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Viet-Nam Restaurant",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-822-7461",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Van's",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-828-8449",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Mi Celayence",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-732-1122",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "San Taco",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-314-3099",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Cafe Dubai",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 726-210-6497",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Battalion",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-816-0088",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Denny's",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-223-4321",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Maui Mike's Burgers, Fries, Surf & Turf",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": "bigmikessandwiches@gmail.com",
+    "phone": "+1-210-251-3796",
+    "channel": "email",
+    "status": "scouted"
+  },
+  {
+    "name": "Little Red Barn Steakhouse",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-532-4235",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Jim's Restaurant",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 210-828-5120",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Cheesy Jane's",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 210-826-0800",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Tomatillos Cafe Y Cantina",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 210 824-3005",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Carmelita's",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 210-224-5540",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Bill Miller Bar-B-Q",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 210 829 7688",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Pepe's Barbacoa",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-533-6233",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Jalisco Taqueria",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-532-3049",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Benny's Tacos",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 210-533-8646",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "La Bandera Molino",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-434-0631",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ma Harper's Creole Kitchen",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-226-2200",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Teresita's Mexican Restaurant",
+    "category": "restaurant",
+    "area": "San Antonio",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-210-212-5322",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Pokéz",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-619-702-7160",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Baja Rick's Cantina",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-619-238-8100",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Tobeys 19th Hole Cafe",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 619-234-5821",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "BB's Deli",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 619 238 4567",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Herb & Wood",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-619-955-8495",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Puesto",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 619 2338880",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Hodad's Downtown",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-619-234-6323",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Yog-art Frozen Yogurt, Smoothies & Boba Teas",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 619-220-4999",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "McCozy",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-619-358-9170",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Plumeria Vegetarian Restaurant",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 619 269 9989",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Mazara Trattoria",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-619-284-2050",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Benny's Mexican Food",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-619-238-1740",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Flamin' Pho & Sushi Bar",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-619-235-1665",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Flavors of East Africa",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-619-955-8778",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Juniper & Ivy",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-619-269-9036",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "City Pizzeria",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-619-531-0955",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Thotsakan",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-619-795-5454",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Swami's Cafe",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-619-255-6731",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Shino Sushi + Kappo",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-619-255-2527",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Mister A’s",
+    "category": "restaurant",
+    "area": "San Diego",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-619-239-1377",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "San Carlos Pizza",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-977-0605",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lettuce Sandwich Shop",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-844-9400",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Nam Thanh Bánh Canh 3 Miền",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-288-5679",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Saigon Kitchen",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-297-1107",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Tây Hồ",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-629-5229",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Chez Sovan",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 408-287-7619",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Men-Bei Ramen",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-588-1557",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Angkor Chef",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 408-809-1639",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Round Table Pizza",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 408-295-4644",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Phố Cổ II",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-642-1800",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Mì Quảng Cô Thảo",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-501-0011",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Karimi Restaurant",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-477-2914",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Anchors",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": "anchorssj@gmail.com",
+    "phone": "+1-408-622-4826",
+    "channel": "email",
+    "status": "scouted"
+  },
+  {
+    "name": "El Palacio Del Sabor",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-259-7574",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Đà-Lạt",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-294-6989",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ma’s Restaurant",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 408-437-2499;+1 408-437-1638;+1 408-437-0748",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "the garret",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-555-7930",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Los Dubon Inc.",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-320-2270",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Biryani Stop",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 408-824-5114",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ume Chinese Food",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 408-433-3333",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Thai Spice",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": "thaispicek@yahoo.com",
+    "phone": "+1-408-277-7500",
+    "channel": "email",
+    "status": "scouted"
+  },
+  {
+    "name": "Jade China",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 408-923-6288",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Dac Phuc",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 408-297-5517",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Kim Tar B.B.Q.",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-453-2006",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "La Superior Panadería y Taquería",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-320-1999",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sushi Pro",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 408-564-4953",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Menara Moroccan",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 408 453 1983",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Denny's",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-2926217",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Pizza Hut",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-287-1900",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Sweet Mango",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-293-2268",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "La Victoria Taqueria",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-297-8421",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Kali Noodles & Tea Bar",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 408-599-5855",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Taquería “El Caminito”",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-295-1471",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Phở Công Lý",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-408-610-9849",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "El Grullo",
+    "category": "restaurant",
+    "area": "San Jose",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 408-937-6083",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Maple Street Biscuit Company",
+    "category": "restaurant",
+    "area": "Jacksonville",
+    "country": "USA",
+    "email": "maplestreetbiscuits@gmail.com",
+    "phone": null,
+    "channel": "email",
+    "status": "scouted"
+  },
+  {
+    "name": "Hip Hop Fish and Chicken",
+    "category": "restaurant",
+    "area": "Jacksonville",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-904-766-7272",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Starving Like Marvin",
+    "category": "restaurant",
+    "area": "Jacksonville",
+    "country": "USA",
+    "email": null,
+    "phone": "+1 9045872842",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "AAB India",
+    "category": "restaurant",
+    "area": "Columbus",
+    "country": "USA",
+    "email": null,
+    "phone": "+16144862800",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Nile Vegan",
+    "category": "restaurant",
+    "area": "Columbus",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-614-670-4662",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Alpine Restaurant & Bar",
+    "category": "restaurant",
+    "area": "Columbus",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-614-670-7195",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ho Toy",
+    "category": "restaurant",
+    "area": "Columbus",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-614-224-6848",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Hey Hey Bar & Grill",
+    "category": "restaurant",
+    "area": "Columbus",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-614-445-9512",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "El Lugar",
+    "category": "restaurant",
+    "area": "Columbus",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-614-670-7195",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Jacks Downtown Diner",
+    "category": "restaurant",
+    "area": "Columbus",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-614-224-3655",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Café Napolitana",
+    "category": "restaurant",
+    "area": "Columbus",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-614-224-3013",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Flavors of India",
+    "category": "restaurant",
+    "area": "Columbus",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-614-228-1955",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Momo Ghar",
+    "category": "restaurant",
+    "area": "Columbus",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-614-749-2901",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lan Viet Market",
+    "category": "restaurant",
+    "area": "Columbus",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-614-227-4203",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Hubert's Polish Kitchen",
+    "category": "restaurant",
+    "area": "Columbus",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-614-220-8787",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Hoyo's Kitchen",
+    "category": "restaurant",
+    "area": "Columbus",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-614-745-3943",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Firdous Express",
+    "category": "restaurant",
+    "area": "Columbus",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-614-221-4444",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Juniper",
+    "category": "restaurant",
+    "area": "Columbus",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-614-464-3333",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Indian Oven",
+    "category": "restaurant",
+    "area": "Columbus",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-614-220-9390",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Los Agavez",
+    "category": "restaurant",
+    "area": "Columbus",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-380-269-8241",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Lan Viet",
+    "category": "restaurant",
+    "area": "Columbus",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-614-315-5704",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "El Arado",
+    "category": "restaurant",
+    "area": "Indianapolis",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-317-632-2076",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "La Eskina",
+    "category": "restaurant",
+    "area": "Indianapolis",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-317-658-0735",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Super Tortas Lucha Libre",
+    "category": "restaurant",
+    "area": "Indianapolis",
+    "country": "USA",
+    "email": null,
+    "phone": "+13173841139",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Ollies's Downtown",
+    "category": "restaurant",
+    "area": "Indianapolis",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-317-636-5597",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Indy's Famous Pancake House",
+    "category": "restaurant",
+    "area": "Indianapolis",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-317-213-7936",
+    "channel": "whatsapp",
+    "status": "scouted"
+  },
+  {
+    "name": "Greek's Pizzeria",
+    "category": "restaurant",
+    "area": "Indianapolis",
+    "country": "USA",
+    "email": null,
+    "phone": "+1-317-602-6833",
+    "channel": "whatsapp",
+    "status": "scouted"
+  }
+]
