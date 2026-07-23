@@ -3117,7 +3117,39 @@
         "mastodon": true,
         "telegram": true
       }
+    },
+    {
+      "id": "55356fe2-da0d-4d27-bc5e-74a804ec60cf",
+      "title": "50 ChatGPT Prompts for Freelance Designers",
+      "product_type": "prompt_pack",
+      "target_audience": "freelance graphic designers",
+      "niche": "design",
+      "price": 12,
+      "keywords": [
+        "chatgpt prompts",
+        "graphic design",
+        "freelance"
+      ],
+      "devto_tags": [
+        "productivity",
+        "ai",
+        "design"
+      ],
+      "hashnode_tags": [
+        "AI",
+        "Productivity",
+        "Design"
+      ],
+      "blogger_labels": [
+        "AI Tools",
+        "Freelance",
+        "Design"
+      ],
+      "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
+      "status": "researched",
+      "created_at": "2026-07-23T11:08:39.739866",
+      "traffic_posted": false
     }
   ],
-  "last_updated": "2026-07-22T15:07:18.450749"
+  "last_updated": "2026-07-23T11:08:39.739883"
 }
