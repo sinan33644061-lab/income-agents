@@ -3,6 +3,9 @@ name: Scout Test
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   run-scout-test:
     runs-on: ubuntu-latest
@@ -18,5 +21,13 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run scout test script
-        run: python gmap-agency/scout_test.py
+      - name: Run scout script
+        run: python gmap-agency/scout.py
+
+      - name: Commit updated leads.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add gmap-agency/leads.json
+          git diff --staged --quiet || git commit -m "Update leads.json from scout run"
+          git push
