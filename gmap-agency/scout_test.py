@@ -6,7 +6,6 @@ OVERPASS_URL = "https://overpass.kumi.systems/api/interpreter"
 
 CATEGORY = "restaurant"
 
-# --- Target areas: add or remove cities here ---
 AREAS = [
     {"name": "New York", "country": "USA",       "bbox": (40.70, -74.02, 40.80, -73.93)},
     {"name": "London",   "country": "UK",         "bbox": (51.49, -0.15, 51.53, -0.08)},
@@ -21,24 +20,40 @@ headers = {
     "Accept-Encoding": "gzip, deflate",
 }
 
+def query_area(bbox, category, attempts=2):
+    query = f"""
+    [out:json][timeout:90];
+    (
+      node["amenity"="{category}"]({bbox[0]},{bbox[1]},{bbox[2]},{bbox[3]});
+      way["amenity"="{category}"]({bbox[0]},{bbox[1]},{bbox[2]},{bbox[3]});
+    );
+    out center tags;
+    """
+    last_error = None
+    for attempt in range(1, attempts + 1):
+        try:
+            response = requests.post(OVERPASS_URL, data={"data": query}, headers=headers, timeout=120)
+            response.raise_for_status()
+            return response.json()
+        except requests.exceptions.RequestException as e:
+            last_error = e
+            print(f"  attempt {attempt} failed: {e}")
+            time.sleep(10)
+    raise last_error
+
 all_leads = []
 
 for area in AREAS:
     name, country, bbox = area["name"], area["country"], area["bbox"]
-
-    query = f"""
-    [out:json][timeout:60];
-    (
-      node["amenity"="{CATEGORY}"]({bbox[0]},{bbox[1]},{bbox[2]},{bbox[3]});
-      way["amenity"="{CATEGORY}"]({bbox[0]},{bbox[1]},{bbox[2]},{bbox[3]});
-    );
-    out center tags;
-    """
-
     print(f"Querying {name}, {country}...")
-    response = requests.post(OVERPASS_URL, data={"data": query}, headers=headers, timeout=90)
-    response.raise_for_status()
-    data = response.json()
+
+    try:
+        data = query_area(bbox, CATEGORY)
+    except requests.exceptions.RequestException:
+        print(f"  skipping {name} after repeated failures\n")
+        time.sleep(8)
+        continue
+
     elements = data.get("elements", [])
 
     area_leads = 0
@@ -74,10 +89,10 @@ for area in AREAS:
         })
         area_leads += 1
 
-    print(f"  {len(elements)} checked, {area_leads} usable leads found")
-    time.sleep(5)  # be polite to the shared mirror between queries
+    print(f"  {len(elements)} checked, {area_leads} usable leads found\n")
+    time.sleep(8)
 
-print(f"\nTotal usable leads across all areas: {len(all_leads)}")
+print(f"Total usable leads across all areas: {len(all_leads)}")
 
 by_channel = {}
 for lead in all_leads:
