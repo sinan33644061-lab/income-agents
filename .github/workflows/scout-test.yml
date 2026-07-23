@@ -2,6 +2,11 @@ name: Scout Test
 
 on:
   workflow_dispatch:
+    inputs:
+      batch_start:
+        description: 'City batch start index (0, 15, 30, 45...)'
+        required: true
+        default: '0'
 
 permissions:
   contents: write
@@ -22,6 +27,8 @@ jobs:
         run: pip install requests
 
       - name: Run scout script
+        env:
+          BATCH_START: ${{ github.event.inputs.batch_start }}
         run: python gmap-agency/scout.py
 
       - name: Commit updated leads.json
