@@ -3196,8 +3196,8 @@
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
       "status": "published",
       "created_at": "2026-07-24T11:02:41.409741",
-      "traffic_posted": false,
-      "updated_at": "2026-07-24T13:18:33.425487",
+      "traffic_posted": true,
+      "updated_at": "2026-07-24T14:58:38.299584",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "\"Are you a freelance graphic designer struggling with creativity or stuck on a project? Unlock your full potential with this comprehensive pack of 50 actionable prompts. Each prompt is carefully crafted to challenge your skills, spark new ideas, and help you tackle real-world design problems. From branding and packaging to user experience and social media, this pack covers everything you need to take your design career to the next level.",
       "twitter_hook": "\"Want to boost your freelance design skills? Get instant access to our 50 ChatGPT Prompts for Freelance Designers and start achieving your design goals today! #freelancedesign #designprompts #careerboost\"",
@@ -3205,8 +3205,15 @@
       "pdf_path": "output/product_2898f24d.pdf",
       "gumroad_product_id": "gPJsNJpvFYQ68zurZKsJaA==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/gellyl",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-2898f24d/product_2898f24d.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-2898f24d/product_2898f24d.pdf",
+      "traffic_posted_at": "2026-07-24T14:58:38.298693",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/designing-effective-conversational-ui-elements-for-freelance-designers-2mep",
+        "telegraph": "https://telegra.ph/Crafting-Beautiful-Designs-The-Art-of-Aesthetic-Expression-07-24",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-07-24T13:18:33.425496"
+  "last_updated": "2026-07-24T14:58:38.299591"
 }
