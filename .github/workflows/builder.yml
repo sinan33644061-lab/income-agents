@@ -1,0 +1,45 @@
+name: Builder Agent
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: 'How many leads to build this run'
+        required: true
+        default: '50'
+
+concurrency:
+  group: builder-agent
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run-builder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run builder script
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          BATCH_SIZE: ${{ github.event.inputs.batch_size }}
+        run: python gmap-agency/builder.py
+
+      - name: Commit generated sites and updated leads.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/gmap-agency gmap-agency/leads.json
+          git diff --staged --quiet || git commit -m "Build demo sites batch"
+          git push
