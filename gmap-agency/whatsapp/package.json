@@ -1,0 +1,9 @@
+{
+  "name": "gmap-agency-whatsapp",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "pino": "^9.5.0"
+  }
+}
