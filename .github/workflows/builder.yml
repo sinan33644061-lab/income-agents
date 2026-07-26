@@ -8,7 +8,7 @@ on:
         required: true
         default: '50'
   schedule:
-       - cron: '0 3 * * *'
+    - cron: '0 3 * * *'
 
 concurrency:
   group: builder-agent
@@ -35,7 +35,7 @@ jobs:
       - name: Run builder script
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          BATCH_SIZE: ${{ github.event.inputs.batch_size }}
+          BATCH_SIZE: ${{ github.event.inputs.batch_size || '50' }}
         run: python gmap-agency/builder.py
 
       - name: Commit generated sites and updated leads.json
