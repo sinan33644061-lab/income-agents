@@ -1,4 +1,4 @@
-const { default: makeWASocket, useMultiFileAuthState, DisconnectReason } = require('@whiskeysockets/baileys');
+const { default: makeWASocket, useMultiFileAuthState, fetchLatestBaileysVersion, DisconnectReason } = require('@whiskeysockets/baileys');
 const pino = require('pino');
 const fs = require('fs');
 const path = require('path');
@@ -13,9 +13,12 @@ async function main() {
   }
 
   const { state, saveCreds } = await useMultiFileAuthState(AUTH_DIR);
+  const { version } = await fetchLatestBaileysVersion();
+  console.log('Using WhatsApp Web version:', version.join('.'));
 
   const sock = makeWASocket({
     auth: state,
+    version,
     printQRInTerminal: false,
     logger: pino({ level: 'silent' }),
   });
@@ -48,8 +51,9 @@ async function main() {
     }
 
     if (connection === 'close') {
-      const shouldReconnect = lastDisconnect?.error?.output?.statusCode !== DisconnectReason.loggedOut;
-      console.log('Connection closed.', lastDisconnect?.error, 'Reconnecting:', shouldReconnect);
+      const statusCode = lastDisconnect?.error?.output?.statusCode;
+      const shouldReconnect = statusCode !== DisconnectReason.loggedOut;
+      console.log('Connection closed.', lastDisconnect?.error?.message || lastDisconnect?.error, 'Reconnecting:', shouldReconnect);
       if (!paired) {
         console.error('Disconnected before pairing completed. Re-run this workflow to try again.');
         process.exit(1);
