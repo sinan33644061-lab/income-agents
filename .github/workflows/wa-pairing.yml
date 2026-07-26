@@ -22,7 +22,5 @@ jobs:
       - name: Run pairing script
         env:
           WA_PHONE_NUMBER: ${{ secrets.WA_PHONE_NUMBER }}
-        run: |
-          node pair.js &
-          sleep 90
+        run: node pair.js
         working-directory: gmap-agency/whatsapp
