@@ -7,6 +7,8 @@ on:
         description: 'How many leads to build this run'
         required: true
         default: '50'
+  schedule:
+       - cron: '0 3 * * *'
 
 concurrency:
   group: builder-agent
