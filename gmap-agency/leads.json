@@ -607,7 +607,9 @@
     "email": null,
     "phone": "+1-212-791-2819",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "shui-mei-cafe-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/shui-mei-cafe-new-york/"
   },
   {
     "name": "Hane",
@@ -617,7 +619,9 @@
     "email": null,
     "phone": "+1-212-598-9889",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "hane-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/hane-new-york/"
   },
   {
     "name": "Townhouse Diner",
@@ -627,7 +631,9 @@
     "email": null,
     "phone": "+1-212-599-6254",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "townhouse-diner-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/townhouse-diner-new-york/"
   },
   {
     "name": "Musashi",
@@ -637,7 +643,9 @@
     "email": null,
     "phone": "+1-718-388-5081",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "musashi-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/musashi-new-york/"
   },
   {
     "name": "Los Tacos Mcondo",
@@ -647,7 +655,9 @@
     "email": null,
     "phone": "+1-347-763-1548",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "los-tacos-mcondo-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/los-tacos-mcondo-new-york/"
   },
   {
     "name": "Taqueria Bar N2",
@@ -657,7 +667,9 @@
     "email": null,
     "phone": "+1-718-388-3045",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "taqueria-bar-n2-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/taqueria-bar-n2-new-york/"
   },
   {
     "name": "Rosarito Fish Shack",
@@ -667,7 +679,9 @@
     "email": null,
     "phone": "+1-718-388-8833",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "rosarito-fish-shack-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/rosarito-fish-shack-new-york/"
   },
   {
     "name": "Hummus Market",
@@ -677,7 +691,9 @@
     "email": null,
     "phone": "+1-718-599-5600",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "hummus-market-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/hummus-market-new-york/"
   },
   {
     "name": "Lite Bites",
@@ -687,7 +703,9 @@
     "email": null,
     "phone": "+1-917-793-5776",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "lite-bites-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/lite-bites-new-york/"
   },
   {
     "name": "Coffee Shop",
@@ -697,7 +715,9 @@
     "email": null,
     "phone": "+1 718-784-7045",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "coffee-shop-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/coffee-shop-new-york/"
   },
   {
     "name": "Otani",
@@ -707,7 +727,9 @@
     "email": null,
     "phone": "+1-212-732-9250",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "otani-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/otani-new-york/"
   },
   {
     "name": "Daily Chinese Restaurant",
@@ -717,7 +739,9 @@
     "email": null,
     "phone": "+1-201-865-2273",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "daily-chinese-restaurant-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/daily-chinese-restaurant-new-york/"
   },
   {
     "name": "Grand Morelos",
@@ -727,7 +751,9 @@
     "email": null,
     "phone": "+1-718-218-9441",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "grand-morelos-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/grand-morelos-new-york/"
   },
   {
     "name": "One Two Thai",
@@ -737,7 +763,9 @@
     "email": null,
     "phone": "+1-646-918-6144",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "one-two-thai-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/one-two-thai-new-york/"
   },
   {
     "name": "Manny’s Bistro",
@@ -747,7 +775,9 @@
     "email": null,
     "phone": "+16468820110",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "manny-s-bistro-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/manny-s-bistro-new-york/"
   },
   {
     "name": "Sushi Yasaka",
@@ -757,7 +787,9 @@
     "email": null,
     "phone": "+1-212-496-8460",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "sushi-yasaka-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/sushi-yasaka-new-york/"
   },
   {
     "name": "Seoul Garden",
@@ -767,7 +799,9 @@
     "email": null,
     "phone": "+1 212-736-9002",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "seoul-garden-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/seoul-garden-new-york/"
   },
   {
     "name": "Fanelli Cafe",
@@ -777,7 +811,9 @@
     "email": null,
     "phone": "+1-212-226-9412",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "fanelli-cafe-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/fanelli-cafe-new-york/"
   },
   {
     "name": "Galaxy Diner",
@@ -787,7 +823,9 @@
     "email": null,
     "phone": "+1-212-586-4885",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "galaxy-diner-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/galaxy-diner-new-york/"
   },
   {
     "name": "Patrizia's",
@@ -797,7 +835,9 @@
     "email": null,
     "phone": "+1-718-218-9272",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "patrizia-s-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/patrizia-s-new-york/"
   },
   {
     "name": "T & J Jamaican Flava",
@@ -807,7 +847,9 @@
     "email": null,
     "phone": "+1 212-860-8603",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "t-j-jamaican-flava-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/t-j-jamaican-flava-new-york/"
   },
   {
     "name": "Lim’s Kitchen",
@@ -817,7 +859,9 @@
     "email": null,
     "phone": "+1-646-410-0448",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "lim-s-kitchen-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/lim-s-kitchen-new-york/"
   },
   {
     "name": "Stage Door Deli",
@@ -827,7 +871,9 @@
     "email": null,
     "phone": "+1-212-791-5252",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "stage-door-deli-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/stage-door-deli-new-york/"
   },
   {
     "name": "Yaki Sushi",
@@ -837,7 +883,9 @@
     "email": null,
     "phone": "+1-929-468-7888",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "yaki-sushi-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/yaki-sushi-new-york/"
   },
   {
     "name": "Beijing",
@@ -847,7 +895,9 @@
     "email": null,
     "phone": "+1-212-262-6162",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "beijing-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/beijing-new-york/"
   },
   {
     "name": "Pomp & Circumstance",
@@ -857,7 +907,9 @@
     "email": null,
     "phone": "+1-718-387-4861",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "pomp-circumstance-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/pomp-circumstance-new-york/"
   },
   {
     "name": "Meskerem",
@@ -867,7 +919,9 @@
     "email": null,
     "phone": "+1 212 777 8111",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "meskerem-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/meskerem-new-york/"
   },
   {
     "name": "Yoonkao Thai",
@@ -877,7 +931,9 @@
     "email": null,
     "phone": "+1-646-669-8424",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "yoonkao-thai-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/yoonkao-thai-new-york/"
   },
   {
     "name": "Maysville",
@@ -887,7 +943,9 @@
     "email": null,
     "phone": "+1 646-490-8240",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "maysville-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/maysville-new-york/"
   },
   {
     "name": "Muna",
@@ -897,7 +955,9 @@
     "email": null,
     "phone": "+1 646-398-7960",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "muna-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/muna-new-york/"
   },
   {
     "name": "Curry and Tandoor",
@@ -907,7 +967,9 @@
     "email": null,
     "phone": "+1 212-490-1277",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "curry-and-tandoor-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/curry-and-tandoor-new-york/"
   },
   {
     "name": "Agra Taj Mahal",
@@ -917,7 +979,9 @@
     "email": null,
     "phone": "+1-718-389-2200",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "agra-taj-mahal-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/agra-taj-mahal-new-york/"
   },
   {
     "name": "Hong Kong Noodle Sariku Sushi",
@@ -927,7 +991,9 @@
     "email": null,
     "phone": "+1-212-689-1025",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "hong-kong-noodle-sariku-sushi-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/hong-kong-noodle-sariku-sushi-new-york/"
   },
   {
     "name": "Streecha Ukrainian Kitchen",
@@ -937,7 +1003,9 @@
     "email": null,
     "phone": "+1-914-413-9774",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "streecha-ukrainian-kitchen-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/streecha-ukrainian-kitchen-new-york/"
   },
   {
     "name": "Piccola Strada",
@@ -947,7 +1015,9 @@
     "email": null,
     "phone": "+1-212-674-1557",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "piccola-strada-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/piccola-strada-new-york/"
   },
   {
     "name": "Lucy’s",
@@ -957,7 +1027,9 @@
     "email": null,
     "phone": "+13479161127",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "lucy-s-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/lucy-s-new-york/"
   },
   {
     "name": "Walker's",
@@ -967,7 +1039,9 @@
     "email": null,
     "phone": "+1 212 9410142",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "walker-s-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/walker-s-new-york/"
   },
   {
     "name": "Gran Torino",
@@ -977,7 +1051,9 @@
     "email": null,
     "phone": "+13479874333",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "gran-torino-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/gran-torino-new-york/"
   },
   {
     "name": "Sagaponack Bar & Grill",
@@ -987,7 +1063,9 @@
     "email": null,
     "phone": "+1-212-229-2226",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "sagaponack-bar-grill-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/sagaponack-bar-grill-new-york/"
   },
   {
     "name": "Ningbo Cafe",
@@ -997,7 +1075,9 @@
     "email": null,
     "phone": "+1-212-786-1888",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "ningbo-cafe-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/ningbo-cafe-new-york/"
   },
   {
     "name": "Piora",
@@ -1007,7 +1087,9 @@
     "email": null,
     "phone": "+1-212-960-3801",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "piora-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/piora-new-york/"
   },
   {
     "name": "Berimbau do Brasil",
@@ -1017,7 +1099,9 @@
     "email": null,
     "phone": "+1-212-242-2606",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "berimbau-do-brasil-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/berimbau-do-brasil-new-york/"
   },
   {
     "name": "Bia",
@@ -1027,7 +1111,9 @@
     "email": null,
     "phone": "+1 718 388-0908",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "bia-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/bia-new-york/"
   },
   {
     "name": "Cafe el Puente",
@@ -1037,7 +1123,9 @@
     "email": null,
     "phone": "+1 718 388-2416",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "cafe-el-puente-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/cafe-el-puente-new-york/"
   },
   {
     "name": "Joe Junior",
@@ -1047,7 +1135,9 @@
     "email": null,
     "phone": "+1 212 473 5150",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "joe-junior-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/joe-junior-new-york/"
   },
   {
     "name": "bb.q Chicken",
@@ -1057,7 +1147,9 @@
     "email": null,
     "phone": "+1-646-618-2149",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "bb-q-chicken-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/bb-q-chicken-new-york/"
   },
   {
     "name": "Arturo's Coal Oven Pizza",
@@ -1067,7 +1159,9 @@
     "email": null,
     "phone": "+1 212-677-3820",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "arturo-s-coal-oven-pizza-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/arturo-s-coal-oven-pizza-new-york/"
   },
   {
     "name": "New Hua Xia Seafood Restaurant",
@@ -1077,7 +1171,9 @@
     "email": null,
     "phone": "+1-212-941-6888",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "new-hua-xia-seafood-restaurant-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/new-hua-xia-seafood-restaurant-new-york/"
   },
   {
     "name": "Great NY Noodletown",
@@ -1087,7 +1183,9 @@
     "email": null,
     "phone": "+1 212-349-0923",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "great-ny-noodletown-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/great-ny-noodletown-new-york/"
   },
   {
     "name": "David Burke Kitchen",
@@ -1097,7 +1195,9 @@
     "email": null,
     "phone": "+1-212-201-9119",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "david-burke-kitchen-new-york",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/david-burke-kitchen-new-york/"
   },
   {
     "name": "Sahara East",
