@@ -3340,8 +3340,8 @@
       "telegram_teaser": "Unleash the power of ChatGPT: 50 actionable prompts for freelance graphic designers",
       "status": "published",
       "created_at": "2026-07-27T12:22:02.864201",
-      "traffic_posted": false,
-      "updated_at": "2026-07-27T14:11:12.281994",
+      "traffic_posted": true,
+      "updated_at": "2026-07-27T15:44:02.321005",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "Take your freelance graphic design business to the next level with actionable, step-by-step advice on marketing strategy, client onboarding, and more. Stop feeling stuck and learn to scale your freelance success with these 50 expert-approved prompts. This comprehensive pack includes real-world examples, actionable insights, and templates to streamline your workflow. Upgrade your freelance business and achieve consistent success with our premium pack.",
       "twitter_hook": "Boost your freelance success with expert-approved prompts! Get instant access to 50 actionable strategies for graphic designers. Learn how to scale your business and deliver high-impact projects every time. #freelancedesign #graphicdesign",
@@ -3349,8 +3349,15 @@
       "pdf_path": "output/product_c0ed4b47.pdf",
       "gumroad_product_id": "QpcNS2CMnu-bAZKYd4XUfw==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/yjdghx",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-c0ed4b47/product_c0ed4b47.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-c0ed4b47/product_c0ed4b47.pdf",
+      "traffic_posted_at": "2026-07-27T15:44:02.320053",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/designing-for-consistency-enhancing-user-experience-4nob",
+        "telegraph": "https://telegra.ph/Design-The-Art-of-Problem-Solving-07-27",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-07-27T14:11:12.282004"
+  "last_updated": "2026-07-27T15:44:02.321013"
 }
