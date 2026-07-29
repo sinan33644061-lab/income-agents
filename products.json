@@ -3436,8 +3436,8 @@
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
       "status": "published",
       "created_at": "2026-07-29T11:25:33.394836",
-      "traffic_posted": false,
-      "updated_at": "2026-07-29T13:46:15.817566",
+      "traffic_posted": true,
+      "updated_at": "2026-07-29T15:09:34.206951",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "As a freelance graphic designer, managing multiple projects, meeting tight deadlines, and staying creative can be overwhelming. With these 50 premium prompts, you'll get access to expert-level design strategies and templates that will boost your workflow, enhance your designs, and give you the confidence to tackle any project that comes your way. Say goodbye to design anxiety and hello to a more effective and efficient creative process. Get instant access to these game-changing prompts and revolutionize your freelance design business!",
       "twitter_hook": "Kickstart your freelance design business with premium prompts! Get instant access to 50 expert-level design strategies & templates [link]",
@@ -3445,8 +3445,15 @@
       "pdf_path": "output/product_312f2889.pdf",
       "gumroad_product_id": "Y9Z6EVemWsDfyhHLvMK9RQ==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/zdwoit",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-312f2889/product_312f2889.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-312f2889/product_312f2889.pdf",
+      "traffic_posted_at": "2026-07-29T15:09:34.206024",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/designing-for-consistency-and-clarity-354h",
+        "telegraph": "https://telegra.ph/Crafting-a-Creative-Vision-07-29",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-07-29T13:46:15.817577"
+  "last_updated": "2026-07-29T15:09:34.206958"
 }
