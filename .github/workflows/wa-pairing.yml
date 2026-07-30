@@ -1,4 +1,4 @@
-name: WhatsApp QR Pairing
+name: WhatsApp Pairing (one-time)
 
 on:
   workflow_dispatch:
@@ -6,8 +6,6 @@ on:
 jobs:
   pair:
     runs-on: ubuntu-latest
-    timeout-minutes: 2
-    
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -18,12 +16,11 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: |
-          cd gmap-agency/whatsapp
-          npm install qrcode-terminal whatsapp-web.js
+        run: npm install
+        working-directory: gmap-agency/whatsapp
 
-      - name: Run QR pairing
-        run: |
-          cd gmap-agency/whatsapp
-          node pair.js
-        continue-on-error: true
+      - name: Run pairing script
+        env:
+          WA_PHONE_NUMBER: ${{ secrets.WA_PHONE_NUMBER }}
+        run: node pair.js
+        working-directory: gmap-agency/whatsapp
