@@ -1,0 +1,50 @@
+name: Outreach Agent (WhatsApp)
+
+on:
+  workflow_dispatch:
+    inputs:
+      daily_limit:
+        description: 'Max WhatsApp messages to send this run'
+        required: true
+        default: '15'
+  schedule:
+    - cron: '0 5 * * *'
+
+concurrency:
+  group: outreach-whatsapp
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run-outreach:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: gmap-agency/whatsapp
+
+      - name: Run outreach script
+        env:
+          WA_SESSION: ${{ secrets.WA_SESSION }}
+          WA_PHONE_NUMBER: ${{ secrets.WA_PHONE_NUMBER }}
+          DAILY_LIMIT: ${{ github.event.inputs.daily_limit || '15' }}
+        run: node outreach.js
+        working-directory: gmap-agency/whatsapp
+
+      - name: Commit updated leads.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add gmap-agency/leads.json
+          git diff --staged --quiet || git commit -m "Update leads.json after outreach run"
+          git push
