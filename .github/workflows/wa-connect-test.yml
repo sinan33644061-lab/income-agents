@@ -1,0 +1,27 @@
+name: WhatsApp Connect Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  connect-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: gmap-agency/whatsapp
+
+      - name: Run connect test
+        env:
+          WA_SESSION: ${{ secrets.WA_SESSION }}
+          WA_PHONE_NUMBER: ${{ secrets.WA_PHONE_NUMBER }}
+        run: node connect-test.js
+        working-directory: gmap-agency/whatsapp
