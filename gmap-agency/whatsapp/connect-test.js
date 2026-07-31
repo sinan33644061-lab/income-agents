@@ -12,7 +12,7 @@ function logErr(msg) { fs.writeSync(2, msg + '\n'); }
 
 function restoreSession() {
   if (!fs.existsSync(AUTH_DIR)) fs.mkdirSync(AUTH_DIR, { recursive: true });
-  const bundle = JSON.parse(Buffer.from(WA_SESSION, 'base64').toString('utf8'));
+  const cleaned = WA_SESSION.replace(/\s+/g, ''); const bundle = JSON.parse(Buffer.from(cleaned, 'base64').toString('utf8'));
   for (const [filename, content] of Object.entries(bundle)) {
     fs.writeFileSync(path.join(AUTH_DIR, filename), content, 'utf8');
   }
