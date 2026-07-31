@@ -3532,8 +3532,8 @@
       "telegram_teaser": "Boost your web dev productivity with 50 AI-powered hacks",
       "status": "published",
       "created_at": "2026-07-31T11:28:42.650470",
-      "traffic_posted": false,
-      "updated_at": "2026-07-31T13:41:26.804410",
+      "traffic_posted": true,
+      "updated_at": "2026-07-31T15:21:53.783717",
       "gumroad_title": "50 AI-Powered Productivity Hacks for Web Developers",
       "gumroad_desc": "",
       "twitter_hook": "",
@@ -3541,8 +3541,15 @@
       "pdf_path": "output/product_9164486a.pdf",
       "gumroad_product_id": "gYm66Ylz0hshBnld5YvzlQ==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/gdwve",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-9164486a/product_9164486a.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-9164486a/product_9164486a.pdf",
+      "traffic_posted_at": "2026-07-31T15:21:53.782613",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/mastering-the-art-of-development-1dd5",
+        "telegraph": "https://telegra.ph/Unlocking-Efficiency-in-Development-07-31",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-07-31T13:41:26.804440"
+  "last_updated": "2026-07-31T15:21:53.783723"
 }
