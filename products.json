@@ -3530,10 +3530,16 @@
         "Development"
       ],
       "telegram_teaser": "Boost your web dev productivity with 50 AI-powered hacks",
-      "status": "researched",
+      "status": "pdf_ready",
       "created_at": "2026-07-31T11:28:42.650470",
-      "traffic_posted": false
+      "traffic_posted": false,
+      "updated_at": "2026-07-31T11:50:05.705402",
+      "gumroad_title": "50 AI-Powered Productivity Hacks for Web Developers",
+      "gumroad_desc": "",
+      "twitter_hook": "",
+      "pinterest_title": "50 AI-Powered Productivity Hacks for Web Developers",
+      "pdf_path": "output/product_9164486a.pdf"
     }
   ],
-  "last_updated": "2026-07-31T11:28:42.650483"
+  "last_updated": "2026-07-31T11:50:05.705410"
 }
