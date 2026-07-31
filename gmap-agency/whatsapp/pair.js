@@ -13,15 +13,13 @@ function logErr(msg) {
   fs.writeSync(2, msg + '\n');
 }
 
-async function main() {
-  if (!PHONE_NUMBER) {
-    logErr('WA_PHONE_NUMBER environment variable is missing.');
-    process.exit(1);
-  }
+let codeRequested = false;
+let attempts = 0;
+const MAX_RECONNECTS = 5;
 
+async function connect() {
   const { state, saveCreds } = await useMultiFileAuthState(AUTH_DIR);
   const { version } = await fetchLatestBaileysVersion();
-  log('Using WhatsApp Web version: ' + version.join('.'));
 
   const sock = makeWASocket({
     auth: state,
@@ -32,15 +30,21 @@ async function main() {
 
   sock.ev.on('creds.update', saveCreds);
 
-  let paired = false;
-
   sock.ev.on('connection.update', async (update) => {
     const { connection, lastDisconnect } = update;
 
+    if (connection === 'connecting' && !sock.authState.creds.registered && !codeRequested) {
+      codeRequested = true;
+      await new Promise((r) => setTimeout(r, 2000));
+      const code = await sock.requestPairingCode(PHONE_NUMBER);
+      log('\n=== YOUR PAIRING CODE ===');
+      log(code);
+      log('\nEnter this in WhatsApp on your phone right now:');
+      log('Settings > Linked Devices > Link a Device > Link with phone number instead\n');
+    }
+
     if (connection === 'open') {
       log('\n=== CONNECTED SUCCESSFULLY ===\n');
-      paired = true;
-
       await new Promise((r) => setTimeout(r, 5000));
 
       const files = fs.readdirSync(AUTH_DIR);
@@ -59,33 +63,33 @@ async function main() {
 
     if (connection === 'close') {
       const statusCode = lastDisconnect?.error?.output?.statusCode;
-      const shouldReconnect = statusCode !== DisconnectReason.loggedOut;
-      log('Connection closed. Reconnecting: ' + shouldReconnect);
-      if (!paired) {
-        logErr('Disconnected before pairing completed. Re-run this workflow to try again.');
+      const loggedOut = statusCode === DisconnectReason.loggedOut;
+
+      if (loggedOut) {
+        logErr('Logged out — need a completely fresh pairing. Re-run the workflow.');
         process.exit(1);
       }
+
+      attempts++;
+      if (attempts > MAX_RECONNECTS) {
+        logErr('Too many reconnect attempts. Re-run the workflow to try again.');
+        process.exit(1);
+      }
+
+      log('Reconnecting to finish pairing (this is normal right after entering the code)...');
+      setTimeout(connect, 2000);
     }
   });
-
-  if (!sock.authState.creds.registered) {
-    await new Promise((r) => setTimeout(r, 3000));
-    const code = await sock.requestPairingCode(PHONE_NUMBER);
-    log('\n=== YOUR PAIRING CODE ===');
-    log(code);
-    log('\nEnter this in WhatsApp on your phone right now:');
-    log('Settings > Linked Devices > Link a Device > Link with phone number instead\n');
-  }
-
-  setTimeout(() => {
-    if (!paired) {
-      logErr('\nTimed out waiting for pairing. Re-run the workflow to try again.');
-      process.exit(1);
-    }
-  }, 180000);
 }
 
-main().catch((err) => {
-  logErr('Fatal error: ' + err);
+if (!PHONE_NUMBER) {
+  logErr('WA_PHONE_NUMBER environment variable is missing.');
   process.exit(1);
-});
+}
+
+connect();
+
+setTimeout(() => {
+  logErr('\nOverall timeout reached. Re-run the workflow to try again.');
+  process.exit(1);
+}, 240000);
