@@ -7,9 +7,10 @@
     "email": null,
     "phone": "+1-917-388-2679",
     "channel": "whatsapp",
-    "status": "built",
+    "status": "contacted",
     "slug": "mi-new-york",
-    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/mi-new-york/"
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/mi-new-york/",
+    "contacted_at": "2026-07-31T20:27:35.178Z"
   },
   {
     "name": "El Loco Burrito",
