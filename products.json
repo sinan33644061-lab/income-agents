@@ -3628,8 +3628,8 @@
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
       "status": "published",
       "created_at": "2026-08-02T10:40:22.503100",
-      "traffic_posted": false,
-      "updated_at": "2026-08-02T12:59:28.067614",
+      "traffic_posted": true,
+      "updated_at": "2026-08-02T14:37:25.849911",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "\"Take your freelance graphic design business to the next level with this comprehensive prompt pack. Get 50 actionable and immediately usable prompts to tackle real-world design challenges. Develop your skills in UI/UX design, branding, packaging, motion graphics, and more. Perfect for freelance designers looking to stand out in a competitive market.\"",
       "twitter_hook": "\"Unlock your creative potential with 50 actionable & immediately usable #design prompts for freelance graphic designers! Develop your skills & stand out in a competitive market. Buy now & start designing! #chatgpt #freelancedesign\"",
@@ -3637,8 +3637,15 @@
       "pdf_path": "output/product_4c09a1bf.pdf",
       "gumroad_product_id": "30dbC1L5H-AyeYnRU7ltRg==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/merku",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-4c09a1bf/product_4c09a1bf.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-4c09a1bf/product_4c09a1bf.pdf",
+      "traffic_posted_at": "2026-08-02T14:37:25.848983",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/designing-with-consistency-a-guide-for-freelance-designers-3cj9",
+        "telegraph": "https://telegra.ph/Design-in-Every-Sense-08-02",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-08-02T12:59:28.067626"
+  "last_updated": "2026-08-02T14:37:25.849917"
 }
