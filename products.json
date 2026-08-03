@@ -3674,10 +3674,16 @@
         "Design"
       ],
       "telegram_teaser": "Unlock design genius with 50 AI-enhanced prompts for freelance designers only on Gumroad",
-      "status": "researched",
+      "status": "pdf_ready",
       "created_at": "2026-08-03T12:21:41.646018",
-      "traffic_posted": false
+      "traffic_posted": false,
+      "updated_at": "2026-08-03T12:46:39.312900",
+      "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
+      "gumroad_desc": "Are you struggling to get creative ideas for your freelance design projects? This exclusive prompt pack provides 50 unique prompts to get your design juices flowing. From brand identity to web design, cover all your freelance design needs. Get instant access to premium design prompts and transform your workflow. Create compelling designs that impress clients and grow your freelance business. Download now.",
+      "twitter_hook": "Get instant access to 50+ premium design prompts. Boost your freelance design workflow, impress clients, and grow your business. Download now: [link]",
+      "pinterest_title": "50 Freelance Design Prompts for Boosting Your Workflow",
+      "pdf_path": "output/product_e39574cf.pdf"
     }
   ],
-  "last_updated": "2026-08-03T12:21:41.646028"
+  "last_updated": "2026-08-03T12:46:39.312908"
 }
