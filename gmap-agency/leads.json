@@ -4796,7 +4796,9 @@
     "email": null,
     "phone": "+1-602-252-8283",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "mel-s-diner-phoenix",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/mel-s-diner-phoenix/"
   },
   {
     "name": "Sonora Taco Shop",
@@ -4806,7 +4808,9 @@
     "email": null,
     "phone": "+1-602-252-2795",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "sonora-taco-shop-phoenix",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/sonora-taco-shop-phoenix/"
   },
   {
     "name": "America's Taco Shop",
@@ -4816,7 +4820,9 @@
     "email": null,
     "phone": "+1-602-682-5627",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "america-s-taco-shop-phoenix",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/america-s-taco-shop-phoenix/"
   },
   {
     "name": "Señor Veggie",
@@ -4826,7 +4832,9 @@
     "email": null,
     "phone": "+1-210-228-0073",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "se-or-veggie-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/se-or-veggie-san-antonio/"
   },
   {
     "name": "Koi Kawa Japanese Restaurant",
@@ -4836,7 +4844,9 @@
     "email": null,
     "phone": "+1-210-805-8111",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "koi-kawa-japanese-restaurant-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/koi-kawa-japanese-restaurant-san-antonio/"
   },
   {
     "name": "Osaka Steak & Sushi Bar",
@@ -4846,7 +4856,9 @@
     "email": null,
     "phone": "+1-210-822-0300",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "osaka-steak-sushi-bar-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/osaka-steak-sushi-bar-san-antonio/"
   },
   {
     "name": "09 Midtown Bistro",
@@ -4856,7 +4868,9 @@
     "email": null,
     "phone": "+1-210-857-4518",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "09-midtown-bistro-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/09-midtown-bistro-san-antonio/"
   },
   {
     "name": "Taco Broadway",
@@ -4866,7 +4880,9 @@
     "email": null,
     "phone": "+1-210-758-5231",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "taco-broadway-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/taco-broadway-san-antonio/"
   },
   {
     "name": "Cappy's Restaurant",
@@ -4876,7 +4892,9 @@
     "email": null,
     "phone": "+1-210-828-9669",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "cappy-s-restaurant-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/cappy-s-restaurant-san-antonio/"
   },
   {
     "name": "The Broadway 50 50",
@@ -4886,7 +4904,9 @@
     "email": null,
     "phone": "+1-210-832-0050",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "the-broadway-50-50-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/the-broadway-50-50-san-antonio/"
   },
   {
     "name": "Volare Pizza",
@@ -4896,7 +4916,9 @@
     "email": null,
     "phone": "+1-210-828-3354",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "volare-pizza-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/volare-pizza-san-antonio/"
   },
   {
     "name": "Mon Thai Bistro and Sushi Bar",
@@ -4906,7 +4928,9 @@
     "email": null,
     "phone": "+1-210-822-3253",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "mon-thai-bistro-and-sushi-bar-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/mon-thai-bistro-and-sushi-bar-san-antonio/"
   },
   {
     "name": "Viet-Nam Restaurant",
@@ -4916,7 +4940,9 @@
     "email": null,
     "phone": "+1-210-822-7461",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "viet-nam-restaurant-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/viet-nam-restaurant-san-antonio/"
   },
   {
     "name": "Van's",
@@ -4926,7 +4952,9 @@
     "email": null,
     "phone": "+1-210-828-8449",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "van-s-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/van-s-san-antonio/"
   },
   {
     "name": "Mi Celayence",
@@ -4936,7 +4964,9 @@
     "email": null,
     "phone": "+1-210-732-1122",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "mi-celayence-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/mi-celayence-san-antonio/"
   },
   {
     "name": "San Taco",
@@ -4946,7 +4976,9 @@
     "email": null,
     "phone": "+1-210-314-3099",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "san-taco-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/san-taco-san-antonio/"
   },
   {
     "name": "Cafe Dubai",
@@ -4956,7 +4988,9 @@
     "email": null,
     "phone": "+1 726-210-6497",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "cafe-dubai-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/cafe-dubai-san-antonio/"
   },
   {
     "name": "Battalion",
@@ -4966,7 +5000,9 @@
     "email": null,
     "phone": "+1-210-816-0088",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "battalion-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/battalion-san-antonio/"
   },
   {
     "name": "Denny's",
@@ -4976,7 +5012,9 @@
     "email": null,
     "phone": "+1-210-223-4321",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "denny-s-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/denny-s-san-antonio/"
   },
   {
     "name": "Maui Mike's Burgers, Fries, Surf & Turf",
@@ -4986,7 +5024,9 @@
     "email": "bigmikessandwiches@gmail.com",
     "phone": "+1-210-251-3796",
     "channel": "email",
-    "status": "scouted"
+    "status": "built",
+    "slug": "maui-mike-s-burgers-fries-surf-turf-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/maui-mike-s-burgers-fries-surf-turf-san-antonio/"
   },
   {
     "name": "Little Red Barn Steakhouse",
@@ -4996,7 +5036,9 @@
     "email": null,
     "phone": "+1-210-532-4235",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "little-red-barn-steakhouse-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/little-red-barn-steakhouse-san-antonio/"
   },
   {
     "name": "Jim's Restaurant",
@@ -5006,7 +5048,9 @@
     "email": null,
     "phone": "+1 210-828-5120",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "jim-s-restaurant-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/jim-s-restaurant-san-antonio/"
   },
   {
     "name": "Cheesy Jane's",
@@ -5016,7 +5060,9 @@
     "email": null,
     "phone": "+1 210-826-0800",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "cheesy-jane-s-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/cheesy-jane-s-san-antonio/"
   },
   {
     "name": "Tomatillos Cafe Y Cantina",
@@ -5026,7 +5072,9 @@
     "email": null,
     "phone": "+1 210 824-3005",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "tomatillos-cafe-y-cantina-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/tomatillos-cafe-y-cantina-san-antonio/"
   },
   {
     "name": "Carmelita's",
@@ -5036,7 +5084,9 @@
     "email": null,
     "phone": "+1 210-224-5540",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "carmelita-s-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/carmelita-s-san-antonio/"
   },
   {
     "name": "Bill Miller Bar-B-Q",
@@ -5046,7 +5096,9 @@
     "email": null,
     "phone": "+1 210 829 7688",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "bill-miller-bar-b-q-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/bill-miller-bar-b-q-san-antonio/"
   },
   {
     "name": "Pepe's Barbacoa",
@@ -5056,7 +5108,9 @@
     "email": null,
     "phone": "+1-210-533-6233",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "pepe-s-barbacoa-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/pepe-s-barbacoa-san-antonio/"
   },
   {
     "name": "Jalisco Taqueria",
@@ -5066,7 +5120,9 @@
     "email": null,
     "phone": "+1-210-532-3049",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "jalisco-taqueria-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/jalisco-taqueria-san-antonio/"
   },
   {
     "name": "Benny's Tacos",
@@ -5076,7 +5132,9 @@
     "email": null,
     "phone": "+1 210-533-8646",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "benny-s-tacos-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/benny-s-tacos-san-antonio/"
   },
   {
     "name": "La Bandera Molino",
@@ -5086,7 +5144,9 @@
     "email": null,
     "phone": "+1-210-434-0631",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "la-bandera-molino-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/la-bandera-molino-san-antonio/"
   },
   {
     "name": "Ma Harper's Creole Kitchen",
@@ -5096,7 +5156,9 @@
     "email": null,
     "phone": "+1-210-226-2200",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "ma-harper-s-creole-kitchen-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/ma-harper-s-creole-kitchen-san-antonio/"
   },
   {
     "name": "Teresita's Mexican Restaurant",
@@ -5106,7 +5168,9 @@
     "email": null,
     "phone": "+1-210-212-5322",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "teresita-s-mexican-restaurant-san-antonio",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/teresita-s-mexican-restaurant-san-antonio/"
   },
   {
     "name": "Pokéz",
@@ -5116,7 +5180,9 @@
     "email": null,
     "phone": "+1-619-702-7160",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "pok-z-san-diego",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/pok-z-san-diego/"
   },
   {
     "name": "Baja Rick's Cantina",
@@ -5126,7 +5192,9 @@
     "email": null,
     "phone": "+1-619-238-8100",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "baja-rick-s-cantina-san-diego",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/baja-rick-s-cantina-san-diego/"
   },
   {
     "name": "Tobeys 19th Hole Cafe",
@@ -5136,7 +5204,9 @@
     "email": null,
     "phone": "+1 619-234-5821",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "tobeys-19th-hole-cafe-san-diego",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/tobeys-19th-hole-cafe-san-diego/"
   },
   {
     "name": "BB's Deli",
@@ -5146,7 +5216,9 @@
     "email": null,
     "phone": "+1 619 238 4567",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "bb-s-deli-san-diego",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/bb-s-deli-san-diego/"
   },
   {
     "name": "Herb & Wood",
@@ -5156,7 +5228,9 @@
     "email": null,
     "phone": "+1-619-955-8495",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "herb-wood-san-diego",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/herb-wood-san-diego/"
   },
   {
     "name": "Puesto",
@@ -5166,7 +5240,9 @@
     "email": null,
     "phone": "+1 619 2338880",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "puesto-san-diego",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/puesto-san-diego/"
   },
   {
     "name": "Hodad's Downtown",
@@ -5176,7 +5252,9 @@
     "email": null,
     "phone": "+1-619-234-6323",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "hodad-s-downtown-san-diego",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/hodad-s-downtown-san-diego/"
   },
   {
     "name": "Yog-art Frozen Yogurt, Smoothies & Boba Teas",
@@ -5186,7 +5264,9 @@
     "email": null,
     "phone": "+1 619-220-4999",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "yog-art-frozen-yogurt-smoothies-boba-teas-san-diego",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/yog-art-frozen-yogurt-smoothies-boba-teas-san-diego/"
   },
   {
     "name": "McCozy",
@@ -5196,7 +5276,9 @@
     "email": null,
     "phone": "+1-619-358-9170",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "mccozy-san-diego",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/mccozy-san-diego/"
   },
   {
     "name": "Plumeria Vegetarian Restaurant",
@@ -5206,7 +5288,9 @@
     "email": null,
     "phone": "+1 619 269 9989",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "plumeria-vegetarian-restaurant-san-diego",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/plumeria-vegetarian-restaurant-san-diego/"
   },
   {
     "name": "Mazara Trattoria",
@@ -5216,7 +5300,9 @@
     "email": null,
     "phone": "+1-619-284-2050",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "mazara-trattoria-san-diego",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/mazara-trattoria-san-diego/"
   },
   {
     "name": "Benny's Mexican Food",
@@ -5226,7 +5312,9 @@
     "email": null,
     "phone": "+1-619-238-1740",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "benny-s-mexican-food-san-diego",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/benny-s-mexican-food-san-diego/"
   },
   {
     "name": "Flamin' Pho & Sushi Bar",
@@ -5236,7 +5324,9 @@
     "email": null,
     "phone": "+1-619-235-1665",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "flamin-pho-sushi-bar-san-diego",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/flamin-pho-sushi-bar-san-diego/"
   },
   {
     "name": "Flavors of East Africa",
@@ -5246,7 +5336,9 @@
     "email": null,
     "phone": "+1-619-955-8778",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "flavors-of-east-africa-san-diego",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/flavors-of-east-africa-san-diego/"
   },
   {
     "name": "Juniper & Ivy",
@@ -5256,7 +5348,9 @@
     "email": null,
     "phone": "+1-619-269-9036",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "juniper-ivy-san-diego",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/juniper-ivy-san-diego/"
   },
   {
     "name": "City Pizzeria",
@@ -5266,7 +5360,9 @@
     "email": null,
     "phone": "+1-619-531-0955",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "city-pizzeria-san-diego",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/city-pizzeria-san-diego/"
   },
   {
     "name": "Thotsakan",
@@ -5276,7 +5372,9 @@
     "email": null,
     "phone": "+1-619-795-5454",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "thotsakan-san-diego",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/thotsakan-san-diego/"
   },
   {
     "name": "Swami's Cafe",
@@ -5286,7 +5384,9 @@
     "email": null,
     "phone": "+1-619-255-6731",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "swami-s-cafe-san-diego",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/swami-s-cafe-san-diego/"
   },
   {
     "name": "Shino Sushi + Kappo",
