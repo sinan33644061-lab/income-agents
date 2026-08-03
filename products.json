@@ -3676,8 +3676,8 @@
       "telegram_teaser": "Unlock design genius with 50 AI-enhanced prompts for freelance designers only on Gumroad",
       "status": "published",
       "created_at": "2026-08-03T12:21:41.646018",
-      "traffic_posted": false,
-      "updated_at": "2026-08-03T14:16:38.746891",
+      "traffic_posted": true,
+      "updated_at": "2026-08-03T15:44:47.601976",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "Are you struggling to get creative ideas for your freelance design projects? This exclusive prompt pack provides 50 unique prompts to get your design juices flowing. From brand identity to web design, cover all your freelance design needs. Get instant access to premium design prompts and transform your workflow. Create compelling designs that impress clients and grow your freelance business. Download now.",
       "twitter_hook": "Get instant access to 50+ premium design prompts. Boost your freelance design workflow, impress clients, and grow your business. Download now: [link]",
@@ -3685,8 +3685,15 @@
       "pdf_path": "output/product_e39574cf.pdf",
       "gumroad_product_id": "EUTkuZfPJ5ec5Xi76KBUZQ==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/ruwpbr",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-e39574cf/product_e39574cf.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-e39574cf/product_e39574cf.pdf",
+      "traffic_posted_at": "2026-08-03T15:44:47.600985",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/crafting-compelling-design-briefs-17ie",
+        "telegraph": "https://telegra.ph/Crafting-Meaningful-Designs-08-03",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-08-03T14:16:38.746907"
+  "last_updated": "2026-08-03T15:44:47.601982"
 }
