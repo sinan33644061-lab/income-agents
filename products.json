@@ -3645,7 +3645,39 @@
         "mastodon": true,
         "telegram": true
       }
+    },
+    {
+      "id": "e39574cf-ea65-4e65-936f-8f79221cda34",
+      "title": "50 ChatGPT Prompts for Freelance Designers",
+      "product_type": "prompt_pack",
+      "target_audience": "freelance graphic designers",
+      "niche": "design",
+      "price": 19,
+      "keywords": [
+        "chatgpt prompts",
+        "graphic design",
+        "freelance"
+      ],
+      "devto_tags": [
+        "productivity",
+        "ai",
+        "design"
+      ],
+      "hashnode_tags": [
+        "AI",
+        "Productivity",
+        "Design"
+      ],
+      "blogger_labels": [
+        "AI Tools",
+        "Freelance",
+        "Design"
+      ],
+      "telegram_teaser": "Unlock design genius with 50 AI-enhanced prompts for freelance designers only on Gumroad",
+      "status": "researched",
+      "created_at": "2026-08-03T12:21:41.646018",
+      "traffic_posted": false
     }
   ],
-  "last_updated": "2026-08-02T14:37:25.849917"
+  "last_updated": "2026-08-03T12:21:41.646028"
 }
