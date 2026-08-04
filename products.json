@@ -3693,7 +3693,39 @@
         "mastodon": true,
         "telegram": true
       }
+    },
+    {
+      "id": "5cedaf52-abed-4579-8b00-98ee6191f014",
+      "title": "50 AI-Powered Freelance Graphic Design Templates",
+      "product_type": "template_pack",
+      "target_audience": "freelance graphic designers and web professionals",
+      "niche": "web design",
+      "price": 19,
+      "keywords": [
+        "graphic design templates",
+        "web design",
+        "ai powered"
+      ],
+      "devto_tags": [
+        "productivity",
+        "ai",
+        "web design"
+      ],
+      "hashnode_tags": [
+        "AI",
+        "Productivity",
+        "Web Design"
+      ],
+      "blogger_labels": [
+        "AI Tools",
+        "Freelance",
+        "Web Design"
+      ],
+      "telegram_teaser": "Boost your freelance design workflow with 50 AI-powered templates",
+      "status": "researched",
+      "created_at": "2026-08-04T11:22:09.391936",
+      "traffic_posted": false
     }
   ],
-  "last_updated": "2026-08-03T15:44:47.601982"
+  "last_updated": "2026-08-04T11:22:09.391946"
 }
