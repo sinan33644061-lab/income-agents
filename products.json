@@ -3724,8 +3724,8 @@
       "telegram_teaser": "Boost your freelance design workflow with 50 AI-powered templates",
       "status": "published",
       "created_at": "2026-08-04T11:22:09.391936",
-      "traffic_posted": false,
-      "updated_at": "2026-08-04T13:48:23.598212",
+      "traffic_posted": true,
+      "updated_at": "2026-08-04T15:25:31.193235",
       "gumroad_title": "50 AI-Powered Freelance Graphic Design Templates",
       "gumroad_desc": "\"Unlock the full potential of graphic design with our comprehensive cheat sheet. 50 AI-powered freelance graphic design templates, step-by-step checklists, and key formulas and frameworks to boost your design skills. From logo design to visual composition, dive into the world of AI-powered graphic design and take your projects to the next level. Get instant access to expert knowledge and start creating stunning designs today.\"",
       "twitter_hook": "\"Boost your graphic design skills with 50 AI-powered freelance templates, checklists & formulas! Get instant access to expert knowledge and create stunning designs today #graphicdesign #AIpowered #freelance\"",
@@ -3733,8 +3733,14 @@
       "pdf_path": "output/product_5cedaf52.pdf",
       "gumroad_product_id": "vY9C7DWygIhGk7-7zC2NFw==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/keykgi",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-5cedaf52/product_5cedaf52.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-5cedaf52/product_5cedaf52.pdf",
+      "traffic_posted_at": "2026-08-04T15:25:31.192100",
+      "post_urls": {
+        "telegraph": "https://telegra.ph/Designing-a-Winning-Website-08-04",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-08-04T13:48:23.598223"
+  "last_updated": "2026-08-04T15:25:31.193241"
 }
