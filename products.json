@@ -3771,8 +3771,8 @@
       "telegram_teaser": "Streamline your freelance design workflow with these expert ChatGPT prompts",
       "status": "published",
       "created_at": "2026-08-05T11:20:05.674142",
-      "traffic_posted": false,
-      "updated_at": "2026-08-05T13:43:42.851175",
+      "traffic_posted": true,
+      "updated_at": "2026-08-05T15:16:01.604508",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "",
       "twitter_hook": "",
@@ -3780,8 +3780,15 @@
       "pdf_path": "output/product_3bc87bef.pdf",
       "gumroad_product_id": "B3bddDzowW0vXDaeYudBWQ==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/dutigi",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-3bc87bef/product_3bc87bef.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-3bc87bef/product_3bc87bef.pdf",
+      "traffic_posted_at": "2026-08-05T15:16:01.603281",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/designing-for-consistency-a-key-to-effective-communication-1b87",
+        "telegraph": "https://telegra.ph/Designing-a-Better-You-08-05",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-08-05T13:43:42.851186"
+  "last_updated": "2026-08-05T15:16:01.604520"
 }
