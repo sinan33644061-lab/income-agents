@@ -6,7 +6,7 @@ on:
       daily_limit:
         description: 'Max WhatsApp messages to send this run'
         required: true
-        default: '15'
+        default: '5'
   schedule:
     - cron: '0 5 * * *'
 
