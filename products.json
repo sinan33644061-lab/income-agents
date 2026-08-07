@@ -3865,16 +3865,19 @@
         "Design"
       ],
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
-      "status": "pdf_ready",
+      "status": "published",
       "created_at": "2026-08-07T10:00:13.967394",
       "traffic_posted": false,
-      "updated_at": "2026-08-07T10:38:59.510532",
+      "updated_at": "2026-08-07T12:40:54.164616",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "\"As a freelance designer, you face unique challenges every day. Limited design time, tight deadlines, and a constant need to deliver high-quality results can be overwhelming. Our 50 ChatGPT Prompts for Freelance Designers course helps you overcome these challenges and become a more efficient, effective, and successful designer. With these pre-written design prompts, you'll gain instant feedback and design ideas for common design problems. Say goodbye to design anxiety and hello to more creative time and better client satisfaction. Invest in your design skills today and start delivering high-quality results with confidence!\"",
       "twitter_hook": "\"Get instant design ideas & feedback with our 50 pre-written prompts! Boost your freelance design productivity, deliver high-quality results & wow your clients with our ChatGPT prompts #freelancedesign #designproductivity #chatgpt\"",
       "pinterest_title": "\"50 ChatGPT Prompts for Freelance Designers | Boost Productivity & Deliver High-Quality Results\"",
-      "pdf_path": "output/product_10ca28e1.pdf"
+      "pdf_path": "output/product_10ca28e1.pdf",
+      "gumroad_product_id": "5unmI-UP8w3H225PW99dng==",
+      "gumroad_url": "https://sinanista8.gumroad.com/l/vgjadg",
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-10ca28e1/product_10ca28e1.pdf"
     }
   ],
-  "last_updated": "2026-08-07T10:38:59.510541"
+  "last_updated": "2026-08-07T12:40:54.164642"
 }
