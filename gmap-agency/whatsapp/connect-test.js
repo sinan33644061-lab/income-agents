@@ -12,20 +12,17 @@ function logErr(msg) { fs.writeSync(2, msg + '\n'); }
 
 function restoreSession() {
   if (!fs.existsSync(AUTH_DIR)) fs.mkdirSync(AUTH_DIR, { recursive: true });
-  const cleaned = WA_SESSION.replace(/\s+/g, ''); const bundle = JSON.parse(Buffer.from(cleaned, 'base64').toString('utf8'));
+  const cleaned = WA_SESSION.replace(/\s+/g, '');
+  const bundle = JSON.parse(Buffer.from(cleaned, 'base64').toString('utf8'));
   for (const [filename, content] of Object.entries(bundle)) {
     fs.writeFileSync(path.join(AUTH_DIR, filename), content, 'utf8');
   }
 }
 
-async function main() {
-  if (!WA_SESSION) {
-    logErr('WA_SESSION environment variable is missing.');
-    process.exit(1);
-  }
+let attempts = 0;
+const MAX_ATTEMPTS = 6;
 
-  restoreSession();
-
+async function connect() {
   const { state, saveCreds } = await useMultiFileAuthState(AUTH_DIR);
   const { version } = await fetchLatestBaileysVersion();
 
@@ -55,16 +52,33 @@ async function main() {
 
     if (connection === 'close') {
       const statusCode = lastDisconnect?.error?.output?.statusCode;
-      logErr('Connection closed. Status: ' + statusCode);
+
       if (statusCode === DisconnectReason.loggedOut) {
         logErr('Session is logged out — you will need to re-pair.');
+        process.exit(1);
       }
-      process.exit(1);
+
+      attempts++;
+      if (attempts > MAX_ATTEMPTS) {
+        logErr(`Gave up after ${MAX_ATTEMPTS} reconnect attempts. Status: ${statusCode}`);
+        process.exit(1);
+      }
+
+      log(`Connection closed (status ${statusCode}) — this is expected sometimes, reconnecting (attempt ${attempts}/${MAX_ATTEMPTS})...`);
+      setTimeout(connect, 3000);
     }
   });
 }
 
-main().catch((err) => {
-  logErr('Fatal error: ' + err);
+if (!WA_SESSION) {
+  logErr('WA_SESSION environment variable is missing.');
   process.exit(1);
-});
+}
+
+restoreSession();
+connect();
+
+setTimeout(() => {
+  logErr('\nOverall timeout reached.');
+  process.exit(1);
+}, 120000);
