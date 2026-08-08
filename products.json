@@ -3913,16 +3913,19 @@
         "Design"
       ],
       "telegram_teaser": "Generate endless design ideas with our ChatGPT prompts for freelance designers!",
-      "status": "pdf_ready",
+      "status": "published",
       "created_at": "2026-08-08T09:36:06.374718",
       "traffic_posted": false,
-      "updated_at": "2026-08-08T10:17:50.832968",
+      "updated_at": "2026-08-08T12:27:21.223259",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "As a freelance graphic designer, staying inspired and productive can be a challenge. Break through the creative barrier with our premium prompt pack, featuring 50 actionable chat prompts that cover every aspect of graphic design. From branding and UI/UX to packaging and event design, these prompts will guide you through the design process and help you deliver innovative, engaging solutions for your clients.",
       "twitter_hook": "Boost your freelance design skills! Get 50 premium prompts for branding, UI/UX, packaging, event design & more [link to Gumroad]",
       "pinterest_title": "Freelance Graphic Design Prompts (50+ Chat Examples)",
-      "pdf_path": "output/product_a5e16e09.pdf"
+      "pdf_path": "output/product_a5e16e09.pdf",
+      "gumroad_product_id": "JrecYNsHxUOYzBZ74b-xCw==",
+      "gumroad_url": "https://sinanista8.gumroad.com/l/itcsg",
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-a5e16e09/product_a5e16e09.pdf"
     }
   ],
-  "last_updated": "2026-08-08T10:17:50.832975"
+  "last_updated": "2026-08-08T12:27:21.223270"
 }
