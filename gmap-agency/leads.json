@@ -8384,7 +8384,9 @@
     "email": null,
     "phone": "+1 202-371-1661",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "china-boy-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/china-boy-washington-dc/"
   },
   {
     "name": "Villa Tuscana",
@@ -8394,7 +8396,9 @@
     "email": null,
     "phone": "+1-202-939-0700",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "villa-tuscana-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/villa-tuscana-washington-dc/"
   },
   {
     "name": "Sfoglina",
@@ -8404,7 +8408,9 @@
     "email": null,
     "phone": "+1 202-450-1312",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "sfoglina-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/sfoglina-washington-dc/"
   },
   {
     "name": "Carving Room NoMa",
@@ -8414,7 +8420,9 @@
     "email": null,
     "phone": "+1 202-962-3947",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "carving-room-noma-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/carving-room-noma-washington-dc/"
   },
   {
     "name": "Wings to Go",
@@ -8424,7 +8432,9 @@
     "email": null,
     "phone": "+1 202-529-7619",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "wings-to-go-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/wings-to-go-washington-dc/"
   },
   {
     "name": "Khin’s Sushi",
@@ -8434,7 +8444,9 @@
     "email": null,
     "phone": "+1 202-481-1544",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "khin-s-sushi-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/khin-s-sushi-washington-dc/"
   },
   {
     "name": "Kayu",
@@ -8444,7 +8456,9 @@
     "email": "hellokayu@hirayadc.com",
     "phone": "+1 202-388-7878",
     "channel": "email",
-    "status": "scouted"
+    "status": "built",
+    "slug": "kayu-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/kayu-washington-dc/"
   },
   {
     "name": "Flair Restaurant",
@@ -8454,7 +8468,9 @@
     "email": null,
     "phone": "+1 202-222-0283",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "flair-restaurant-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/flair-restaurant-washington-dc/"
   },
   {
     "name": "Don Julio",
@@ -8464,7 +8480,9 @@
     "email": null,
     "phone": "+1 202-667-1840",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "don-julio-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/don-julio-washington-dc/"
   },
   {
     "name": "King Street Oyster Bar",
@@ -8474,7 +8492,9 @@
     "email": null,
     "phone": "+1 202-742-9840",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "king-street-oyster-bar-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/king-street-oyster-bar-washington-dc/"
   },
   {
     "name": "Momo Chicken & Grill",
@@ -8484,7 +8504,9 @@
     "email": null,
     "phone": "+1 202-488-6363",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "momo-chicken-grill-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/momo-chicken-grill-washington-dc/"
   },
   {
     "name": "Thai and Time Again",
@@ -8494,7 +8516,9 @@
     "email": null,
     "phone": "+1 202-506-1076",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "thai-and-time-again-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/thai-and-time-again-washington-dc/"
   },
   {
     "name": "Shanghai Dumplings",
@@ -8504,7 +8528,9 @@
     "email": null,
     "phone": "+1 202-699-9555",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "shanghai-dumplings-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/shanghai-dumplings-washington-dc/"
   },
   {
     "name": "Spring Garden",
@@ -8514,7 +8540,9 @@
     "email": null,
     "phone": "+1 202-363-1698",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "spring-garden-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/spring-garden-washington-dc/"
   },
   {
     "name": "Chili Bistro",
@@ -8524,7 +8552,9 @@
     "email": null,
     "phone": "+1 202-885-9566",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "chili-bistro-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/chili-bistro-washington-dc/"
   },
   {
     "name": "Fitali",
@@ -8534,7 +8564,9 @@
     "email": null,
     "phone": "+1 571-265-4062",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "fitali-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/fitali-washington-dc/"
   },
   {
     "name": "Taku Sushi & Bar",
@@ -8544,7 +8576,9 @@
     "email": null,
     "phone": "+1-202-506-5046",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "taku-sushi-bar-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/taku-sushi-bar-washington-dc/"
   },
   {
     "name": "Safa Halal",
@@ -8554,7 +8588,9 @@
     "email": null,
     "phone": "+1 240-455-7998",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "safa-halal-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/safa-halal-washington-dc/"
   },
   {
     "name": "Sol Mexican Grill",
@@ -8564,7 +8600,9 @@
     "email": null,
     "phone": "+1-202-481-4101",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "sol-mexican-grill-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/sol-mexican-grill-washington-dc/"
   },
   {
     "name": "We the Pizza",
@@ -8574,7 +8612,9 @@
     "email": null,
     "phone": "+1 202-544-4008",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "we-the-pizza-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/we-the-pizza-washington-dc/"
   },
   {
     "name": "King City Restaurant and Carry out",
@@ -8584,7 +8624,9 @@
     "email": null,
     "phone": "+1 202-889-6337",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "king-city-restaurant-and-carry-out-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/king-city-restaurant-and-carry-out-washington-dc/"
   },
   {
     "name": "Jimmy T's",
@@ -8594,7 +8636,9 @@
     "email": null,
     "phone": "+1 202-709-3557",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "jimmy-t-s-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/jimmy-t-s-washington-dc/"
   },
   {
     "name": "Nick's Pizza",
@@ -8604,7 +8648,9 @@
     "email": null,
     "phone": "+1 202-204-2047",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "nick-s-pizza-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/nick-s-pizza-washington-dc/"
   },
   {
     "name": "Wiseguy Pizza",
@@ -8614,7 +8660,9 @@
     "email": null,
     "phone": "+1 703-334-9885",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "wiseguy-pizza-washington-dc",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/wiseguy-pizza-washington-dc/"
   },
   {
     "name": "Santorini Greek Restaurant",
@@ -8624,7 +8672,9 @@
     "email": null,
     "phone": "+1-615-732-1914",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "santorini-greek-restaurant-nashville",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/santorini-greek-restaurant-nashville/"
   },
   {
     "name": "Hattie B’s Hot Chicken",
@@ -8634,7 +8684,9 @@
     "email": null,
     "phone": "+1-615-576-8700",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "hattie-b-s-hot-chicken-nashville",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/hattie-b-s-hot-chicken-nashville/"
   },
   {
     "name": "South Side Kitchen and Pub",
@@ -8644,7 +8696,9 @@
     "email": null,
     "phone": "+1 615 469 6868",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "south-side-kitchen-and-pub-nashville",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/south-side-kitchen-and-pub-nashville/"
   },
   {
     "name": "The Pharmacy Burger Parlor & Beer Garden",
@@ -8654,7 +8708,9 @@
     "email": null,
     "phone": "+1-615-712-9517",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "the-pharmacy-burger-parlor-beer-garden-nashville",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/the-pharmacy-burger-parlor-beer-garden-nashville/"
   },
   {
     "name": "Brothers Burger Joint",
@@ -8664,7 +8720,9 @@
     "email": null,
     "phone": "+1 615-712-7607",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "brothers-burger-joint-nashville",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/brothers-burger-joint-nashville/"
   },
   {
     "name": "El Cartel Colombian Restaurant",
@@ -8674,7 +8732,9 @@
     "email": null,
     "phone": "+1-305-358-7800",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "el-cartel-colombian-restaurant-miami",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/el-cartel-colombian-restaurant-miami/"
   },
   {
     "name": "Iron Sushi",
@@ -8684,7 +8744,9 @@
     "email": null,
     "phone": "+1-305-373-2000",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "iron-sushi-miami",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/iron-sushi-miami/"
   },
   {
     "name": "Camila's Restaurante Brasileiro",
@@ -8694,7 +8756,9 @@
     "email": null,
     "phone": "+1 305-375-0992",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "camila-s-restaurante-brasileiro-miami",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/camila-s-restaurante-brasileiro-miami/"
   },
   {
     "name": "Chick'n Grill",
@@ -8704,7 +8768,9 @@
     "email": null,
     "phone": "+1-786-621-4800",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "chick-n-grill-miami",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/chick-n-grill-miami/"
   },
   {
     "name": "La Moon",
@@ -8714,7 +8780,9 @@
     "email": null,
     "phone": "+1-305-860-6209",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "la-moon-miami",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/la-moon-miami/"
   },
   {
     "name": "Little Bread Cuban Sandwich Co.",
@@ -8724,7 +8792,9 @@
     "email": null,
     "phone": "+1-786-420-2672",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "little-bread-cuban-sandwich-co-miami",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/little-bread-cuban-sandwich-co-miami/"
   },
   {
     "name": "Wynwood Smoke and Lounge",
@@ -8734,7 +8804,9 @@
     "email": null,
     "phone": "+1-305-394-9966",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "wynwood-smoke-and-lounge-miami",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/wynwood-smoke-and-lounge-miami/"
   },
   {
     "name": "The Henry",
@@ -8744,7 +8816,9 @@
     "email": null,
     "phone": "+1-786-471-0070",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "the-henry-miami",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/the-henry-miami/"
   },
   {
     "name": "The Daily Creative Food Co.",
@@ -8754,7 +8828,9 @@
     "email": null,
     "phone": "+1-305-573-4535",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "the-daily-creative-food-co-miami",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/the-daily-creative-food-co-miami/"
   },
   {
     "name": "Beaker & Gray",
@@ -8764,7 +8840,9 @@
     "email": null,
     "phone": "+1-305-699-2637",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "beaker-gray-miami",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/beaker-gray-miami/"
   },
   {
     "name": "Rey's Pizza",
@@ -8774,7 +8852,9 @@
     "email": null,
     "phone": "+1-305-856-7535",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "rey-s-pizza-miami",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/rey-s-pizza-miami/"
   },
   {
     "name": "The Knife Parrilla Argentina",
@@ -8784,7 +8864,9 @@
     "email": null,
     "phone": "+1-786-232-0040",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "the-knife-parrilla-argentina-miami",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/the-knife-parrilla-argentina-miami/"
   },
   {
     "name": "Amarres de amor Florida",
@@ -8794,7 +8876,9 @@
     "email": null,
     "phone": "+1-786-755-8139",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "amarres-de-amor-florida-miami",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/amarres-de-amor-florida-miami/"
   },
   {
     "name": "Comida de la Tierra Colombian Cuisine",
@@ -8804,7 +8888,9 @@
     "email": null,
     "phone": "+1-305-579-0927",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "comida-de-la-tierra-colombian-cuisine-miami",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/comida-de-la-tierra-colombian-cuisine-miami/"
   },
   {
     "name": "Delicias en Miami",
@@ -8814,7 +8900,9 @@
     "email": null,
     "phone": "+1-786-499-5213",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "delicias-en-miami-miami",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/delicias-en-miami-miami/"
   },
   {
     "name": "Portobello Ristorante",
@@ -8824,7 +8912,9 @@
     "email": "portobelloristorante@yahoo.com",
     "phone": "+1-305-445-0093",
     "channel": "email",
-    "status": "scouted"
+    "status": "built",
+    "slug": "portobello-ristorante-miami",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/portobello-ristorante-miami/"
   },
   {
     "name": "Lung Yai Thai Tappas",
@@ -8834,7 +8924,9 @@
     "email": null,
     "phone": "+1-786-334-6262",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "lung-yai-thai-tappas-miami",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/lung-yai-thai-tappas-miami/"
   },
   {
     "name": "The Majestic Diner",
@@ -8844,7 +8936,9 @@
     "email": null,
     "phone": "+1-404-875-0276",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "the-majestic-diner-atlanta",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/the-majestic-diner-atlanta/"
   },
   {
     "name": "Ray's NY Pizza, Cedar's Mediterranean",
@@ -8854,7 +8948,9 @@
     "email": null,
     "phone": "+1-404-888-9911",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "ray-s-ny-pizza-cedar-s-mediterranean-atlanta",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/ray-s-ny-pizza-cedar-s-mediterranean-atlanta/"
   },
   {
     "name": "Ali Baba Mediterranean",
@@ -8864,7 +8960,9 @@
     "email": null,
     "phone": "+1 404-223-1445",
     "channel": "whatsapp",
-    "status": "scouted"
+    "status": "built",
+    "slug": "ali-baba-mediterranean-atlanta",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/ali-baba-mediterranean-atlanta/"
   },
   {
     "name": "Melinated Cafe",
@@ -8874,7 +8972,9 @@
     "email": "melinated_cafe@gmail.com",
     "phone": "+1 678-787-7866",
     "channel": "email",
-    "status": "scouted"
+    "status": "built",
+    "slug": "melinated-cafe-atlanta",
+    "demo_url": "https://sinan33644061-lab.github.io/income-agents/gmap-agency/melinated-cafe-atlanta/"
   },
   {
     "name": "Grant Central Pizza",
