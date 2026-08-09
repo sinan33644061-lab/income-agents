@@ -3963,8 +3963,8 @@
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
       "status": "published",
       "created_at": "2026-08-09T09:37:48.722303",
-      "traffic_posted": false,
-      "updated_at": "2026-08-09T12:30:09.979948",
+      "traffic_posted": true,
+      "updated_at": "2026-08-09T13:52:03.052121",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "Are you a freelance graphic designer struggling to come up with new design ideas or unsure how to communicate with your clients? Break through creatve barriers with 50 actionable prompts that will revolutionize your design workflow and boost client satisfaction.",
       "twitter_hook": "Boost your design workflow & client satisfaction with our 50 actionable prompts for freelance graphic designers! Discover new design ideas & best practices for delivering top-notch designs. #freelancedesign #graphicdesign #chattgpt",
@@ -3972,8 +3972,15 @@
       "pdf_path": "output/product_b95c443d.pdf",
       "gumroad_product_id": "C0K2h6VZbmKkwqWkw-U0QQ==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/yypif",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-b95c443d/product_b95c443d.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-b95c443d/product_b95c443d.pdf",
+      "traffic_posted_at": "2026-08-09T13:52:03.051009",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/effective-design-systems-for-freelance-designers-4ipc",
+        "telegraph": "https://telegra.ph/Design-The-Eye-of-the-Beholder-08-09",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-08-09T12:30:09.979963"
+  "last_updated": "2026-08-09T13:52:03.052130"
 }
