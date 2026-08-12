@@ -4107,8 +4107,8 @@
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
       "status": "published",
       "created_at": "2026-08-12T10:02:41.543406",
-      "traffic_posted": false,
-      "updated_at": "2026-08-12T12:44:43.812910",
+      "traffic_posted": true,
+      "updated_at": "2026-08-12T14:21:12.828538",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "As a freelance designer, staying ahead in the industry means constantly pushing yourself to improve your skills and stay creative. However, finding time to brainstorm and experiment with new ideas can be challenging. With this bundle of 50 premium ChatGPT prompts, you'll get instant access to a collection of design challenges tailored specifically for freelance designers. From concept art and UI design to web development and marketing, these prompts cover the full spectrum of design requirements. Whether you're looking to hone your skills or simply seeking inspiration, this bundle will help you unlock new ideas, improve your workflow, and elevate your design expertise. Say goodbye to creative blocks and hello to a new era of innovative design!",
       "twitter_hook": "Discover the ultimate tool for freelance designers! Get access to 50 premium ChatGPT prompts that'll boost your creativity, improve your workflow, and take your design skills to the next level. #design #freelancedesign #chatgpt",
@@ -4116,8 +4116,15 @@
       "pdf_path": "output/product_9f7ccefd.pdf",
       "gumroad_product_id": "Tq4vjwhUW0VaTa-nYml6gQ==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/hosdbv",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-9f7ccefd/product_9f7ccefd.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-9f7ccefd/product_9f7ccefd.pdf",
+      "traffic_posted_at": "2026-08-12T14:21:12.827239",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/designing-for-user-experience-a-freelance-designers-guide-3f7g",
+        "telegraph": "https://telegra.ph/Designing-a-Better-Tomorrow-08-12",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-08-12T12:44:43.812921"
+  "last_updated": "2026-08-12T14:21:12.828549"
 }
