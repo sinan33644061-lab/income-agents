@@ -4155,8 +4155,8 @@
       "telegram_teaser": "Just dropped: 50 ChatGPT prompts every freelance designer needs",
       "status": "published",
       "created_at": "2026-08-13T10:04:04.240042",
-      "traffic_posted": false,
-      "updated_at": "2026-08-13T12:46:25.156900",
+      "traffic_posted": true,
+      "updated_at": "2026-08-13T14:22:40.702535",
       "gumroad_title": "50 ChatGPT Prompts for Freelance Designers",
       "gumroad_desc": "\"Are struggling to stay ahead of the design game? Break through the noise with our expert-crafted prompts, designed to help you create stunning visuals and craft compelling brand stories. Get instant access to 50+ actionable prompts, and supercharge your freelance design business today!\"",
       "twitter_hook": "\"Boost your freelance design business with expert-crafted prompts! Get instant access to our 50+ actionable prompts, designed to help you create stunning visuals and craft compelling brand stories! #freelancedesign #branding #design\"",
@@ -4164,8 +4164,15 @@
       "pdf_path": "output/product_fa54f25d.pdf",
       "gumroad_product_id": "BjOF_iTKPizek-OyxxtRqw==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/oyzoof",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-fa54f25d/product_fa54f25d.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-fa54f25d/product_fa54f25d.pdf",
+      "traffic_posted_at": "2026-08-13T14:22:40.701300",
+      "post_urls": {
+        "devto": "https://dev.to/sinan_khan_336440/designing-for-consistency-a-key-to-building-a-strong-brand-3d49",
+        "telegraph": "https://telegra.ph/Crafting-Visual-Stories-Through-Design-08-13",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-08-13T12:46:25.156911"
+  "last_updated": "2026-08-13T14:22:40.702543"
 }
