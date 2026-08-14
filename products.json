@@ -4203,8 +4203,8 @@
       "telegram_teaser": "Unlock 20+ hacks to boost your design workflow with GPT-5.6",
       "status": "published",
       "created_at": "2026-08-14T10:00:05.335232",
-      "traffic_posted": false,
-      "updated_at": "2026-08-14T12:42:17.277686",
+      "traffic_posted": true,
+      "updated_at": "2026-08-14T14:16:14.001047",
       "gumroad_title": "GPT-5.6: Design AI Hacks Cheat Sheet",
       "gumroad_desc": "",
       "twitter_hook": "",
@@ -4212,8 +4212,14 @@
       "pdf_path": "output/product_287c6a20.pdf",
       "gumroad_product_id": "cyp12An22cTJNX2BGz0LLQ==",
       "gumroad_url": "https://sinanista8.gumroad.com/l/oisxdy",
-      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-287c6a20/product_287c6a20.pdf"
+      "pdf_download_url": "https://github.com/sinan33644061-lab/income-agents/releases/download/product-287c6a20/product_287c6a20.pdf",
+      "traffic_posted_at": "2026-08-14T14:16:13.999820",
+      "post_urls": {
+        "telegraph": "https://telegra.ph/Designing-for-Delight-A-Guide-to-Creating-Compelling-Products-08-14",
+        "mastodon": true,
+        "telegram": true
+      }
     }
   ],
-  "last_updated": "2026-08-14T12:42:17.277697"
+  "last_updated": "2026-08-14T14:16:14.001054"
 }
