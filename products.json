@@ -4172,7 +4172,39 @@
         "mastodon": true,
         "telegram": true
       }
+    },
+    {
+      "id": "287c6a20-5be6-46af-ac07-65b4ef4ae8e8",
+      "title": "GPT-5.6: Design AI Hacks Cheat Sheet",
+      "product_type": "cheat_sheet",
+      "target_audience": "product designers",
+      "niche": "product design",
+      "price": 19,
+      "keywords": [
+        "gpt 5.6",
+        "product design",
+        "design hacks"
+      ],
+      "devto_tags": [
+        "product design",
+        "ai",
+        "hacks"
+      ],
+      "hashnode_tags": [
+        "Product Design",
+        "AI",
+        "Hacks"
+      ],
+      "blogger_labels": [
+        "Product Design",
+        "AI",
+        "Design Hacks"
+      ],
+      "telegram_teaser": "Unlock 20+ hacks to boost your design workflow with GPT-5.6",
+      "status": "researched",
+      "created_at": "2026-08-14T10:00:05.335232",
+      "traffic_posted": false
     }
   ],
-  "last_updated": "2026-08-13T14:22:40.702543"
+  "last_updated": "2026-08-14T10:00:05.335241"
 }
